@@ -1,5 +1,17 @@
 // ---- Data you can replace later (CMS, Google Sheet, Airtable, etc.) ----
 const POSTS = [
+  // New post template:
+  // {
+  //   id: "my-new-post",
+  //   title: "Post title",
+  //   deck: "One-line summary",
+  //   topic: "Trust & Credibility",
+  //   format: "Essay",
+  //   author: "Your Name",
+  //   date: "2026-02-03",
+  //   readMins: 5,
+  //   content: `<p>Optional full post HTML for detail view.</p>`,
+  // },
   {
     id: "trust-drivers",
     title: "A practical model of trust for high-knowledge audiences",
@@ -117,6 +129,7 @@ function renderTopicOptions(topics) {
 
 function renderTopicChips(topics) {
   const wrap = $("#topicChips");
+  if (!wrap) return;
   wrap.innerHTML = "";
 
   const all = document.createElement("button");
