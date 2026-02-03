@@ -45,7 +45,9 @@
         </a>
 
         <nav class="nav" aria-label="Primary">
-          <a href="#insights">Insights</a>
+          <a href="#insights" data-type="all">Insights</a>
+          <a href="#insights" data-type="podcast">Podcasts</a>
+          <a href="#insights" data-type="webinar">Webinars</a>
           <a href="#newsletter" class="pill">Newsletter</a>
         </nav>
 
@@ -57,7 +59,9 @@
 
       <div class="mobile-nav" id="mobileNav" hidden>
         <div class="container mobile-nav-inner">
-          <a href="#insights">Insights</a>
+          <a href="#insights" data-type="all">Insights</a>
+          <a href="#insights" data-type="podcast">Podcasts</a>
+          <a href="#insights" data-type="webinar">Webinars</a>
           <a href="#newsletter">Newsletter</a>
         </div>
       </div>
@@ -136,11 +140,19 @@
         <div class="container">
           <div class="section-head">
             <div>
-              <h2 id="insightsTitle">Latest insights</h2>
-              <p class="section-sub">A mix of research summaries, essays, interviews, and field notes.</p>
+              <h2 id="insightsTitle">Latest</h2>
+              <p class="section-sub">Articles, podcasts, and webinars from Medill.Insights.</p>
             </div>
 
             <div class="controls" aria-label="Filters">
+              <label class="sr-only" for="contentType">Filter by content type</label>
+              <select id="contentType">
+                <option value="all">All formats</option>
+                <option value="article">Articles</option>
+                <option value="podcast">Podcasts</option>
+                <option value="webinar">Webinars</option>
+              </select>
+
               <label class="sr-only" for="search">Search insights</label>
               <input
                 id="search"
@@ -162,7 +174,7 @@
 
       <section class="section alt" aria-labelledby="quickTopicsTitle">
         <div class="container">
-          <h2 id="quickTopicsTitle">Topics</h2>
+          <h2 id="quickTopicsTitle">Browse by topic</h2>
           <div class="topic-chips" id="topicChips" aria-label="Topic chips"></div>
         </div>
       </section>

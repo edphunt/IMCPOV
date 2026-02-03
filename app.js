@@ -6,6 +6,7 @@ const POSTS = [
   //   title: "Post title",
   //   deck: "One-line summary",
   //   topic: "Trust & Credibility",
+  //   type: "article", // article | podcast | webinar
   //   format: "Essay",
   //   author: "Your Name",
   //   date: "2026-02-03",
@@ -204,18 +205,25 @@ function escapeHtml(str) {
 function renderPosts(posts) {
   const grid = $("#insightsGrid");
   grid.innerHTML = "";
+  if (!posts.length) {
+    grid.innerHTML = `<p>No posts yet for this selection.</p>`;
+    return;
+  }
   posts.forEach((p) => grid.appendChild(postCard(p)));
 }
 
 function applyFilters() {
   const q = $("#search").value.trim().toLowerCase();
   const t = $("#topic").value;
+  const type = $("#contentType") ? $("#contentType").value : "all";
 
   const filtered = POSTS.filter((p) => {
     const matchesTopic = t === "all" ? true : p.topic === t;
-    const blob = `${p.title} ${p.deck} ${p.topic} ${p.author} ${p.format}`.toLowerCase();
+    const postType = (p.type || "article").toLowerCase();
+    const matchesType = type === "all" ? true : postType === type;
+    const blob = `${p.title} ${p.deck} ${p.topic} ${p.author} ${p.format} ${postType}`.toLowerCase();
     const matchesQuery = q ? blob.includes(q) : true;
-    return matchesTopic && matchesQuery;
+    return matchesTopic && matchesType && matchesQuery;
   });
 
   renderPosts(filtered);
@@ -238,6 +246,14 @@ function initMenu() {
       btn.setAttribute("aria-expanded", "false");
       mobile.hidden = true;
     }
+  });
+}
+
+function initTypeNav() {
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest("a[data-type]");
+    if (!link) return;
+    PENDING_TYPE = link.dataset.type || "all";
   });
 }
 
@@ -265,6 +281,7 @@ function seedEditorPick() {
 }
 
 let HOME_HTML = "";
+let PENDING_TYPE = "all";
 
 function renderHome() {
   const main = $("#main");
@@ -275,14 +292,16 @@ function renderHome() {
   renderTopicChips(topics);
 
   seedEditorPick();
-  renderPosts(POSTS);
-  $("#metricPosts").textContent = String(POSTS.length);
 
   $("#search").addEventListener("input", applyFilters);
+  $("#contentType").addEventListener("change", applyFilters);
   $("#topic").addEventListener("change", (e) => {
     setActiveChip(e.target.value);
     applyFilters();
   });
+  $("#contentType").value = PENDING_TYPE;
+  setActiveChip("all");
+  applyFilters();
 
   initNewsletter();
 }
@@ -345,6 +364,7 @@ function init() {
   HOME_HTML = $("#main").innerHTML;
 
   initMenu();
+  initTypeNav();
   renderRoute();
   window.addEventListener("hashchange", renderRoute);
 }
