@@ -132,7 +132,7 @@ const PODCASTS = [
   {
     id: "pod-episode-03",
     title: "Episode 3: Spencer Ford, Sport Lead of Global Energy + Collaborations Marketing at Nike",
-    deck: "In this episode, Spencer describes how to create a seamless experience for customers shopping at retail, with mobile devices in hand and social posts in mind.",
+    deck: "In this episode, Spencer Ford explains how the best brand managers create seamless experiences by anticipating that customers shop in retail environments with mobile devices in hand and social media shaping their decisions.",
     topic: "Strategic Communication",
     format: "Podcast",
     author: "Medill Executive Education Team",
@@ -140,7 +140,19 @@ const PODCASTS = [
     readMins: 31,
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
-    content: "<p>Podcast page placeholder. Add player embed + show notes here.</p>",
+    content: `
+<div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/xpvOS2Pt0dc"
+    title="Episode 3: Spencer Ford, Sport Lead of Global Energy + Collaborations Marketing at Nike"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+  ></iframe>
+</div>
+`,
   },
   {
     id: "pod-episode-02",
