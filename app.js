@@ -118,7 +118,7 @@ const PODCASTS = [
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
-    src="https://www.youtube.com/embed/JN-mAIMYvzw"
+    src="https://www.youtube.com/embed/4abvGifNuvA"
     title="Episode 4: Professor Vijay Viswanathan on what marketers need to know about AI"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
