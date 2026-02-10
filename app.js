@@ -139,7 +139,18 @@ const PODCASTS = [
     readMins: 31,
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
-    content: "<p>Podcast page placeholder. Add player embed + show notes here.</p>",
+    content: `
+<div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
+  <iframe
+    src="https://www.youtube.com/embed/XUeO2FHCMws"
+    title="Episode 2: Srikant Gokhale, Adjunct Lecturer at Northwestern University Medill School"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+  ></iframe>
+</div>
+`,
   },
   {
     id: "pod-trust-signals",
