@@ -90,9 +90,10 @@ a:hover{ text-decoration:underline; }
 }
 .brand-logo{
   display:block;
-  height:36px;
+  height:58px;
   width:auto;
-  transition: filter .2s ease;
+  transition: none;
+  margin-top:6px;
 }
 .brand:hover .brand-logo{
   filter: brightness(0) saturate(100%) invert(18%) sepia(64%) saturate(2596%) hue-rotate(260deg) brightness(90%) contrast(94%);
