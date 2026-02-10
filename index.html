@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Medill.Insights — Northwestern Medill Journalism + IMC</title>
+    <title>IMC POV</title>
     <meta
       name="description"
-      content="Medill.Insights is Northwestern Medill’s thought leadership hub—research, analysis, and practical frameworks at the intersection of journalism, media, and marketing."
+      content="IMC POV: Northwestern Medill School's thought leadership hub—research, analysis, and practical frameworks at the intersection of journalism, media, and marketing."
     />
     <meta name="theme-color" content="#4E2A84" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Medill.Insights" />
+    <meta property="og:title" content="IMC POV: Northwestern Medill School's thought leadership hub" />
     <meta
       property="og:description"
       content="Northwestern Medill thought leadership across journalism, media, and IMC."
@@ -36,19 +36,20 @@
     <!-- Top bar -->
     <header class="site-header" role="banner">
       <div class="container header-inner">
-        <a class="brand" href="#" aria-label="Medill.Insights home">
-          <span class="brand-mark" aria-hidden="true"></span>
+        <nav class="nav nav-left" aria-label="Primary left">
+          <a href="#insights">Insights</a>
+          <a href="#podcasts">Podcasts</a>
+        </nav>
+
+        <a class="brand" href="#" aria-label="IMC POV: Northwestern Medill School's thought leadership hub home">
           <span class="brand-text">
-            <span class="brand-title">Medill<span class="dot">.</span>Insights</span>
-            <span class="brand-subtitle">Northwestern Medill • Journalism + IMC</span>
+            <span class="brand-title">IMC POV</span>
           </span>
         </a>
 
-        <nav class="nav" aria-label="Primary">
-          <a href="#insights" data-type="all">Insights</a>
-          <a href="#insights" data-type="podcast">Podcasts</a>
-          <a href="#insights" data-type="webinar">Webinars</a>
-          <a href="#newsletter" class="pill">Newsletter</a>
+        <nav class="nav nav-right" aria-label="Primary right">
+          <a href="#webinars">Webinars</a>
+          <a href="#newsletter">Newsletter</a>
         </nav>
 
         <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">
@@ -59,9 +60,9 @@
 
       <div class="mobile-nav" id="mobileNav" hidden>
         <div class="container mobile-nav-inner">
-          <a href="#insights" data-type="all">Insights</a>
-          <a href="#insights" data-type="podcast">Podcasts</a>
-          <a href="#insights" data-type="webinar">Webinars</a>
+          <a href="#insights">Insights</a>
+          <a href="#podcasts">Podcasts</a>
+          <a href="#webinars">Webinars</a>
           <a href="#newsletter">Newsletter</a>
         </div>
       </div>
@@ -70,154 +71,50 @@
     <main id="main">
       <!-- Hero -->
       <section class="hero" aria-labelledby="heroTitle">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="kicker">Thought leadership for media, journalism, and marketing</p>
-            <h1 id="heroTitle">
-              Research-backed insights that help leaders navigate trust, attention, and technology.
-            </h1>
-            <p class="lede">
-              Medill.Insights curates faculty, student, and partner work from Northwestern Medill’s
-              Journalism and Integrated Marketing Communications community—turning evidence into
-              clear frameworks and practical takeaways.
-            </p>
-
-            <div class="hero-ctas">
-              <a class="btn primary" href="#insights">Explore latest insights</a>
-              <a class="btn secondary" href="#newsletter">Get the newsletter</a>
-            </div>
-
-            <div class="hero-metrics" role="list" aria-label="Highlights">
-              <div class="metric" role="listitem">
-                <div class="metric-num" id="metricPosts">—</div>
-                <div class="metric-label">Featured insights</div>
-              </div>
-              <div class="metric" role="listitem">
-                <div class="metric-num">Journalism</div>
-                <div class="metric-label">Practice + ethics</div>
-              </div>
-              <div class="metric" role="listitem">
-                <div class="metric-num">IMC</div>
-                <div class="metric-label">Strategy + measurement</div>
-              </div>
-            </div>
-          </div>
-
-          <aside class="hero-card" aria-label="Featured editorial note">
-            <div class="card">
-              <div class="card-top">
-                <span class="tag">Editor’s pick</span>
-                <span class="time" id="editorTime">Updated today</span>
-              </div>
-              <h2 class="card-title" id="editorTitle">How trust actually forms in high-knowledge audiences</h2>
-              <p class="card-desc" id="editorDesc">
-                Three drivers show up consistently: channel credibility, workflow fit, and language that signals rigor.
-              </p>
-              <div class="card-meta">
-                <div class="avatar" aria-hidden="true"></div>
-                <div>
-                  <div class="byline" id="editorByline">Medill.Insights Editorial</div>
-                  <div class="meta" id="editorMeta">Framework • 6 min read</div>
-                </div>
-              </div>
-              <a class="card-link" href="#insights" aria-label="Jump to insights">Read more →</a>
-            </div>
-
-            <div class="card subtle">
-              <h3 class="subcard-title">What you’ll find here</h3>
-              <ul class="bullets">
-                <li>Evidence-grounded takes on emerging media + AI</li>
-                <li>Practical frameworks (not fluff)</li>
-                <li>Case studies from journalism + marketing contexts</li>
-              </ul>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <!-- Insights -->
-      <section class="section" id="insights" aria-labelledby="insightsTitle">
         <div class="container">
-          <div class="section-head">
-            <div>
-              <h2 id="insightsTitle">Latest</h2>
-              <p class="section-sub">Articles, podcasts, and webinars from Medill.Insights.</p>
-            </div>
-
-            <div class="controls" aria-label="Filters">
-              <label class="sr-only" for="contentType">Filter by content type</label>
-              <select id="contentType">
-                <option value="all">All formats</option>
-                <option value="article">Articles</option>
-                <option value="podcast">Podcasts</option>
-                <option value="webinar">Webinars</option>
-              </select>
-
-              <label class="sr-only" for="search">Search insights</label>
-              <input
-                id="search"
-                type="search"
-                placeholder="Search titles, topics, authors…"
-                autocomplete="off"
-              />
-
-              <label class="sr-only" for="topic">Filter by topic</label>
-              <select id="topic">
-                <option value="all">All topics</option>
-              </select>
-            </div>
+          <div class="home-lockup-wrap">
+            <img
+              class="home-lockup"
+              src="./assets/images/nu-medill-logo.png"
+              alt="Northwestern Medill lockup"
+            />
           </div>
-
-          <div class="grid" id="insightsGrid" aria-live="polite"></div>
+          <article class="card home-insight-card" id="homeInsightCard" aria-labelledby="heroTitle">
+            <div class="card-top">
+              <span class="topline-left">
+                <span class="badge" id="editorType">Research Article</span>
+                <span class="badge topic-badge" id="editorTopic">Integrated Marketing Communication</span>
+              </span>
+              <span class="time" id="editorTime">—</span>
+            </div>
+            <div
+              class="insight-cover"
+              role="img"
+              aria-label="Abstract editorial image suggesting trust, verification, and media signals"
+            ></div>
+            <h1 class="card-title" id="heroTitle"></h1>
+            <p class="card-desc" id="editorDesc"></p>
+            <div class="card-meta">
+              <div>
+                <div class="byline" id="editorByline"></div>
+                <div class="meta" id="editorMeta"></div>
+              </div>
+            </div>
+            <a class="card-link" id="editorLink" href="#">6 min read →</a>
+          </article>
         </div>
       </section>
 
-      <section class="section alt" aria-labelledby="quickTopicsTitle">
-        <div class="container">
-          <h2 id="quickTopicsTitle">Browse by topic</h2>
-          <div class="topic-chips" id="topicChips" aria-label="Topic chips"></div>
-        </div>
-      </section>
-
-      <!-- Newsletter -->
-      <section class="section cta" id="newsletter" aria-labelledby="newsletterTitle">
-        <div class="container newsletter">
-          <div>
-            <h2 id="newsletterTitle">Get Medill.Insights in your inbox</h2>
-            <p class="section-sub">
-              A short, editorial digest—new frameworks, new research, and the best work across Medill.
-            </p>
-          </div>
-
-          <form class="form" id="newsletterForm">
-            <label class="sr-only" for="email">Email address</label>
-            <input id="email" name="email" type="email" placeholder="you@domain.com" required />
-            <button class="btn primary" type="submit">Subscribe</button>
-            <p class="fineprint" id="formMsg" role="status" aria-live="polite">
-              No spam. Unsubscribe anytime.
-            </p>
-          </form>
-        </div>
-      </section>
     </main>
 
     <footer class="footer" role="contentinfo">
       <div class="container footer-grid">
         <div>
-          <div class="footer-brand">Medill<span class="dot">.</span>Insights</div>
-          <p class="fineprint">
-            Northwestern Medill School of Journalism, Media, Integrated Marketing Communications.
-          </p>
-          <p class="fineprint">© <span id="year"></span> • Built for clarity.</p>
-        </div>
-
-        <div class="footer-links" aria-label="Footer">
-          <a href="#insights">Insights</a>
-          <a href="#quickTopicsTitle">Topics</a>
-          <a href="#newsletter">Newsletter</a>
+          <div class="footer-brand">IMC POV © <span id="year"></span> Northwestern Medill School</div>
         </div>
 
         <div class="footer-legal">
+          <a href="#" onclick="alert('Add an about page link here.')">About Us</a>
           <a href="#" onclick="alert('Add a privacy policy page link here.')">Privacy</a>
           <a href="#" onclick="alert('Add an accessibility statement page link here.')">Accessibility</a>
           <a href="#" onclick="alert('Add a contact page link here.')">Contact</a>

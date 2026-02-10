@@ -49,11 +49,21 @@ a:hover{ text-decoration:underline; }
   border-bottom:1px solid var(--line);
 }
 .header-inner{
-  display:flex; align-items:center; justify-content:space-between;
+  position:relative;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  align-items:center;
+  justify-content:center;
   padding:.9rem 0;
-  gap:1rem;
+  gap:1.15rem;
 }
-.brand{ display:flex; gap:.75rem; align-items:center; }
+.brand{
+  display:block;
+  text-align:center;
+  max-width:min(68vw, 760px);
+  justify-self:center;
+}
+.brand-text{ display:block; }
 .brand-mark{
   width:38px; height:38px; border-radius:14px;
   background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.9), rgba(255,255,255,.25)),
@@ -61,11 +71,14 @@ a:hover{ text-decoration:underline; }
   box-shadow: 0 10px 25px rgba(78,42,132,.25);
 }
 .brand-title{
-  font-family:var(--serif);
-  font-weight:700;
-  letter-spacing:.2px;
-  font-size:1.05rem;
+  font-family:var(--sans);
+  font-weight:300;
+  letter-spacing:.02em;
+  font-size:.95rem;
+  line-height:1.2;
+  transition:color .2s ease;
 }
+.brand:hover .brand-title{ color:var(--purple); }
 .dot{ color:var(--purple); }
 .brand-subtitle{
   display:block;
@@ -77,7 +90,25 @@ a:hover{ text-decoration:underline; }
 .nav{
   display:flex; gap:1.1rem; align-items:center;
 }
-.nav a{ color:var(--muted); font-weight:600; font-size:.95rem; }
+.nav-left{ justify-self:end; }
+.nav-right{ justify-self:start; }
+.nav a{
+  color:var(--muted);
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
+  font-size:.95rem;
+}
+.nav a{
+  transition: color .2s ease, background-color .2s ease, border-color .2s ease;
+}
+.nav a:hover{
+  color:var(--purple);
+  text-decoration:none;
+}
+.nav a.active{
+  color:var(--purple);
+  text-decoration:none;
+}
 .nav a.pill{
   color:var(--ink);
   border:1px solid var(--line);
@@ -85,9 +116,23 @@ a:hover{ text-decoration:underline; }
   border-radius:999px;
   background:var(--wash);
 }
+.nav a.pill:hover{
+  color:var(--purple);
+  background:rgba(78,42,132,.10);
+  border-color:rgba(78,42,132,.30);
+}
+.nav a.pill.active{
+  color:var(--purple);
+  background:rgba(78,42,132,.10);
+  border-color:rgba(78,42,132,.30);
+}
 
 .menu-btn{
   display:none;
+  position:absolute;
+  right:0;
+  top:50%;
+  transform:translateY(-50%);
   border:1px solid var(--line);
   background:var(--paper);
   border-radius:12px;
@@ -100,7 +145,7 @@ a:hover{ text-decoration:underline; }
 }
 .mobile-nav-inner{
   display:grid;
-  gap:.75rem;
+  gap:.13rem;
   padding:1rem 0;
 }
 .mobile-nav a{
@@ -108,14 +153,32 @@ a:hover{ text-decoration:underline; }
   color:var(--muted);
   font-weight:600;
 }
+.mobile-nav a:hover{
+  color:var(--purple);
+  text-decoration:none;
+}
+.mobile-nav a.active{
+  color:var(--purple);
+  text-decoration:none;
+}
 
 /* Hero */
 .hero{
-  padding:3.2rem 0 2.2rem;
+  padding:1.6rem 0 2.2rem;
   background:
     radial-gradient(900px 500px at 20% 10%, rgba(78,42,132,.12), transparent 60%),
     radial-gradient(700px 500px at 80% 20%, rgba(18,19,26,.06), transparent 60%);
   border-bottom:1px solid var(--line);
+}
+.home-lockup-wrap{
+  display:flex;
+  justify-content:center;
+  margin:0 0 1.2rem;
+}
+.home-lockup{
+  width:min(100%, var(--home-lockup-width, 540px));
+  height:auto;
+  display:block;
 }
 .hero-grid{
   display:grid;
@@ -133,8 +196,8 @@ a:hover{ text-decoration:underline; }
   margin:0 0 .75rem;
 }
 h1{
-  font-family:var(--serif);
-  font-weight:700;
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   line-height:1.07;
   letter-spacing:-.02em;
   font-size:clamp(2.05rem, 3.2vw, 3rem);
@@ -210,7 +273,8 @@ h1{
 }
 .tag{
   font-size:.78rem;
-  font-weight:800;
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   color:var(--purple);
   background:rgba(78,42,132,.10);
   padding:.35rem .6rem;
@@ -218,10 +282,32 @@ h1{
 }
 .time{ color:var(--muted); font-size:.88rem; }
 .card-title{
-  font-family:var(--serif);
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   font-size:1.35rem;
   line-height:1.15;
   margin:0 0 .55rem;
+}
+.insight-cover{
+  width:100%;
+  aspect-ratio: 16 / 6;
+  border-radius:14px;
+  margin:0 0 .9rem;
+  border:1px solid rgba(78,42,132,.16);
+  background:
+    linear-gradient(180deg, rgba(18,19,26,.06), rgba(18,19,26,.06)),
+    url("./assets/images/trust-abstract-nu.svg") center / cover no-repeat;
+}
+.home-insight-card .insight-cover{
+  border:none;
+  border-radius:14px;
+  overflow:hidden;
+  clip-path: inset(0 round 14px);
+  background-color:transparent;
+}
+.home-insight-card .card-title,
+.home-insight-card .card-desc{
+  text-align:center;
 }
 .card-desc{ margin:0 0 1rem; color:var(--muted); }
 .card-meta{
@@ -235,12 +321,16 @@ h1{
     radial-gradient(circle at 30% 30%, rgba(255,255,255,.85), rgba(255,255,255,.1)),
     linear-gradient(135deg, rgba(78,42,132,.9), rgba(18,19,26,.85));
 }
-.byline{ font-weight:800; }
+.byline{
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
+}
 .meta{ color:var(--muted); font-size:.9rem; }
 .card-link{
   display:inline-block;
   margin-top:1rem;
-  font-weight:800;
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   color:var(--purple);
 }
 
@@ -262,7 +352,8 @@ h1{
   margin-bottom:1.2rem;
 }
 h2{
-  font-family:var(--serif);
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   font-size:1.9rem;
   margin:0 0 .35rem;
 }
@@ -298,10 +389,30 @@ select{ min-width: 190px; }
 }
 .post .topline{
   display:flex; align-items:center; justify-content:space-between;
-  gap:.75rem;
+  gap:.13rem;
+  margin-bottom:.45rem;
 }
+.post .topline-left{
+  gap:.62rem;
+}
+.post-cover{
+  width:100%;
+  aspect-ratio:16 / 6;
+  border-radius:12px;
+  border:1px solid rgba(78,42,132,.16);
+  background:
+    linear-gradient(180deg, rgba(18,19,26,.06), rgba(18,19,26,.06)),
+    url("./assets/images/trust-abstract-nu.svg") center / cover no-repeat;
+}
+.post-cover.has-thumbnail{
+  position:relative;
+  overflow:hidden;
+  background-color:#f4f1f8;
+}
+
 .badge{
-  font-weight:800;
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   font-size:.78rem;
   color:var(--ink);
   background:var(--wash);
@@ -309,11 +420,56 @@ select{ min-width: 190px; }
   padding:.35rem .55rem;
   border-radius:999px;
 }
+.badge-link{
+  display:inline-flex;
+  align-items:center;
+  text-decoration:none;
+}
+.badge-link:hover{
+  text-decoration:none;
+}
+.topic-badge{
+  color:var(--purple);
+  background:rgba(78,42,132,.08);
+  border-color:rgba(78,42,132,.22);
+}
 .post h3{
   margin:0;
-  font-family:var(--serif);
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   font-size:1.25rem;
   line-height:1.15;
+}
+.post-main.side-by-side{
+  display:grid;
+  grid-template-columns:auto minmax(0, 1fr);
+  gap:.13rem;
+  align-items:start;
+  margin:.18rem 0 .34rem;
+}
+.post-cover-image{
+  width:160px;
+  height:160px;
+  object-fit:contain;
+  object-position:left center;
+  display:block;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.post-main.side-by-side .post-copy{
+  text-align:left;
+  justify-self:stretch;
+  align-self:start;
+  width:100%;
+  margin-left:.72rem;
+}
+.post-main.side-by-side .post-copy h3{
+  margin:0 0 .35rem;
+}
+.post-main.side-by-side .post-copy p{
+  margin:0;
+  font-size:.84rem;
 }
 .post p{
   margin:0;
@@ -327,12 +483,69 @@ select{ min-width: 190px; }
   padding-top:.8rem;
   border-top:1px solid var(--line);
 }
-.post a.read{
+.post .read{
   color:var(--purple);
-  font-weight:800;
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
   text-decoration:none;
 }
-.post a.read:hover{ text-decoration:underline; }
+.post .read{ text-decoration:none; }
+
+.post, .home-insight-card{
+  cursor:pointer;
+  transition: border-color .2s ease;
+}
+.post:hover, .home-insight-card:hover{
+  border-color: rgba(18,19,26,.32);
+}
+.post:focus-visible, .home-insight-card:focus-visible{
+  outline:2px solid rgba(78,42,132,.45);
+  outline-offset:2px;
+}
+
+/* Insights page list layout */
+ :is(#insights, #webinars, #podcasts) .grid{
+  display:flex;
+  flex-direction:column;
+  gap:.9rem;
+}
+ :is(#insights, #webinars, #podcasts) .post{
+  grid-column:auto;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:.56rem;
+  padding:.75rem .9rem;
+}
+ :is(#insights, #webinars, #podcasts) .post .topline{
+  justify-content:space-between;
+}
+ :is(#insights, #webinars, #podcasts) .post .post-cover{
+  margin-top:0;
+  aspect-ratio:16 / 3.4;
+}
+ :is(#insights, #webinars, #podcasts) .post h3{
+  margin-top:0;
+  font-size:1.15rem;
+}
+ :is(#insights, #webinars, #podcasts) .post p{
+  margin-top:0;
+  font-size:.95rem;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+#insights .post-main.side-by-side .post-copy p,
+#webinars .post-main.side-by-side .post-copy p,
+#podcasts .post-main.side-by-side .post-copy p{
+  font-size:.78rem;
+}
+ :is(#insights, #webinars, #podcasts) .post .meta{
+  margin-top:0;
+  padding-top:.45rem;
+}
 
 /* Topics */
 .split{
@@ -419,22 +632,31 @@ select{ min-width: 190px; }
 }
 .footer-grid{
   display:grid;
-  grid-template-columns: 1.3fr .8fr .9fr;
-  gap:1rem;
+  grid-template-columns: 1fr;
+  gap:.7rem;
 }
 .footer-brand{
-  font-family:var(--serif);
-  font-weight:800;
-  font-size:1.15rem;
-  margin-bottom:.3rem;
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
+  font-size:1rem;
+  white-space:nowrap;
+  margin-bottom:0;
 }
-.footer-links, .footer-legal{
+.footer-legal{
   display:grid;
   gap:.55rem;
   align-content:start;
   justify-items:start;
   color:var(--muted);
-  font-weight:600;
+  font-family:"Akkurat Pro", "Akkurat", var(--sans);
+  font-weight:300;
+}
+.footer-legal a{
+  transition:color .2s ease;
+}
+.footer-legal a:hover{
+  color:var(--purple);
+  text-decoration:none;
 }
 
 /* Responsive */
@@ -448,9 +670,50 @@ select{ min-width: 190px; }
 }
 
 @media (max-width: 720px){
+  .post-main.side-by-side{
+    grid-template-columns:1fr;
+    gap:.55rem;
+  }
   .nav{ display:none; }
   .menu-btn{ display:inline-flex; }
   .post{ grid-column: span 12; }
+   :is(#insights, #webinars, #podcasts) .post{
+    display:flex;
+    flex-direction:column;
+    gap:.65rem;
+  }
   .section-head{ align-items:flex-start; flex-direction:column; }
   input[type="search"], select{ min-width: 100%; }
+}
+
+
+.post-byline-block{
+  display:grid;
+  white-space:pre-line;
+  gap:.15rem;
+  color:var(--muted);
+  font-size:.86rem;
+  font-style:italic;
+  margin:.3rem 0 .8rem;
+}
+
+
+.detail-cover{
+  width:100%;
+  height:auto;
+  border-radius:12px;
+  border:1px solid rgba(78,42,132,.16);
+  display:block;
+  margin:.2rem 0 .8rem;
+}
+.detail-cover-half{
+  width:100%;
+  height:auto;
+  object-fit:contain;
+  object-position:center;
+}
+
+
+.podcast-detail-title{
+  font-size:clamp(1.45rem, 2.2vw, 1.9rem);
 }
