@@ -518,9 +518,7 @@ select{ min-width: 190px; }
   text-decoration:none;
 }
 .topic-badge{
-  color:var(--purple);
-  background:rgba(78,42,132,.08);
-  border-color:rgba(78,42,132,.22);
+  display:none;
 }
 .post h3{
   margin:0;
