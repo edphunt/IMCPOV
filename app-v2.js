@@ -317,7 +317,6 @@ function postCard(post) {
   el.innerHTML = `
     <div class="topline">
       <span class="topline-left">
-        <span class="badge">${escapeHtml(post.format)}</span>
         <span class="badge topic-badge">${escapeHtml(post.topic)}</span>
       </span>
       <span class="time">${formatDate(post.date)}</span>
@@ -605,7 +604,6 @@ function renderPostDetail(id) {
         <article>
           ${post.format === "Podcast"
             ? `<p class="topline-left">
-            <span class="badge">${escapeHtml(post.format)}</span>
             <span class="badge topic-badge">${escapeHtml(post.topic)}</span>
           </p>
           <div>${
@@ -621,7 +619,6 @@ function renderPostDetail(id) {
             <div>${post.readMins} min listen</div>
           </div>`
             : `<p class="topline-left">
-            <span class="badge">${escapeHtml(post.format)}</span>
             <span class="badge topic-badge">${escapeHtml(post.topic)}</span>
           </p>
           ${detailCover}
