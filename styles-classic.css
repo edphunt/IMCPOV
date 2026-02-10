@@ -744,4 +744,5 @@ select{ min-width: 190px; }
   font-family:var(--serif);
   font-weight:600;
   font-size:clamp(1.45rem, 2.2vw, 1.9rem);
+  margin-top:.9rem;
 }

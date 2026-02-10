@@ -137,7 +137,7 @@ const PODCASTS = [
     format: "Podcast",
     author: "Medill Executive Education Team",
     date: "2026-01-26",
-    readMins: 31,
+    readMins: 12,
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
     content: `
@@ -162,7 +162,7 @@ const PODCASTS = [
     format: "Podcast",
     author: "Medill Executive Education Team",
     date: "2026-02-01",
-    readMins: 24,
+    readMins: 2,
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
     content: `
@@ -438,7 +438,7 @@ function seedEditorPick() {
   const link = $("#editorLink");
   if (link) {
     link.href = href;
-    link.textContent = `${pick.readMins} min read →`;
+    link.textContent = `${pick.readMins} min ${pick.format === "Podcast" ? "listen" : "read"} →`;
   }
   const cover = $(".insight-cover");
   if (cover) {
@@ -618,7 +618,7 @@ function renderPostDetail(id) {
           <div class="post-byline-block">
             <div>${escapeHtml(post.author)}</div>
             <div>${formatDate(post.date)}</div>
-            <div>${post.readMins} min read</div>
+            <div>${post.readMins} min listen</div>
           </div>`
             : `<p class="topline-left">
             <span class="badge">${escapeHtml(post.format)}</span>
