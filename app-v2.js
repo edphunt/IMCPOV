@@ -20,7 +20,7 @@ const POSTS = [
       "Jeffery Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026",
     topic: "Integrated Marketing Communications",
     format: "Note",
-    thumbnail: "./assets/images/imcpovfieldnote.png",
+    thumbnail: "./assets/images/imcpovfieldnote2.png",
     author: "Jeffery Treem",
     date: "2026-02-04",
     readMins: 5,
