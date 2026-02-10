@@ -118,10 +118,11 @@ const PODCASTS = [
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
-    src="https://www.youtube.com/embed/4abvGifNuvA"
+    src="https://www.youtube-nocookie.com/embed/4abvGifNuvA"
     title="Episode 4: Professor Vijay Viswanathan on what marketers need to know about AI"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"
   ></iframe>
@@ -139,18 +140,7 @@ const PODCASTS = [
     readMins: 31,
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
-    content: `
-<div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
-  <iframe
-    src="https://www.youtube.com/embed/XUeO2FHCMws"
-    title="Episode 2: Srikant Gokhale, Adjunct Lecturer at Northwestern University Medill School"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;"
-  ></iframe>
-</div>
-`,
+    content: "<p>Podcast page placeholder. Add player embed + show notes here.</p>",
   },
   {
     id: "pod-episode-02",
@@ -163,7 +153,19 @@ const PODCASTS = [
     readMins: 24,
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
-    content: "<p>Podcast page placeholder. Add player embed + show notes here.</p>",
+    content: `
+<div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/XUeO2FHCMws"
+    title="Episode 2: Srikant Gokhale, Adjunct Lecturer at Northwestern University Medill School"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+  ></iframe>
+</div>
+`,
   },
   {
     id: "pod-episode-01",
@@ -179,10 +181,11 @@ const PODCASTS = [
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
-    src="https://www.youtube.com/embed/HyQDfZnXgWI"
+    src="https://www.youtube-nocookie.com/embed/HyQDfZnXgWI"
     title="Episode 1: Lilly Raymond, Head of MarTech & Operations at Prudential Financial"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"
   ></iframe>
