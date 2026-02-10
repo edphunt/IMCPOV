@@ -1,14 +1,14 @@
 :root{
   --purple:#4E2A84;
-  --ink:#12131A;
-  --muted:#5B5F73;
-  --paper:#FFFFFF;
-  --wash:#F6F5FA;
-  --line:rgba(18,19,26,.10);
-  --shadow: 0 14px 50px rgba(18,19,26,.10);
-  --radius:18px;
-  --serif: "Source Serif 4", ui-serif, Georgia, serif;
-  --sans: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  --ink:#111113;
+  --muted:#3E3E46;
+  --paper:#F7F4EF;
+  --wash:#F2EFE9;
+  --line:#E2DED6;
+  --shadow: 0 6px 20px rgba(17,17,19,.08);
+  --radius:10px;
+  --serif: "Spectral", ui-serif, Georgia, serif;
+  --sans: "Libre Franklin", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
 }
 
 *{ box-sizing:border-box; }
@@ -18,7 +18,7 @@ body{
   color:var(--ink);
   background:var(--paper);
   font-family:var(--sans);
-  line-height:1.45;
+  line-height:1.55;
 }
 
 a{ color:inherit; text-decoration:none; }
@@ -44,8 +44,7 @@ a:hover{ text-decoration:underline; }
 /* Header */
 .site-header{
   position:sticky; top:0; z-index:50;
-  background:rgba(255,255,255,.85);
-  backdrop-filter: blur(10px);
+  background:var(--paper);
   border-bottom:1px solid var(--line);
 }
 .header-inner{
@@ -71,10 +70,10 @@ a:hover{ text-decoration:underline; }
   box-shadow: 0 10px 25px rgba(78,42,132,.25);
 }
 .brand-title{
-  font-family:var(--sans);
-  font-weight:300;
-  letter-spacing:.02em;
-  font-size:.95rem;
+  font-family:var(--serif);
+  font-weight:600;
+  letter-spacing:.01em;
+  font-size:1.02rem;
   line-height:1.2;
   transition:color .2s ease;
 }
@@ -94,9 +93,11 @@ a:hover{ text-decoration:underline; }
 .nav-right{ justify-self:start; }
 .nav a{
   color:var(--muted);
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
-  font-size:.95rem;
+  font-family:var(--sans);
+  font-weight:600;
+  font-size:.82rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
 }
 .nav a{
   transition: color .2s ease, background-color .2s ease, border-color .2s ease;
@@ -113,7 +114,7 @@ a:hover{ text-decoration:underline; }
   color:var(--ink);
   border:1px solid var(--line);
   padding:.55rem .8rem;
-  border-radius:999px;
+  border-radius:6px;
   background:var(--wash);
 }
 .nav a.pill:hover{
@@ -164,10 +165,8 @@ a:hover{ text-decoration:underline; }
 
 /* Hero */
 .hero{
-  padding:1.6rem 0 2.2rem;
-  background:
-    radial-gradient(900px 500px at 20% 10%, rgba(78,42,132,.12), transparent 60%),
-    radial-gradient(700px 500px at 80% 20%, rgba(18,19,26,.06), transparent 60%);
+  padding:2.2rem 0 2.6rem;
+  background:var(--paper);
   border-bottom:1px solid var(--line);
 }
 .home-lockup-wrap{
@@ -196,16 +195,16 @@ a:hover{ text-decoration:underline; }
   margin:0 0 .75rem;
 }
 h1{
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
-  line-height:1.07;
-  letter-spacing:-.02em;
-  font-size:clamp(2.05rem, 3.2vw, 3rem);
+  font-family:var(--serif);
+  font-weight:600;
+  line-height:1.12;
+  letter-spacing:-.01em;
+  font-size:clamp(2.1rem, 3.2vw, 3.2rem);
   margin:.2rem 0 .85rem;
 }
 .lede{
   color:var(--muted);
-  font-size:1.07rem;
+  font-size:1.05rem;
   max-width:58ch;
   margin:0 0 1.35rem;
 }
@@ -214,7 +213,7 @@ h1{
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   gap:.5rem;
-  border-radius:999px;
+  border-radius:6px;
   padding:.78rem 1.05rem;
   border:1px solid var(--line);
   font-weight:700;
@@ -259,7 +258,7 @@ h1{
   border:1px solid var(--line);
   border-radius:var(--radius);
   background:var(--paper);
-  box-shadow: var(--shadow);
+  box-shadow:none;
   padding:1.1rem 1.1rem;
 }
 .card.subtle{
@@ -273,8 +272,10 @@ h1{
 }
 .tag{
   font-size:.78rem;
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
+  font-family:var(--sans);
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.06em;
   color:var(--purple);
   background:rgba(78,42,132,.10);
   padding:.35rem .6rem;
@@ -282,10 +283,10 @@ h1{
 }
 .time{ color:var(--muted); font-size:.88rem; }
 .card-title{
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
-  font-size:1.35rem;
-  line-height:1.15;
+  font-family:var(--serif);
+  font-weight:600;
+  font-size:1.45rem;
+  line-height:1.2;
   margin:0 0 .55rem;
 }
 .insight-cover{
@@ -322,15 +323,15 @@ h1{
     linear-gradient(135deg, rgba(78,42,132,.9), rgba(18,19,26,.85));
 }
 .byline{
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
+  font-family:var(--sans);
+  font-weight:600;
 }
 .meta{ color:var(--muted); font-size:.9rem; }
 .card-link{
   display:inline-block;
   margin-top:1rem;
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
+  font-family:var(--sans);
+  font-weight:600;
   color:var(--purple);
 }
 
@@ -338,10 +339,7 @@ h1{
 .section{ padding:2.6rem 0; }
 .section.alt{ background:var(--wash); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
 .section.cta{
-  background:
-    radial-gradient(900px 500px at 10% 10%, rgba(78,42,132,.12), transparent 60%),
-    radial-gradient(900px 500px at 90% 50%, rgba(18,19,26,.08), transparent 60%),
-    var(--wash);
+  background:var(--wash);
   border-top:1px solid var(--line);
 }
 .section-head{
@@ -352,9 +350,9 @@ h1{
   margin-bottom:1.2rem;
 }
 h2{
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
-  font-size:1.9rem;
+  font-family:var(--serif);
+  font-weight:600;
+  font-size:2rem;
   margin:0 0 .35rem;
 }
 .section-sub{ color:var(--muted); margin:0; max-width:70ch; }
@@ -382,7 +380,7 @@ select{ min-width: 190px; }
   border-radius:var(--radius);
   background:var(--paper);
   padding:1.1rem 1.1rem;
-  box-shadow: 0 10px 35px rgba(18,19,26,.08);
+  box-shadow:none;
   display:flex;
   flex-direction:column;
   gap:.65rem;
@@ -411,8 +409,10 @@ select{ min-width: 190px; }
 }
 
 .badge{
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
+  font-family:var(--sans);
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.06em;
   font-size:.78rem;
   color:var(--ink);
   background:var(--wash);
@@ -435,10 +435,10 @@ select{ min-width: 190px; }
 }
 .post h3{
   margin:0;
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
-  font-size:1.25rem;
-  line-height:1.15;
+  font-family:var(--serif);
+  font-weight:600;
+  font-size:1.3rem;
+  line-height:1.2;
 }
 .post-main.side-by-side{
   display:grid;
@@ -485,8 +485,8 @@ select{ min-width: 190px; }
 }
 .post .read{
   color:var(--purple);
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
+  font-family:var(--sans);
+  font-weight:600;
   text-decoration:none;
 }
 .post .read{ text-decoration:none; }
@@ -636,8 +636,8 @@ select{ min-width: 190px; }
   gap:.7rem;
 }
 .footer-brand{
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
+  font-family:var(--serif);
+  font-weight:600;
   font-size:1rem;
   white-space:nowrap;
   margin-bottom:0;
@@ -648,8 +648,8 @@ select{ min-width: 190px; }
   align-content:start;
   justify-items:start;
   color:var(--muted);
-  font-family:"Akkurat Pro", "Akkurat", var(--sans);
-  font-weight:300;
+  font-family:var(--sans);
+  font-weight:600;
 }
 .footer-legal a{
   transition:color .2s ease;
@@ -715,5 +715,7 @@ select{ min-width: 190px; }
 
 
 .podcast-detail-title{
+  font-family:var(--serif);
+  font-weight:600;
   font-size:clamp(1.45rem, 2.2vw, 1.9rem);
 }
