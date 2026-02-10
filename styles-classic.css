@@ -471,11 +471,11 @@ select{ min-width: 190px; }
   font-weight:600;
   text-transform:uppercase;
   letter-spacing:.06em;
-  font-size:.78rem;
+  font-size:.6rem;
   color:var(--ink);
   background:var(--wash);
   border:1px solid var(--line);
-  padding:.35rem .55rem;
+  padding:.18rem .38rem;
   border-radius:999px;
 }
 .badge-link{
