@@ -41,6 +41,31 @@ a:hover{ text-decoration:underline; }
   clip:rect(0,0,0,0); border:0;
 }
 
+.local-warning{
+  background:#FFF4D6;
+  color:#3A2A00;
+  border-bottom:1px solid #E6D3A1;
+  padding:.7rem 0;
+  font-size:.9rem;
+}
+.local-warning-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+}
+.local-warning code{
+  font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background:rgba(0,0,0,.06);
+  padding:.1rem .35rem;
+  border-radius:6px;
+}
+.local-warning a{
+  color:var(--purple);
+  font-weight:600;
+  white-space:nowrap;
+}
+
 
 /* Header */
 .site-header{

@@ -712,6 +712,7 @@ function init() {
   $("#year").textContent = String(new Date().getFullYear());
   HOME_HTML = $("#main").innerHTML;
 
+  showLocalFileWarning();
   initMenu();
   renderRoute();
   window.addEventListener("hashchange", renderRoute);
@@ -719,3 +720,26 @@ function init() {
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
+function showLocalFileWarning() {
+  if (window.location.protocol !== "file:") return;
+
+  const banner = document.createElement("div");
+  banner.className = "local-warning";
+  banner.innerHTML = `
+    <div class="container local-warning-inner">
+      <span>
+        <strong>Local preview:</strong> Safari blocks embedded videos on file:// pages.
+        Run <code>./serve.sh</code> and open <code>http://localhost:8000</code>.
+      </span>
+      <a href="http://localhost:8000/" target="_blank" rel="noopener">Open local server</a>
+    </div>
+  `;
+
+  const skip = document.querySelector(".skip");
+  if (skip && skip.parentNode) {
+    skip.parentNode.insertBefore(banner, skip.nextSibling);
+  } else {
+    document.body.insertBefore(banner, document.body.firstChild);
+  }
+}
