@@ -84,7 +84,7 @@ const POSTS = [
       "In journalism and marketing, accountability isn’t a feature you can automate. Here’s how teams design review loops that keep humans responsible.",
     topic: "Media & Technology",
     format: "Essay",
-    thumbnail: "./assets/images/imcpovarticle.png",
+    thumbnail: "./assets/images/imcpovarticle2.png",
     author: "IMC Faculty + Students",
     date: "2026-01-14",
     readMins: 7,
@@ -295,7 +295,7 @@ function getCardCoverImage(post) {
   return post.thumbnail || (post.format === "Framework"
     ? "./assets/images/imcpovframework.png"
     : post.format === "Research Article"
-      ? "./assets/images/imcpovarticle.png"
+      ? "./assets/images/imcpovarticle2.png"
       : post.format === "Podcast"
         ? "./assets/images/imcpovpod.png"
         : "./assets/images/trust-abstract-nu.svg");
