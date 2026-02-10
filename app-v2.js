@@ -145,7 +145,7 @@ const PODCASTS = [
   {
     id: "pod-episode-02",
     title: "Episode 2: Srikant Gokhale, Adjunct Lecturer at Northwestern University Medill School",
-    deck: "In this episode, Srikant describes how strategic thinking has evolved over time.",
+    deck: "In this episode, Srikant Gokhale provides the history of how strategic thinking has evolved over time, and concludes with a simple explanation: Strategy is a dynamic, customer-centered process.",
     topic: "Strategic Communication",
     format: "Podcast",
     author: "Medill Executive Education Team",
