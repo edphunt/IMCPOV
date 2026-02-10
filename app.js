@@ -153,7 +153,7 @@ const PODCASTS = [
 `,
   },
   {
-    id: "pod-trust-signals",
+    id: "pod-episode-02",
     title: "Episode 2: Srikant Gokhale, Adjunct Lecturer at Northwestern University Medill School",
     deck: "In this episode, Srikant describes how strategic thinking has evolved over time.",
     topic: "Strategic Communication",
