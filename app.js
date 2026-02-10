@@ -116,10 +116,16 @@ const PODCASTS = [
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
     content: `
-<p><video controls style="width:100%;height:auto;border-radius:12px;" preload="auto">
-  <source src="https://nuwildcat-my.sharepoint.com/:v:/r/personal/ehp4083_ads_northwestern_edu/Documents/NU/Amplify/IMC%20POV/assets/podcasts/pod-episode-04.mp4?download=1" type="video/mp4" />
-  Your browser does not support the video element.
-</video></p>
+<div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
+  <iframe
+    src="https://www.youtube.com/embed/JN-mAIMYvzw"
+    title="Episode 4: Professor Vijay Viswanathan on what marketers need to know about AI"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+  ></iframe>
+</div>
 `,
   },
   {
