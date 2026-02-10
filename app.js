@@ -166,10 +166,16 @@ const PODCASTS = [
     thumbnail: "./assets/images/imcpovpod.png",
     detailThumbnail: "./assets/images/imcpovpod.png",
     content: `
-<p><video controls style="width:100%;height:auto;border-radius:12px;" preload="auto">
-  <source src="./assets/podcasts/pod-episode-01.mp4" type="video/mp4" />
-  Your browser does not support the video element.
-</video></p>
+<div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
+  <iframe
+    src="https://www.youtube.com/embed/HyQDfZnXgWI"
+    title="Episode 1: Lilly Raymond, Head of MarTech & Operations at Prudential Financial"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+  ></iframe>
+</div>
 `,
   },
 ];
