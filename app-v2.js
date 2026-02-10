@@ -130,7 +130,7 @@ const PODCASTS = [
 `,
   },
   {
-    id: "pod-newsroom-workflows",
+    id: "pod-episode-03",
     title: "Episode 3: Spencer Ford, Sport Lead of Global Energy + Collaborations Marketing at Nike",
     deck: "In this episode, Spencer describes how to create a seamless experience for customers shopping at retail, with mobile devices in hand and social posts in mind.",
     topic: "Strategic Communication",
