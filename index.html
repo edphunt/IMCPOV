@@ -75,34 +75,38 @@
       <section class="hero" aria-labelledby="heroTitle">
         <div class="container">
           <div class="home-lockup-wrap"></div>
-          <article class="home-feature" id="homeInsightCard" aria-labelledby="heroTitle">
-            <div class="home-feature-body">
-              <div class="card-top">
-                <span class="topline-left">
-                  <span class="badge topic-badge" id="editorTopic">Integrated Marketing Communication</span>
-                </span>
-                <span class="time" id="editorTime">—</span>
-              </div>
-            </div>
-            <div class="home-feature-media">
-              <img
-                class="home-feature-image"
-                src="./assets/images/imcpovfieldnote2.png"
-                alt="Abstract editorial image suggesting trust, verification, and media signals"
-              />
-            </div>
-            <div class="home-feature-body">
-              <h1 class="card-title" id="heroTitle"></h1>
-              <p class="card-desc" id="editorDesc"></p>
-              <div class="card-meta">
-                <div>
-                  <div class="byline" id="editorByline"></div>
-                  <div class="meta" id="editorMeta"></div>
+          <div class="home-columns">
+            <div class="home-col home-col-left"></div>
+            <div class="home-col home-col-center">
+              <article class="home-feature" id="homeInsightCard" aria-labelledby="heroTitle">
+                <div class="home-feature-body">
+                  <div class="card-top">
+                    <span class="topline-left"></span>
+                    <span class="time home-feature-date" id="editorTime">—</span>
+                  </div>
                 </div>
-              </div>
-              <a class="card-link" id="editorLink" href="#">6 min read →</a>
+                <div class="home-feature-media">
+                  <img
+                    class="home-feature-image"
+                    src="./assets/images/imcpovfieldnote2.png"
+                    alt="Abstract editorial image suggesting trust, verification, and media signals"
+                  />
+                </div>
+                <div class="home-feature-body">
+                  <h1 class="card-title" id="heroTitle"></h1>
+                  <p class="card-desc" id="editorDesc"></p>
+                  <div class="card-meta">
+                    <div>
+                      <div class="byline" id="editorByline"></div>
+                      <div class="meta" id="editorMeta"></div>
+                    </div>
+                  </div>
+                  <a class="card-link" id="editorLink" href="#">6 min read →</a>
+                </div>
+              </article>
             </div>
-          </article>
+            <div class="home-col home-col-right"></div>
+          </div>
         </div>
       </section>
 
@@ -123,6 +127,6 @@
       </div>
     </footer>
 
-    <script src="./app-v2.js?v=20260210-4"></script>
+    <script src="./app-v2.js?v=20260210-5"></script>
   </body>
 </html>
