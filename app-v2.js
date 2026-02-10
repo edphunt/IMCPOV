@@ -440,9 +440,9 @@ function seedEditorPick() {
     link.href = href;
     link.textContent = `${pick.readMins} min ${pick.format === "Podcast" ? "listen" : "read"} →`;
   }
-  const cover = $(".insight-cover");
+  const cover = $(".home-feature-image");
   if (cover) {
-    cover.style.background = `url('${getCardCoverImage(pick)}') center center / contain no-repeat`;
+    cover.src = getCardCoverImage(pick);
   }
 
   const card = $("#homeInsightCard");
