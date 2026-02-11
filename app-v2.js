@@ -113,8 +113,8 @@ const PODCASTS = [
     author: "Medill Executive Education Team",
     date: "2026-02-09",
     readMins: 12,
-    thumbnail: "./assets/images/imcpovpod.png",
-    detailThumbnail: "./assets/images/imcpovpod.png",
+    thumbnail: "./assets/images/imcpovpod2.png",
+    detailThumbnail: "./assets/images/imcpovpod2.png",
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
@@ -138,8 +138,8 @@ const PODCASTS = [
     author: "Medill Executive Education Team",
     date: "2026-01-26",
     readMins: 12,
-    thumbnail: "./assets/images/imcpovpod.png",
-    detailThumbnail: "./assets/images/imcpovpod.png",
+    thumbnail: "./assets/images/imcpovpod2.png",
+    detailThumbnail: "./assets/images/imcpovpod2.png",
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
@@ -163,8 +163,8 @@ const PODCASTS = [
     author: "Medill Executive Education Team",
     date: "2026-02-01",
     readMins: 2,
-    thumbnail: "./assets/images/imcpovpod.png",
-    detailThumbnail: "./assets/images/imcpovpod.png",
+    thumbnail: "./assets/images/imcpovpod2.png",
+    detailThumbnail: "./assets/images/imcpovpod2.png",
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
@@ -188,8 +188,8 @@ const PODCASTS = [
     author: "Medill Executive Education Team",
     date: "2026-02-04",
     readMins: 9,
-    thumbnail: "./assets/images/imcpovpod.png",
-    detailThumbnail: "./assets/images/imcpovpod.png",
+    thumbnail: "./assets/images/imcpovpod2.png",
+    detailThumbnail: "./assets/images/imcpovpod2.png",
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
@@ -297,7 +297,7 @@ function getCardCoverImage(post) {
     : post.format === "Research Article"
       ? "./assets/images/imcpovarticle2.png"
       : post.format === "Podcast"
-        ? "./assets/images/imcpovpod.png"
+        ? "./assets/images/imcpovpod2.png"
         : "./assets/images/trust-abstract-nu.svg");
 }
 
@@ -617,7 +617,7 @@ function renderPostDetail(id) {
   const detailCoverSrc = hideDetailCover
     ? ""
     : post.format === "Podcast"
-    ? (post.detailThumbnail || "./assets/images/imcpovpod.png")
+    ? (post.detailThumbnail || "./assets/images/imcpovpod2.png")
     : post.thumbnail;
   const detailCover = detailCoverSrc
     ? `<p><img class="${detailCoverClass}" src="${escapeHtml(detailCoverSrc)}" alt="${escapeHtml(post.title)} thumbnail" /></p>`
