@@ -474,16 +474,22 @@ function syncHomeStorySlots() {
   const image = $(".home-feature-image");
   const leftCol = $(".home-grid-left");
   const rightCol = $(".home-grid-right");
+  const meta = $(".home-feature .card-meta");
   if (!image || !leftCol || !rightCol) return;
 
   const rect = image.getBoundingClientRect();
   if (!rect.height) return;
+  const metaRect = meta ? meta.getBoundingClientRect() : null;
+
+  const targetHeight = metaRect
+    ? Math.max(0, Math.round(metaRect.bottom - rect.top))
+    : rect.height;
 
   const gap = 12;
-  const slotHeight = Math.max(120, Math.floor((rect.height - gap) / 2));
+  const slotHeight = Math.max(120, Math.floor((targetHeight - gap) / 2));
 
   [leftCol, rightCol].forEach((col) => {
-    col.style.height = `${rect.height}px`;
+    col.style.height = `${targetHeight}px`;
     const slots = Array.from(col.querySelectorAll(".home-placeholder"));
     slots.forEach((slot, idx) => {
       slot.style.height = `${slotHeight}px`;
