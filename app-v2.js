@@ -17,7 +17,7 @@ const POSTS = [
     id: "newsroom-signals",
     title: "Welcome to IMC POV, Northwestern Medill School's thought leadership hub",
     deck:
-      "Jeffery Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026",
+      "Jeffery Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026.",
     topic: "Integrated Marketing Communications",
     format: "Note",
     thumbnail: "./assets/images/imcpovfieldnote2.png",
@@ -320,13 +320,12 @@ function postCard(post) {
     </div>
 
     ${sideBySide
-      ? `<div class="post-main side-by-side">${coverImage ? `<img class="post-cover-image" src="${escapeHtml(coverImage)}" alt="" aria-hidden="true" />` : ""}<div class="post-copy"><h3>${escapeHtml(post.title)}</h3>${post.deck ? `<p>${escapeHtml(post.deck)}</p>` : ""}</div></div>`
-      : `<div class="${coverClass}" aria-hidden="true"${coverStyle}></div><h3>${escapeHtml(post.title)}</h3>${post.deck ? `<p>${escapeHtml(post.deck)}</p>` : ""}`}
+      ? `<div class="post-main side-by-side">${coverImage ? `<img class="post-cover-image" src="${escapeHtml(coverImage)}" alt="" aria-hidden="true" />` : ""}<div class="post-copy"><h3>${escapeHtml(post.title)}</h3>${post.deck ? `<p>${escapeHtml(post.deck)}</p>` : ""}<p class="read-inline">${post.readMins} min ${post.format === "Podcast" ? "listen" : "read"} →</p></div></div>`
+      : `<div class="${coverClass}" aria-hidden="true"${coverStyle}></div><h3>${escapeHtml(post.title)}</h3>${post.deck ? `<p>${escapeHtml(post.deck)}</p>` : ""}<p class="read-inline">${post.readMins} min ${post.format === "Podcast" ? "listen" : "read"} →</p>`}
 
     <div class="meta meta-stacked">
       <span>${escapeHtml(post.author)}</span>
       <span>${formatDate(post.date)}</span>
-      <span class="read">${post.readMins} min ${post.format === "Podcast" ? "listen" : "read"} →</span>
     </div>
   `;
 
@@ -636,20 +635,24 @@ function renderPostDetail(id) {
               : "<p>No full content yet. Check back soon for the complete article.</p>"
           }</div>
           <h1 class="podcast-detail-title">${escapeHtml(post.title).replaceAll("\n", "<br />")}</h1>
-          <p>${escapeHtml(post.deck)}</p>
+          <p class="detail-deck-with-read">
+            <span>${escapeHtml(post.deck)}</span><br />
+            <span class="read">${post.readMins} min listen →</span>
+          </p>
           <div class="post-byline-block">
             <div>${escapeHtml(post.author)}</div>
             <div>${formatDate(post.date)}</div>
-            <div>${post.readMins} min listen</div>
           </div>`
             : `<p class="topline-left"></p>
           ${detailCover}
           <h1>${escapeHtml(post.title).replaceAll("\n", "<br />")}</h1>
-          <p>${escapeHtml(post.deck)}</p>
+          <p class="detail-deck-with-read">
+            <span>${escapeHtml(post.deck)}</span><br />
+            <span class="read">${post.readMins} min read →</span>
+          </p>
           <div class="post-byline-block">
             <div>${escapeHtml(post.author)}</div>
             <div>${formatDate(post.date)}</div>
-            <div>${post.readMins} min read</div>
           </div>
           <div>
             ${

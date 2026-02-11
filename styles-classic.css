@@ -130,7 +130,7 @@ a:hover{ text-decoration:underline; }
 .nav a{
   color:var(--muted);
   font-family:var(--sans);
-  font-weight:600;
+  font-weight:400;
   font-size:.92rem;
   letter-spacing:.01em;
   text-transform:none;
@@ -430,6 +430,17 @@ h1{
   font-size:.6rem;
   white-space:normal;
 }
+.detail-deck-with-read{
+  margin:0 0 .6rem;
+}
+.detail-deck-with-read .read{
+  color:var(--purple);
+  font-weight:400;
+  text-decoration:none;
+}
+.detail-deck-with-read .read:hover{
+  text-decoration:underline;
+}
 .home-feature .byline,
 .home-feature .meta{
   font-size:.6rem;
@@ -457,14 +468,19 @@ h1{
 }
 .byline{
   font-family:var(--sans);
-  font-weight:600;
+  font-weight:400;
+  font-style:italic;
 }
 .meta{ color:var(--muted); font-size:.9rem; }
+.meta{
+  font-weight:400;
+  font-style:italic;
+}
 .card-link{
   display:inline-block;
   margin-top:1rem;
   font-family:var(--sans);
-  font-weight:600;
+  font-weight:400;
   color:var(--purple);
 }
 .inline-link{
@@ -614,9 +630,19 @@ select{ min-width: 190px; }
   margin:0;
   font-size:.84rem;
 }
+.post-main.side-by-side .post-copy .read-inline{
+  margin-top:.25rem;
+  color:var(--purple);
+  font-size:.82rem;
+}
 .post p{
   margin:0;
   color:var(--muted);
+}
+.post .read-inline{
+  margin:0;
+  color:var(--purple);
+  font-size:.82rem;
 }
 .post .meta{
   display:flex; gap:.6rem; flex-wrap:wrap;
@@ -634,7 +660,7 @@ select{ min-width: 190px; }
 .post .read{
   color:var(--purple);
   font-family:var(--sans);
-  font-weight:600;
+  font-weight:400;
   text-decoration:none;
 }
 .post .read{ text-decoration:none; }
