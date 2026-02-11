@@ -316,21 +316,17 @@ function postCard(post) {
   const sideBySide = true;
   el.innerHTML = `
     <div class="topline">
-      <span class="topline-left">
-        <span class="badge topic-badge">${escapeHtml(post.topic)}</span>
-      </span>
-      <span class="time">${formatDate(post.date)}</span>
+      <span class="topline-left"></span>
     </div>
 
     ${sideBySide
       ? `<div class="post-main side-by-side">${coverImage ? `<img class="post-cover-image" src="${escapeHtml(coverImage)}" alt="" aria-hidden="true" />` : ""}<div class="post-copy"><h3>${escapeHtml(post.title)}</h3>${post.deck ? `<p>${escapeHtml(post.deck)}</p>` : ""}</div></div>`
       : `<div class="${coverClass}" aria-hidden="true"${coverStyle}></div><h3>${escapeHtml(post.title)}</h3>${post.deck ? `<p>${escapeHtml(post.deck)}</p>` : ""}`}
 
-    <div class="meta">
+    <div class="meta meta-stacked">
       <span>${escapeHtml(post.author)}</span>
-      <span style="margin-left:auto;">
-        <span class="read">${post.readMins} min ${post.format === "Podcast" ? "listen" : "read"} →</span>
-      </span>
+      <span>${formatDate(post.date)}</span>
+      <span class="read">${post.readMins} min ${post.format === "Podcast" ? "listen" : "read"} →</span>
     </div>
   `;
 
@@ -431,7 +427,7 @@ function seedEditorPick() {
   const type = $("#editorType");
   if (type) type.textContent = pick.format;
   const topic = $("#editorTopic");
-  if (topic) topic.textContent = pick.topic;
+  if (topic) topic.textContent = "";
   $("#editorTime").textContent = formatDate(pick.date);
   const href = `#post/${encodeURIComponent(pick.id)}`;
   const link = $("#editorLink");
@@ -474,6 +470,29 @@ function syncHomeLockupWidth() {
   document.documentElement.style.setProperty("--home-lockup-width", `${safeWidth}px`);
 }
 
+function syncHomeStorySlots() {
+  const image = $(".home-feature-image");
+  const leftCol = $(".home-grid-left");
+  const rightCol = $(".home-grid-right");
+  if (!image || !leftCol || !rightCol) return;
+
+  const rect = image.getBoundingClientRect();
+  if (!rect.height) return;
+
+  const gap = 12;
+  const slotHeight = Math.max(120, Math.floor((rect.height - gap) / 2));
+
+  [leftCol, rightCol].forEach((col) => {
+    col.style.height = `${rect.height}px`;
+    const slots = Array.from(col.querySelectorAll(".home-placeholder"));
+    slots.forEach((slot, idx) => {
+      slot.style.height = `${slotHeight}px`;
+      slot.style.marginBottom = idx === slots.length - 1 ? "0" : `${gap}px`;
+    });
+  });
+}
+
+
 let HOME_HTML = "";
 
 function renderHome() {
@@ -481,6 +500,7 @@ function renderHome() {
   main.innerHTML = HOME_HTML;
   seedEditorPick();
   requestAnimationFrame(syncHomeLockupWidth);
+  requestAnimationFrame(syncHomeStorySlots);
 }
 
 function renderInsightsPage(filters = {}) {
@@ -603,9 +623,7 @@ function renderPostDetail(id) {
         <p><a class="read" href="${backHash}">← ${backLabel}</a></p>
         <article>
           ${post.format === "Podcast"
-            ? `<p class="topline-left">
-            <span class="badge topic-badge">${escapeHtml(post.topic)}</span>
-          </p>
+            ? `<p class="topline-left"></p>
           <div>${
             post.content
               ? post.content
@@ -618,9 +636,7 @@ function renderPostDetail(id) {
             <div>${formatDate(post.date)}</div>
             <div>${post.readMins} min listen</div>
           </div>`
-            : `<p class="topline-left">
-            <span class="badge topic-badge">${escapeHtml(post.topic)}</span>
-          </p>
+            : `<p class="topline-left"></p>
           ${detailCover}
           <h1>${escapeHtml(post.title).replaceAll("\n", "<br />")}</h1>
           <p>${escapeHtml(post.deck)}</p>
@@ -725,7 +741,11 @@ function init() {
   initMenu();
   renderRoute();
   window.addEventListener("hashchange", renderRoute);
-  window.addEventListener("resize", syncHomeLockupWidth);
+  window.addEventListener("resize", () => {
+    syncHomeLockupWidth();
+    syncHomeStorySlots();
+  });
+  window.addEventListener("load", syncHomeStorySlots);
 }
 
 document.addEventListener("DOMContentLoaded", init);

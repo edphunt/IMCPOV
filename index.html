@@ -75,16 +75,17 @@
       <section class="hero" aria-labelledby="heroTitle">
         <div class="container">
           <div class="home-lockup-wrap"></div>
-          <div class="home-columns">
-            <div class="home-col home-col-left"></div>
-            <div class="home-col home-col-center">
+          <div class="home-grid">
+            <div class="home-grid-col home-grid-left">
+              <div class="home-placeholder">
+                <div class="home-placeholder-label">Left Story Slot</div>
+              </div>
+              <div class="home-placeholder">
+                <div class="home-placeholder-label">Left Story Slot</div>
+              </div>
+            </div>
+            <div class="home-grid-col home-grid-center">
               <article class="home-feature" id="homeInsightCard" aria-labelledby="heroTitle">
-                <div class="home-feature-body">
-                  <div class="card-top">
-                    <span class="topline-left"></span>
-                    <span class="time home-feature-date" id="editorTime">—</span>
-                  </div>
-                </div>
                 <div class="home-feature-media">
                   <img
                     class="home-feature-image"
@@ -94,18 +95,31 @@
                 </div>
                 <div class="home-feature-body">
                   <h1 class="card-title" id="heroTitle"></h1>
-                  <p class="card-desc" id="editorDesc"></p>
+                  <p class="card-desc">
+                    <span id="editorDesc"></span><br />
+                    <a class="card-link inline-link" id="editorLink" href="#">5 min read →</a>
+                  </p>
                   <div class="card-meta">
                     <div>
                       <div class="byline" id="editorByline"></div>
                       <div class="meta" id="editorMeta"></div>
+                      <div class="meta home-feature-date" id="editorTime">—</div>
                     </div>
                   </div>
-                  <a class="card-link" id="editorLink" href="#">6 min read →</a>
                 </div>
               </article>
             </div>
-            <div class="home-col home-col-right"></div>
+            <div class="home-grid-col home-grid-right">
+              <div class="home-placeholder">
+                <div class="home-placeholder-label">Right Story Slot</div>
+              </div>
+              <div class="home-placeholder">
+                <div class="home-placeholder-label">Right Story Slot</div>
+              </div>
+            </div>
+          </div>
+          <div class="home-bottom-slot">
+            <span>Bottom Event Slot</span>
           </div>
         </div>
       </section>
