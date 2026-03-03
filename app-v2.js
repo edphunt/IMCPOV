@@ -274,14 +274,67 @@ const POSTS = [
 `,
   },
   {
+    id: "malthouse-misinformation-research",
+    title: "Medill professor using data to tackle misinformation",
+    deck:
+      "Edward Malthouse’s research uses AI to personalize news recommendations and develop stronger tools for identifying misinformation.",
+    topic: "AI and Fake News Research",
+    format: "Based on Research",
+    author: "By: Victoria Ryan",
+    date: "2026-01-26",
+    readMins: 8,
+    content: `
+<h2>Malthouse’s research looks at using AI to personalize news recommendations</h2>
+<p>A smiling Edward Malthouse is overlaid on a digital theme. In the background, a person interacts with a smartphone displaying cloud technology icons.</p>
+<p>Ed Malthouse's AI and fake news research.</p>
+<p><strong>EVANSTON, ILL.</strong> -- Professor Edward Malthouse enjoys looking at things from different angles. As the Erastus Otis Haven Professor at Medill and a research fellow at the Media Management Center, his research supports the larger news ecosystem and tackles misinformation.</p>
+
+<p>“I think one of the most pressing problems of the day is misinformation,” he said. “There’s a lot of misinformation out there, and it’s hard to stay ahead of it.”</p>
+
+<p>Malthouse began teaching at Northwestern in the Kellogg School of Management in 1995 after completing a PhD in statistics. He joined the IMC faculty in 1997, and became the Director of the Spiegel Center for Database and Digital Marketing in 2012, also known as the Spiegel Research Center.</p>
+
+<p>The Spiegel Research Center supports research in the fields of marketing and advertising, analyzing behaviors across platforms to provide insights to companies.</p>
+
+<p>“It’s about understanding how newer forms of customer engagement affect financial outcomes,” said Malthouse.</p>
+
+<p>In 2023, the National Science Foundation awarded a grant to Malthouse and a team of researchers from the University of Minnesota, Twin Cities. Their research, titled <em>A Research News Recommender Infrastructure with Live Users for Algorithm and Interface Experimentation</em>, uses artificial intelligence to personalize news recommendations.</p>
+
+<p>“We’re not rewriting any articles,” said Malthouse. “We’re helping you find stories of interest that match your topical interests using AI systems.”</p>
+
+<p>For Malthouse, the NSF grant gave him the chance to create opportunities for students as well.</p>
+
+<p>“It’s a huge honor, and it enabled me to fund a PhD student for a while,” he said.</p>
+
+<p>Using the grant, the student focused on using large-language models (LLMs) for news recommendations, as well as a fake news detection tool.</p>
+
+<p>“If you ask an LLM to evaluate a text using these traditional fact-checking questions, and then you bring back the responses to those questions, you can more accurately identify fake news articles than if you just did it from basic machine learning approaches,” Malthouse said.</p>
+
+<p>Malthouse’s position with Spiegel, as well as work with Medill’s Local News Initiative, provides him the opportunity to bring his research into the classroom. Malthouse makes a lot of the cases he uses in his curriculum with data from projects he has completed over the years.</p>
+
+<p>“It’s unusual for students to get access to these data sets from real companies,” said Malthouse. “I’m really grateful to the news organizations and other organizations that have provided this data to give to the students.”</p>
+
+<p>Malthouse acknowledges the concerns about artificial intelligence in journalism. He notes that conversations surrounding the implementation of AI today mirror past conversations about different technologies.</p>
+
+<p>“I remember the Medill faculty had a big debate over whether students should be allowed to use Wikipedia about 20 years ago,” he said.</p>
+
+<p>He encourages newsrooms to “embrace it responsibly,” using AI to supplement traditional newsgathering and fact-checking methods.</p>
+
+<p>“You need to be taught ways to corroborate what you find, and find independent sources that say the same thing,” he said.</p>
+
+<p>Overall, Malthouse looks for ways companies can embrace artificial intelligence as a supportive assistant.</p>
+
+<p>“I think it can be a very powerful tool to enhance your productivity, but you have to check everything first,” he said.</p>
+`,
+  },
+  {
     id: "newsroom-signals",
     title: "Welcome to IMC POV, Northwestern Medill School's thought leadership hub",
     deck:
-      "Jeffery Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026.",
+      "Jeffrey Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026.",
     topic: "Integrated Marketing Communications",
     format: "Note",
     thumbnail: "./assets/images/imcpovfieldnote2.png",
-    author: "Jeffery Treem",
+    author: "Jeffrey Treem",
     date: "2026-02-04",
     readMins: 5,
   },
