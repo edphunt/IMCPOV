@@ -14,6 +14,43 @@ const POSTS = [
   //   content: `<p>Optional full post HTML for detail view.</p>`,
   // },
   {
+    id: "genai-transforming-modern-marketing",
+    title: "How Generative AI Is Transforming Modern Marketing",
+    deck:
+      "A synthesis of key takeaways from the 2025 Tech Summit and Kelly Cutler’s research on how generative AI is reshaping search, SEO/SEM, and marketing strategy.",
+    topic: "Gen AI Search Marketing",
+    format: "Essay",
+    author: "Based on research by Kelly Cutler",
+    date: "2026-03-03",
+    readMins: 10,
+    content: `
+<h2>Insights from the 2025 Tech Summit</h2>
+<p><strong>Session Summary</strong> — Tech Summit Oct. 9, 2025 · New York City, NY</p>
+<p><strong>Transforming Marketing With Generative AI</strong></p>
+<p>Presented by Kelly Cutler, Professor and Associate Director of Research, Medill School of Journalism, Media, Integrated Marketing Communications, Northwestern University.</p>
+<p>This session examined the evolving digital marketing ecosystem, including the impact of large language models and how they are transforming search and information discovery. As platforms like Google Gemini and ChatGPT integrate generative AI into search experiences, consumers now encounter new options and conversational answers instead of traditional search results pages. The presentation examined the current landscape and explored the effects of AI on content visibility, SEO and paid search strategy, and performance measurement. Through case examples and research insights, participants gained a framework for adapting marketing strategy, analytics, and organizational capabilities to thrive in an AI-driven discovery environment.</p>
+<p><a class="inline-link" href="#">Read more about Transforming Marketing with Generative AI.</a></p>
+
+<h2>How Generative AI Is Transforming Modern Marketing</h2>
+<p>In a recent presentation titled <em>Transforming Marketing With Generative AI: A Research-Based Approach</em>, Kelly Cutler, Associate Professor of Marketing and Communication at Northwestern University, explored how generative AI is reshaping the marketing landscape and what organizations must do to adapt.</p>
+<p>She begins by noting that most marketers feel excited about AI, but many lack the training needed to use it well. Seventy percent say their employer has not offered any AI guidance, which is why AI literacy is quickly becoming one of the most important skills in the field. Contributors such as Informatica reinforce that high-quality, well-managed data is essential for any AI strategy to succeed.</p>
+<p><strong>Marketers’ feelings about AI:</strong> 69% excited, 17% mixed.</p>
+<p>Cutler explains that CMOs are facing a major challenge: integrating new technology into marketing while still preserving the human strengths that define effective communication. AI can improve efficiency and personalization, but it cannot replace relationship building, empathy, ethical judgment, or cultural understanding.</p>
+<p>The research shows that AI is already creating value in areas such as time savings, cost reductions, stronger customer insights, and more personalized engagement. Companies are using generative AI for content development, SEO and SEM improvements, email and audience targeting, analytics, video creation, and persona development.</p>
+<p>She points to four major trends shaping the future: more advanced personalization, faster content creation at scale, deeper analytics and testing, and significant changes to SEO and advertising strategies driven by AI tools.</p>
+<p>To help organizations respond, Cutler shares two guiding frameworks. The first is Bain’s Five Golden Rules, which focus on consumer-led thinking, holistic AI use, long-term planning, keeping core use cases in-house, and strong CMO leadership. The second is a four-step organizational process that includes forming a cross-functional task force, prioritizing use cases, creating a roadmap, and investing in AI training.</p>
+<p><strong>Five principles of responsible AI</strong></p>
+<p>Cutler closes with a clear conclusion: marketing has always combined art and science, and AI strengthens both. Organizations that stay adaptable and pair human insight with AI capabilities will be positioned for the greatest success moving forward.</p>
+
+<h2>Search Marketing: A Strategic Approach to SEO and SEM (1st Edition)</h2>
+<p><strong>By Kelly Cutler (Author)</strong></p>
+<p>Increase the power of your marketing budget and enhance customer reach with fundamental search marketing efforts, SEO and SEM.</p>
+<p>This comprehensive guide delves into the dynamic world of both paid and organic search marketing strategies, providing an in-depth understanding of the tactics and techniques that drive successful online visibility and business growth. As the digital marketing landscape continues to evolve, this work gets more technical, time-consuming and costly. Discover how to approach both paid and organic search marketing like a digital strategist by reading this book from digital marketing expert and educator, Kelly Cutler.</p>
+<p><em>Search Marketing</em> offers insights into high-level fundamentals and advanced applications. Designed to help marketers and business leaders get more from this essential digital marketing tactic, the book dives into what marketers can do today to help their companies take a more controlled, intentional, and strategic approach to SEO and SEM.</p>
+<p>The book delivers techniques for increasing visibility, driving qualified traffic, measuring the success and functionality of SEO, SEM campaigns and advanced methods for campaign optimization. Readers will walk away knowing how to take a more informed approach to the business they bring from sites like Google and Bing, while gaining the insight necessary to effectively oversee search marketing at a strategic level.</p>
+`,
+  },
+  {
     id: "newsroom-signals",
     title: "Welcome to IMC POV, Northwestern Medill School's thought leadership hub",
     deck:
