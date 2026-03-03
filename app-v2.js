@@ -51,6 +51,210 @@ const POSTS = [
 `,
   },
   {
+    id: "food-quality-dominates-restaurant-choice",
+    title: "Food Quality Dominates Restaurant Choice and Spending",
+    deck:
+      "Prosper’s Nov 2025 survey shows dining out is nearly universal and that food quality is the top driver of restaurant recommendations across formats.",
+    topic: "Food Quality Dominates Restaurant Choice and Spending",
+    format: "Research Article",
+    author: "Dr. Martin Block, Professor Emeritus, Northwestern University, Retail Analytics Council",
+    date: "2026-03-03",
+    readMins: 10,
+    content: `
+<h2>Executive Summary</h2>
+<p>Dining out remains a near-universal behavior among U.S. adults, with restaurant usage, spending, and preferences shaped by household composition, income, and perceptions of food quality and convenience. Findings from the November 2025 Prosper Insights &amp; Analytics survey (n=8,000) show that more than nine in ten adults have eaten at a restaurant in the past 90 days, with consumers visiting a wide range of establishments and cuisines. Spending patterns reveal sharp differences between households with and without children. At the same time, analytical modeling confirms that food quality overwhelmingly drives restaurant recommendations across both fast food and full-service formats, outweighing factors such as technology, deals, and ambiance.</p>
+
+<ul>
+  <li>90% of U.S. adults ate at a restaurant in the past 90 days, visiting an average of 4.69 different restaurants.</li>
+  <li>McDonald’s is the most frequently visited restaurant, with 40.1% of adults reporting a visit in the past 90 days.</li>
+  <li>American cuisine dominates restaurant choice (53.2%), followed by Mexican (30.1%), Chinese (25.1%), and Italian (22.0%).</li>
+  <li>46.8% of adults used carryout or delivery, while 40.7% report regular or occasional use of third-party delivery services.</li>
+  <li>Average monthly restaurant spending totals $236.45, representing 4.4% of average income.</li>
+</ul>
+
+<h2>Food Quality Dominates Restaurant Choice and Spending</h2>
+<p>Dining out (eating at a restaurant) is nearly a universal activity among U.S. adults 18+. The Prosper Insights and Analytics monthly online survey for November 2025 (n=8,000) shows that 90.6% have eaten in at least one restaurant within the past 90 days. Table 1 lists the 51 most popular restaurants by the percentage reported visiting. The average number of different restaurants reported is 4.69. By far the most frequently visited is McDonald’s with 40.1% of all adults eating there at least once within the past 90 days. It should be noted that many of the named restaurants are geographically concentrated so that the visit percentages may appear to be lower than they would be within their trading areas. Consumers appear to enjoy variety in their restaurant selection.</p>
+
+<h3>Table 1: Restaurants in the Past 90 Days</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Restaurant</th>
+      <th>Percent</th>
+      <th>Restaurant</th>
+      <th>Percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>McDonald’s</td><td>40.1</td><td>Cracker Barrel</td><td>7.0</td></tr>
+    <tr><td>Chick-fil-A</td><td>24.7</td><td>Papa John’s</td><td>6.9</td></tr>
+    <tr><td>Burger King</td><td>23.9</td><td>In-N-Out Burger</td><td>6.6</td></tr>
+    <tr><td>Taco Bell</td><td>20.8</td><td>Sonic</td><td>6.5</td></tr>
+    <tr><td>Domino’s</td><td>18.9</td><td>Raising Cane’s</td><td>6.2</td></tr>
+    <tr><td>Wendy’s</td><td>18.1</td><td>IHOP</td><td>5.7</td></tr>
+    <tr><td>Starbucks</td><td>16.4</td><td>Five Guys Burgers and Fries</td><td>5.5</td></tr>
+    <tr><td>Dunkin’ Donuts</td><td>14.7</td><td>Jack-In-The-Box</td><td>5.4</td></tr>
+    <tr><td>Locally owned restaurant</td><td>14.4</td><td>Denny’s</td><td>5.4</td></tr>
+    <tr><td>Subway</td><td>14.2</td><td>Jimmy John’s</td><td>4.8</td></tr>
+    <tr><td>KFC</td><td>13.4</td><td>Outback Steakhouse</td><td>4.5</td></tr>
+    <tr><td>Chipotle</td><td>13.2</td><td>Whataburger</td><td>4.3</td></tr>
+    <tr><td>Pizza Hut</td><td>12.7</td><td>Hardee’s/Carl’s Jr.</td><td>4.2</td></tr>
+    <tr><td>Arby’s</td><td>11.4</td><td>Firehouse Subs</td><td>4.1</td></tr>
+    <tr><td>Applebee’s</td><td>11.3</td><td>Checkers/Rally’s</td><td>3.7</td></tr>
+    <tr><td>Local pizza shop/restaurant</td><td>10.2</td><td>Waffle House</td><td>3.3</td></tr>
+    <tr><td>Little Caesars</td><td>10.2</td><td>Bojangles</td><td>3.3</td></tr>
+    <tr><td>Dairy Queen</td><td>9.4</td><td>Red Lobster</td><td>3.0</td></tr>
+    <tr><td>Olive Garden</td><td>9.4</td><td>Shake Shack</td><td>2.6</td></tr>
+    <tr><td>Popeyes</td><td>9.2</td><td>Moe’s Southwest Grill</td><td>2.6</td></tr>
+    <tr><td>Chili’s</td><td>9.1</td><td>Qdoba</td><td>2.0</td></tr>
+    <tr><td>Panera Bread</td><td>9.0</td><td>TGI Friday’s</td><td>1.9</td></tr>
+    <tr><td>Panda Express</td><td>8.3</td><td>Smashburger</td><td>1.8</td></tr>
+    <tr><td>Buffalo Wild Wings</td><td>7.3</td><td>Fatburger</td><td>1.8</td></tr>
+    <tr><td>Jersey Mike’s Subs</td><td>7.2</td><td>Tim Hortons</td><td>1.6</td></tr>
+    <tr><td>Culver’s</td><td>7.2</td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<p>Respondents were also asked about the types of restaurants they had eaten at in the past 90 days. Table 2 shows that American cuisine is the overwhelming first choice, followed by Mexican, Chinese, and Italian. Note that the question does not distinguish between fast food (quick service) and full-service restaurants.</p>
+
+<h3>Table 2: Restaurant Types in the Past 90 Days</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>American (ranging from traditional diners to contemporary casual fare)</td><td>53.2</td></tr>
+    <tr><td>Mexican</td><td>30.1</td></tr>
+    <tr><td>Chinese</td><td>25.1</td></tr>
+    <tr><td>Italian</td><td>22.0</td></tr>
+    <tr><td>Japanese</td><td>9.0</td></tr>
+    <tr><td>Indian</td><td>6.5</td></tr>
+    <tr><td>Greek</td><td>6.2</td></tr>
+    <tr><td>Mediterranean</td><td>6.1</td></tr>
+    <tr><td>French</td><td>5.9</td></tr>
+    <tr><td>Caribbean</td><td>5.5</td></tr>
+    <tr><td>Cajun/Creole</td><td>5.1</td></tr>
+    <tr><td>Thai</td><td>5.0</td></tr>
+  </tbody>
+</table>
+
+<p>Nearly half (46.8%) report using a home-delivery or carry-out service. About a fourth (26.5%) say they use restaurants more than delivery services. Delivery through third-party services (e.g., DoorDash, Grubhub, Uber Eats) is reported to be used regularly by 13.1% and occasionally by 27.6%, leaving 59.3% who report never using them.</p>
+
+<h2>Restaurant Spending</h2>
+<p>Determining monthly spending levels requires dividing the restaurant into categories: full-service with a waiter or waitress, fast food, and pizza. Excluded are stores that may serve food, such as convenience stores, coffee shops and grocery stores. As shown in Table 3, the amount spent each time for fast food and pizza is approximately half that of full service. Fast food has the highest frequency, occurring approximately once per week. Expanding to dollars yields an overall average total of $236.45. This represents 4.4% of the average income. Full service accounts for nearly half of the spending (45.1%), as shown in Table 3.</p>
+
+<h3>Table 3: Spend Monthly Estimates</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Amount/Time</th>
+      <th>Times/Month</th>
+      <th>Month Total</th>
+      <th>Total Percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Full Service</td><td>28.40</td><td>2.7</td><td>106.68</td><td>45.1</td></tr>
+    <tr><td>Fast Food</td><td>15.03</td><td>4.0</td><td>74.16</td><td>31.4</td></tr>
+    <tr><td>Pizza</td><td>15.46</td><td>2.5</td><td>55.61</td><td>23.5</td></tr>
+    <tr><td>Total Spend</td><td></td><td></td><td>236.45</td><td></td></tr>
+  </tbody>
+</table>
+
+<figure>
+  <figcaption><strong>Figure 1:</strong> Total Monthly Restaurant Spending ($) Quintiles (image forthcoming)</figcaption>
+</figure>
+
+<figure>
+  <figcaption><strong>Figure 2:</strong> Category of Restaurant Percentages by Overall Spending Quintiles (image forthcoming)</figcaption>
+</figure>
+
+<p>A classification regression tree (CRT) identifies the demographic characteristics of monthly restaurant spending. The first split is having children, which divides the total $236.45 into two groups: those with children at $336.74 for 36.2% and those without children at $179.51 for 63.8%. Figures 3 and 4 show the two sub-trees starting at the child divide.</p>
+
+<figure>
+  <figcaption><strong>Figure 3:</strong> CRT Total Spending Sub-Tree for Those Having Children (image forthcoming)</figcaption>
+</figure>
+
+<p>Beyond having children, the most important variable is household income. The lowest income node is under $25k, to the highest income node at over $105K. This is followed by marital status, with nodes reporting being married are generally higher. Living with an unmarried partner is combined with being married in a few nodes.</p>
+
+<p>For those with no children, as shown in Figure 4, a similar pattern is observed, with household income being the most important variable, ranging from under $25k to over $150k. Marital status is also important, again dividing between married and single. Although marital status is slightly more complicated, with divorced and widowed becoming a node. Age is also very important, with a divide generally in the mid-forties. An exception is in the highest income group, where the divide is ten years older at 58.</p>
+
+<figure>
+  <figcaption><strong>Figure 4:</strong> CRT Total Spending Sub-Tree for Those Having No Children (image forthcoming)</figcaption>
+</figure>
+
+<h2>Predicting Restaurant Preferences</h2>
+<p>The reasons for eating at a fast-food restaurant are abstracted from a list of thirty items using factor analysis to make it easier to understand. The factors are shown in Table 4; the five resulting factors account for 35.5% of the variance in the original list. It is worth noting that delivery service, being open late, and value menus did not load as factors in any of the five factors. The first factor, named Food, comprises quality, trustworthiness, portion size, price, selection, and taste, and accounts for 9.7% of the variance. This is followed by online offerings, including loyalty rewards, special offers, and mobile and online ordering. Healthy consists of clean ingredients (e.g., antibiotic-free, non-GMO, no artificial flavors, etc.), and healthy and organic menu items. Fast consists of drive-thru, fast service and location. Ambiance consists of advertising, ambiance, and décor. The last four factors explain just over 6% each.</p>
+
+<h3>Table 4: Factor Analysis of Fast Food Reasons</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Food</th>
+      <th>Online</th>
+      <th>Healthy</th>
+      <th>Fast</th>
+      <th>Ambiance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Percent of Variance</td><td>9.66</td><td>6.70</td><td>6.61</td><td>6.31</td></tr>
+    <tr><td>Quality of Food (0.72)</td><td>Loyalty Rewards (0.66)</td><td>Clean Ingredients (0.56)</td><td>Drive-thru (0.73)</td><td>Advertising (0.60)</td></tr>
+    <tr><td>Trustworthy Establishment (0.63)</td><td>Mobile App Ordering (0.59)</td><td>Healthy Menu Options (0.54)</td><td>Fast Service (0.69)</td><td>Ambiance (0.59)</td></tr>
+    <tr><td>Portion Size (0.58)</td><td>Coupon/Special Offer (0.59)</td><td>Organic Menu Options (0.45)</td><td>Location (0.40)</td><td>Decor of the Restaurant (0.47)</td></tr>
+    <tr><td>Price (0.57)</td><td>Online Ordering (0.44)</td><td></td><td></td><td></td></tr>
+    <tr><td>Menu Selection (0.46)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Appealing Taste (0.43)</td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<p>To assess the relative importance of these factors, a simple regression was performed to predict the likelihood of recommending the restaurant to a friend. The analysis shown in Figure 5 is statistically significant with R = 0.43. Clearly, food is the most important factor, followed by speed. The remaining three, online, healthy, and ambiance, are much less important.</p>
+
+<figure>
+  <figcaption><strong>Figure 5:</strong> Fast Food Factors Predicting Recommendation – Beta Coefficients (image forthcoming)</figcaption>
+</figure>
+
+<p>The same analysis was conducted for full-service restaurants. As shown in Table 5, the five factors account for 37.3% of the variance. The first factor, which explains 12.1%, is very similar to the fast-food first factor; both are named Food. In full service, however, friendly wait staff and appealing taste have been added. The second factor, online, also includes gluten-free and organic options, delivery services, late hours, and child-friendly features, and accounts for 8.0%. Ambiance includes cleanliness as well as décor and explains 7.6%. Deals include coupons, special offers, and loyalty rewards, and explains 5.2%. Reservations are associated with trustworthiness and are relatively unimportant.</p>
+
+<h3>Table 5: Factor Analysis of Full Service Reasons</h3>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Food</th>
+      <th>Online Ordering</th>
+      <th>Ambiance</th>
+      <th>Deals</th>
+      <th>Reservations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Percent of Variance</td><td>12.10</td><td>7.95</td><td>7.62</td><td>5.23</td></tr>
+    <tr><td>Quality of Food (0.69)</td><td>Online Ordering (0.57)</td><td>Ambiance (0.56)</td><td>Coupon/Special Offer (0.75)</td><td>Reservations Taken (0.54)</td></tr>
+    <tr><td>Price (0.63)</td><td>Mobile App Ordering (0.56)</td><td>Clean Ingredients (0.52)</td><td>Special Offers/Discounts (0.53)</td><td>Trustworthy Establishment (0.47)</td></tr>
+    <tr><td>Portion Size (0.61)</td><td>Gluten Free Menu Options (0.52)</td><td>Cleanliness (0.52)</td><td>Loyalty Rewards (0.43)</td><td></td></tr>
+    <tr><td>Menu Selection (0.59)</td><td>Delivery Service (0.48)</td><td>Decor of the Restaurant (0.52)</td><td></td><td></td></tr>
+    <tr><td>Friendly Service (0.58)</td><td>Open Late (0.47)</td><td></td><td></td><td></td></tr>
+    <tr><td>Location (0.54)</td><td>Kid Friendly (0.45)</td><td></td><td></td><td></td></tr>
+    <tr><td>Friendly Wait Staff (0.52)</td><td>Organic Menu Options (0.45)</td><td></td><td></td><td></td></tr>
+    <tr><td>Appealing Taste (0.49)</td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<p>Figure 6 presents a regression analysis similar to the prior Fast Service analysis. The regression is also significant with R2 = 0.55. Food is by far the most important, nearly doubling second-place ambiance. Food is also more important for full-service restaurants than for fast-food restaurants. Ambiance moves up to second place from last place in fast food.</p>
+
+<figure>
+  <figcaption><strong>Figure 6:</strong> Full-Service Factors Predicting Recommendation – Beta Coefficients (image forthcoming)</figcaption>
+</figure>
+
+<h2>Summary</h2>
+<p>Dining out remains nearly universal among U.S. adults, but how and where consumers choose to eat is shaped less by technology or promotions and more by fundamentals. Data indicate that food quality is the strongest driver of restaurant recommendations across both fast-food and full-service dining, outweighing speed, convenience, deals, and digital features. Spending and usage patterns vary significantly by household structure and income, but regardless of format, consumers reward restaurants that get the food quality right.</p>
+`,
+  },
+  {
     id: "newsroom-signals",
     title: "Welcome to IMC POV, Northwestern Medill School's thought leadership hub",
     deck:
