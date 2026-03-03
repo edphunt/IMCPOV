@@ -255,6 +255,25 @@ const POSTS = [
 `,
   },
   {
+    id: "ai-search-overviews-report",
+    title: "21 Digital Marketing Experts on How AI Search Overviews are Changing Their Industry",
+    deck:
+      "Medill’s Spiegel Scholars interviewed 21 marketing leaders to map how AI search overviews are reshaping visibility, measurement, and strategy.",
+    topic: "AI Search",
+    format: "Report",
+    author: "Medill Spiegel Research Center's Spiegel Scholars",
+    date: "2026-03-03",
+    readMins: 10,
+    content: `
+<p>Last summer, the Medill School of Journalism, Media Integrated Marketing Communications piloted a new program called The Spiegel Scholars Program. We invited three highly qualified master’s students—Ariel, Kristen, and Momo—to help us write a research report on how AI is changing the advertising industry. Over three months, our team interviewed 21 marketing executives, transcribed the interviews, and distilled the transcripts into meaningful themes in the final report. They worked hard and asked smart questions. They also didn’t give up despite receiving many “No’s” during outreach. They told me that “figuring out” how to reach out to people was both the most difficult and most rewarding part of the project. I hope they found the experience as rewarding as working alongside them was for me. I am incredibly proud of both their dedication and the quality of their work. I am pleased to share the final report.</p>
+<p>—Ed Hunt, Director of the Spiegel Scholars Program</p>
+
+<p>Search is no longer about what appears on the first page “above the scroll,” it’s about whether your brand shows up at all. As AI-powered search overviews increasingly answer questions before users ever visit a website, marketers see traffic decline, attribution blur, and long-held SEO assumptions break down. Based on in-depth interviews with 21 senior digital marketing leaders, this Medill Spiegel Research Center report examines how AI search is reshaping consumer behavior, redistributing influence across the funnel, and forcing brands to rethink visibility, measurement, and strategy in 2025 and beyond.</p>
+
+<p><a class="inline-link" href="https://spiegel.medill.northwestern.edu/wp-content/uploads/sites/2/2026/01/Digital-Marketing-Experts-on-AI-compressed-compressed.pdf" target="_blank" rel="noopener">Read: 21 Digital Marketing Experts on How AI Search Overviews are Changing Their Industry</a></p>
+`,
+  },
+  {
     id: "newsroom-signals",
     title: "Welcome to IMC POV, Northwestern Medill School's thought leadership hub",
     deck:
