@@ -456,7 +456,7 @@ const PODCASTS = [
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/xpvOS2Pt0dc"
+    src="https://www.youtube-nocookie.com/embed/xpvOS2Pt0dc?start=2"
     title="Episode 3: Spencer Ford, Sport Lead of Global Energy + Collaborations Marketing at Nike"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
