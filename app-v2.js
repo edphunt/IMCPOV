@@ -1014,6 +1014,39 @@ function seedEditorPick() {
   }
 }
 
+function seedHomeStorySlots() {
+  const slots = $$(".home-placeholder");
+  if (!slots.length) return;
+
+  const sideStories = POSTS.slice(1, slots.length + 1);
+  slots.forEach((slot, idx) => {
+    const story = sideStories[idx];
+    if (!story) return;
+
+    const href = `#post/${encodeURIComponent(story.id)}`;
+    slot.classList.add("home-story-slot");
+    slot.dataset.href = href;
+    slot.tabIndex = 0;
+    slot.setAttribute("role", "link");
+    slot.setAttribute("aria-label", `Open ${story.title}`);
+    slot.innerHTML = `
+      <div class="home-story-kicker">${escapeHtml(story.format)} · ${escapeHtml(story.topic)}</div>
+      <h2>${escapeHtml(story.title)}</h2>
+      <p>${escapeHtml(story.deck || "")}</p>
+      <div class="home-story-meta">${formatDate(story.date)} · ${story.readMins} min ${story.format === "Podcast" ? "listen" : "read"}</div>
+    `;
+    slot.onclick = () => {
+      window.location.hash = href;
+    };
+    slot.onkeydown = (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        window.location.hash = href;
+      }
+    };
+  });
+}
+
 function syncHomeLockupWidth() {
   const lockup = $(".home-lockup");
   const left = $(".nav-left a");
@@ -1061,6 +1094,7 @@ function renderHome() {
   const main = $("#main");
   main.innerHTML = HOME_HTML;
   seedEditorPick();
+  seedHomeStorySlots();
   requestAnimationFrame(syncHomeLockupWidth);
   requestAnimationFrame(syncHomeStorySlots);
 }

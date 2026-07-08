@@ -382,6 +382,53 @@ h1{
   letter-spacing:.08em;
   font-size:.7rem;
 }
+.home-story-slot{
+  border-style:solid;
+  align-items:flex-start;
+  justify-content:flex-start;
+  flex-direction:column;
+  gap:.45rem;
+  cursor:pointer;
+  overflow:hidden;
+  background:#fff;
+  color:var(--ink);
+  transition:background .18s ease, border-color .18s ease, transform .18s ease;
+}
+.home-story-slot:hover,
+.home-story-slot:focus-visible{
+  border-color:rgba(78,42,132,.38);
+  background:rgba(78,42,132,.035);
+  transform:translateY(-1px);
+  outline:none;
+}
+.home-story-kicker,
+.home-story-meta{
+  font-family:"Libre Franklin", sans-serif;
+  color:var(--muted);
+  font-size:.68rem;
+  line-height:1.25;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+.home-story-slot h2{
+  font-size:1.05rem;
+  line-height:1.08;
+  margin:0;
+  letter-spacing:0;
+}
+.home-story-slot p{
+  margin:0;
+  color:var(--muted);
+  font-size:.78rem;
+  line-height:1.35;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.home-story-meta{
+  margin-top:auto;
+}
 .home-bottom-slot{
   border:1px dashed var(--line);
   border-radius:14px;
