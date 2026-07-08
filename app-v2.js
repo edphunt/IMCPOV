@@ -156,6 +156,51 @@ const POSTS = [
 `,
   },
   {
+    id: "frank-dudley-turning-influence-into-profits",
+    title: "Frank Dudley on Turning Influence into Profits",
+    deck:
+      "Dudley argues that creator marketing is becoming a decision engine, where creators, commerce media, and measurable customer behavior converge.",
+    topic: "Creator Marketing",
+    format: "Essay",
+    author: "Frank Dudley",
+    date: "2026-07-08",
+    readMins: 6,
+    content: `
+<p>I recently spoke at Mastercard’s Global Marketing Innovation and Optimization Summit on a topic reshaping the industry: creator marketing and commerce media. The central idea is straightforward. Marketing is shifting from campaigns to continuous systems that influence behavior and drive measurable outcomes.</p>
+
+<h2>From Channels to Decision Engines</h2>
+<p>Marketers should no longer think of creator marketing as a channel. It is a decision engine. Consumers do not move through linear funnels. They navigate a dynamic network of choices where discovery, evaluation, and purchase happen simultaneously across platforms.</p>
+<p>Creators play a critical role in this system. They build trust, simplify complexity, and demonstrate real-world use. In doing so, they shape how decisions are made.</p>
+
+<h2>The Role of The Edge</h2>
+<p>In my upcoming book, <em>Creator Marketing and Commerce Media: How Creators Can Build Brands and Drive Sales</em> (Wiley, November), I introduce the concept of The Edge. The Edge is the distinct value a creator brings at a specific stage in the journey that helps a customer make progress on a job-to-be-done.</p>
+<p>Not all creators play the same role. Some surface problems, others simplify choices, and others trigger action. The key is aligning the right creator to the right moment, where their Edge can influence behavior.</p>
+
+<h2>A Better Model for Impact</h2>
+<p>Consider financial services. A finance creator explaining credit card benefits may drive consideration. A travel creator showing how that card works across an actual trip is what triggers action. That action leads to card usage, transactions, and sustained spend.</p>
+<p>This is the shift from awareness to behavior.</p>
+
+<h2>Where Brands Go Wrong</h2>
+<p>The most common mistake is optimizing for reach instead of outcomes. Brands treat creators like media placements rather than aligning them to specific roles across the customer journey, from acquisition to activation to ongoing usage.</p>
+
+<h2>Where to Go Next</h2>
+<p>For marketers looking to go deeper, the real opportunity lies at the intersection of creator marketing and commerce media. This is where content, data, and transactions connect, and where influence becomes measurable.</p>
+<p>Ultimately, growth comes from orchestrating three things:</p>
+<ul>
+  <li>Who influences decisions</li>
+  <li>How those decisions are activated</li>
+  <li>How behavior is sustained over time</li>
+</ul>
+
+<p>For a deeper look at these ideas, watch this short conversation with CreatorIQ on how creator marketing is evolving into a system for driving measurable business outcomes:</p>
+<p><a class="inline-link" href="https://www.youtube.com/watch?v=r0PWFQLY3eY" target="_blank" rel="noopener">Watch the conversation with CreatorIQ</a></p>
+
+<h2>About the Book</h2>
+<p><em>Creator Marketing and Commerce Media: How Creators Can Build Brands and Drive Sales</em> will be published in November 2026 by Wiley.</p>
+<p><em>Creator Marketing and Commerce Media: How Creators Can Build Brands and Drive Sales</em> explores the powerful intersection of creator-led content, digital platforms, and commerce across a truly global landscape. Drawing on international case studies and strategic frameworks, Frank Dudley shows how brands - and creators themselves - can harness the creator economy to drive measurable growth, deepen audience engagement, and build enduring brand equity. Designed for modern marketers, this book provides a forward-looking roadmap for integrating creator partnerships, commerce media, and data-driven storytelling into a cohesive, globally informed marketing strategy.</p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
