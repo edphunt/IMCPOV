@@ -81,6 +81,30 @@ const POSTS = [
 `,
   },
   {
+    id: "ai-needs-roi-reality-check",
+    title: "AI Needs an ROI Reality Check",
+    deck:
+      "AI adoption is widespread, but marketing leaders need to move beyond pilots and productivity gains toward measurement, governance, and business outcomes.",
+    topic: "AI Strategy",
+    format: "Essay",
+    author: "IMC POV Editorial Team",
+    date: "2026-07-08",
+    readMins: 4,
+    content: `
+<p>For the past year, many organizations have treated AI like a race: Who is using it? Who has adopted it fastest? Who has the most pilots underway? But the more useful question is no longer whether companies are experimenting with AI. They are. The question is whether those experiments are changing anything that matters.</p>
+
+<p>Kelly Cutler’s research from the Medill Spiegel Research Center points to a problem many marketing and communications leaders are now facing. AI adoption is widespread, but measurement has not caught up. Organizations can often point to productivity gains: faster drafts, quicker summaries, automated reports, more efficient workflows. Those benefits are real. But they are also incomplete.</p>
+
+<p>If AI only saves time, it remains a tool. If it improves decisions, strengthens customer understanding, increases revenue, reduces risk, or changes how teams create value, then it becomes a strategy.</p>
+
+<p>That distinction matters. Too many organizations are still in the novelty stage of AI. They are testing tools, encouraging experimentation, and celebrating efficiency. The next stage is harder. It requires integration, governance, measurement, and a clearer connection to business outcomes.</p>
+
+<p>Marketing and communications teams should be especially careful here. AI can make content easier to produce, but more content is not automatically better communication. The real test is whether AI helps organizations understand audiences more deeply, act more intelligently, and measure impact more honestly.</p>
+
+<p>The AI conversation needs to mature. The future will not belong to organizations that experimented first. It will belong to those that learned how to measure what AI is actually worth.</p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
