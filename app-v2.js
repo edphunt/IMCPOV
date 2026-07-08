@@ -14,6 +14,27 @@ const POSTS = [
   //   content: `<p>Optional full post HTML for detail view.</p>`,
   // },
   {
+    id: "ed-malthouse-book-of-why",
+    title: "Ed Malthouse on The Book of Why",
+    deck:
+      "Malthouse reflects on why marketers need causal thinking, not just better prediction, to understand what works and design stronger strategies.",
+    topic: "Marketing Analytics",
+    format: "Book Reflection",
+    author: "Ed Malthouse",
+    date: "2026-07-08",
+    readMins: 4,
+    content: `
+<p><strong>How did <em>The Book of Why</em> by Dana Mackenzie and Judea Pearl change the way you think or work?</strong></p>
+<p>It reinforced for me that it’s not enough to know what works in marketing. You have to understand why it works. When we see that a campaign increases conversion or retention, the real value comes from unpacking the mechanism behind that effect. Is it building trust? Increasing relevance? Reducing uncertainty? Once you understand the “why,” you can design entirely new strategies that target the same underlying driver, rather than just repeating past tactics.</p>
+
+<p><strong>Which chapter stood out most to you, and what made it memorable?</strong></p>
+<p>The chapters that distinguish between correlation and causation stood out most. Pearl shows that simply observing patterns in data isn’t enough. We need a structured way to think about cause-and-effect relationships. What made it memorable is how he uses simple, intuitive examples to show how easy it is to misinterpret data without a causal framework and how much more powerful your decisions become when you get the causal story right.</p>
+
+<p><strong>Why does this book matter for other researchers or practitioners today?</strong></p>
+<p>We’re surrounded by data and increasingly sophisticated analytics, but more data doesn’t automatically lead to better decisions. This book provides a way to think clearly about cause and effect, which is essential for evaluating marketing performance and making strategic choices. For practitioners, it’s a reminder that the goal isn’t just prediction; it’s understanding. And that understanding is what allows you to innovate, adapt, and build more effective marketing programs over time.</p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
