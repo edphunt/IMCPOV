@@ -201,6 +201,41 @@ const POSTS = [
 `,
   },
   {
+    id: "when-cultural-marketing-misses-the-meaning",
+    title: "When Cultural Marketing Misses the Meaning",
+    deck:
+      "Danielle Bell explains why brands need alignment between brand values, consumer identity, and cultural meaning when showing up for cultural celebrations.",
+    topic: "Cultural Marketing",
+    format: "Essay",
+    author: "Danielle Bell",
+    date: "2026-07-08",
+    readMins: 3,
+    content: `
+<p>Danielle Bell was an in-studio <a class="inline-link" href="https://www.wbez.org/in-the-loop-with-sasha-ann-simons/2026/02/25/watching-the-baftas-while-black-were-running-out-of-cheeks-to-turn" target="_blank" rel="noopener">guest on WBEZ’s <em>In The Loop with Sasha-Ann Simons</em></a> for “Watching the BAFTAs While Black: We’re Running Out of Cheeks to Turn.”</p>
+
+<p>In recent years, brands have grown more thoughtful about how they show up during cultural moments and celebrations.</p>
+
+<p>There’s no shortage of advice. Articles, posts, books, and podcasts all urge marketers to involve the community being celebrated, move beyond logos and promotions, and understand the celebration's history. Yet, consumers still view some campaigns as performative and driven by business targets.</p>
+
+<p>In 2022, Walmart faced criticism for an ice cream celebrating Juneteenth. Critics blasted the retailer for profiting from a painful chapter of Black American history: the end of slavery. Notably, others, from Ben &amp; Jerry’s to local retailers, sold products commemorating Juneteenth without incident.</p>
+
+<p>So where did Walmart go wrong? Black people eat ice cream. Black people shop at Walmart, and Black people celebrate Juneteenth.</p>
+
+<p>When a brand participates in a cultural celebration, three things must align: the brand’s values, consumer identity, and the cultural celebration itself. Their intersection is where meaningful participation lives, and misalignment is a setup for backlash.</p>
+
+<p>Alongside the pillars, three questions move a brand toward this center:</p>
+<ul>
+  <li><strong>The Cultural Celebration:</strong> What do you understand about why this celebration matters to the people who celebrate it?</li>
+  <li><strong>Consumer Identity:</strong> How would the community recognize itself in the brand the rest of the year?</li>
+  <li><strong>Brand Values:</strong> If your role in the celebration were criticized tomorrow, what would change?</li>
+</ul>
+
+<p>Under pressure, Walmart pulled the ice cream, proving it wasn’t prepared to stand by its action. But for Black consumers, a group whose trust Walmart was already working to earn and retain, it was never about the ice cream. It was that Walmart seemed to misunderstand why the day mattered to them in the first place.</p>
+
+<p><strong>Source:</strong> <a class="inline-link" href="https://www.pewresearch.org/short-reads/2025/05/29/about-two-thirds-of-lgbtq-adults-have-participated-in-pride-month-events/" target="_blank" rel="noopener">Pew Research Center</a></p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
