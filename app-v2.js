@@ -129,6 +129,33 @@ const POSTS = [
 `,
   },
   {
+    id: "experiential-learning-career-readiness",
+    title: "Beyond Theory: How Experiential Learning Shapes Career Readiness",
+    deck:
+      "Katherine Lelek explains how experiential learning helps students build confidence, professional judgment, resilience, and career-ready skills.",
+    topic: "Career Readiness",
+    format: "Essay",
+    author: "Katherine Lelek, Director of Career Management, Medill School",
+    date: "2026-07-08",
+    readMins: 6,
+    content: `
+<p>Experiential learning is where career development moves from theory to practice. Students can learn about networking, leadership, strategic communication, or teamwork in the classroom, but there is no substitute for actually doing the work. Experiential learning gives students the opportunity to apply concepts in authentic settings, reflect on those experiences, and adapt in real time. <a class="inline-link" href="https://learningfromexperience.com/videos/8-things-to-know-about-the-experiential-learning-cycle/" target="_blank" rel="noopener">The Kolb Experiential Learning Cycle</a> is a widely recognized and used concept in Experiential Learning Theory (ELT). The simplicity and usefulness of the four-stage cycle of experiencing, reflecting, thinking and acting.</p>
+
+<p>After years of coaching students and leaders in their career development and teaching experiential learning courses, I see firsthand how quickly people grow when they are asked to solve real problems. Whether learners are working with clients, completing internships, participating in consulting projects, or engaging in the workplace in other ways, these experiences help them move beyond understanding concepts to developing confidence and professional judgment.</p>
+
+<p>At Northwestern, I see this every day. Students often discover new strengths, clarify career interests, and build resilience through experiential learning. They learn how to navigate ambiguity, collaborate across differences, respond to feedback, and communicate effectively. These are skills that employers consistently identify as critical for career success. Research, for example from the National Association of Colleges and Employers (NACE), also suggests that participants in experiential learning <a class="inline-link" href="https://www.naceweb.org/talent-acquisition/trends-and-predictions/impacts-of-experiential-learning-on-the-gen-z-early-career-experience" target="_blank" rel="noopener">report stronger professional networks, greater career satisfaction, and better early career outcomes</a>.</p>
+
+<p>One of the biggest challenges in implementing experiential learning is the misconception that a successful experience is one students enjoy at all times. In reality, some of the most meaningful learning occurs when students encounter ambiguity, receive difficult feedback, or struggle through a challenge. Discomfort and uncertainty are often essential parts of the learning process. The goal is not to ensure every experience is easy or enjoyable, but to create opportunities for reflection, growth, and skill development. Another challenge is that high-quality experiential learning requires significant time, intentional design, and strong support from faculty, staff, and external partners. Meaningful experiences do not happen by accident. They require clear learning outcomes, ongoing coaching, and opportunities for students to connect their experiences to broader academic and professional goals.</p>
+
+<p>The strongest experiential learning experiences challenge learners to address real-world problems while providing meaningful coaching and opportunities for reflection. For Northwestern students, and particularly those in the Medill IMC graduate program, experiential learning is especially powerful because they can immediately apply new ideas to projects, organizations, communities, and beyond. That continuous cycle of learning, practice, reflection, and application is where some of the most meaningful growth occurs.</p>
+
+<p>For readers interested in learning more, I recommend exploring <a class="inline-link" href="https://naceweb.org/research/reports/the-integration-of-career-readiness-into-experiential-learning-and-high-impact-practices" target="_blank" rel="noopener">NACE's recent report</a> on the integration of career readiness into experiential learning and high-impact practices.</p>
+
+<h2>About Katherine Lelek</h2>
+<p>Katherine Lelek is a higher education leader and career development professional who is passionate about helping learners and institutions build meaningful connections between learning and career success. Drawing on her experience in career services, teaching, and doctoral studies in learning and inquiry in practice, she is particularly interested in experiential learning, career ecosystems, and the shared responsibility model for student career development. You can connect with her through <a class="inline-link" href="https://www.linkedin.com/in/katherinelelek/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
