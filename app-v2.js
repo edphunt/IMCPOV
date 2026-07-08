@@ -105,6 +105,30 @@ const POSTS = [
 `,
   },
   {
+    id: "is-marketing-measurement-becoming-too-easy",
+    title: "Is Marketing Measurement Becoming Too Easy?",
+    deck:
+      "Julian Runge’s experiment suggests generative AI and open-source modeling tools are lowering the barrier to sophisticated marketing measurement.",
+    topic: "Marketing Analytics",
+    format: "Research Insight",
+    author: "IMC POV Editorial Team",
+    date: "2026-07-08",
+    readMins: 4,
+    content: `
+<p>Marketing measurement has never been simple. For years, media and marketing mix modeling required specialized training, expensive tools, careful data preparation, and a lot of time. That difficulty created a practical barrier: many organizations wanted better measurement, but few had the people or systems to do it well.</p>
+
+<p>That barrier may be starting to fall.</p>
+
+<p>Julian Runge’s recent experiment points to a real shift. By combining open-source marketing analytics tools with generative AI, he was able to produce marketing mix modeling results in a fraction of the time it would normally take a skilled marketing scientist. Tools like Robyn, Meridian, and PyMC-Marketing are making sophisticated modeling more accessible. Generative AI then lowers the activation cost by helping users load data, make assumptions, run models, and explain results.</p>
+
+<p>That does not mean marketing measurement is “solved.” Models still depend on data quality, business context, assumptions, and judgment. A technically correct model can still answer the wrong question. Institutional knowledge still matters. So does knowing when not to trust the output.</p>
+
+<p>But the center of gravity is changing. The scarce skill may no longer be running the model. It may be knowing what to ask, what assumptions are reasonable, how to interpret uncertainty, and how to connect measurement to decisions.</p>
+
+<p>For marketers, this is exciting and uncomfortable. Better tools can democratize measurement, but they can also create false confidence. The future of marketing analytics will not be expert versus AI. It will be experts using AI to move faster, ask better questions, and spend less time fighting the machinery.</p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
