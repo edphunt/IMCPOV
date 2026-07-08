@@ -61,6 +61,26 @@ const POSTS = [
 `,
   },
   {
+    id: "what-cuteness-can-teach-marketers",
+    title: "What Cuteness Can Teach Marketers",
+    deck:
+      "Research from Carolyn Wells Keller and Chethana Achar shows that cute design can signal values, shape audience response, and become part of marketing strategy.",
+    topic: "Consumer Psychology",
+    format: "Research Insight",
+    author: "IMC POV Editorial Team",
+    date: "2026-07-08",
+    readMins: 3,
+    content: `
+<p>Cuteness is easy to dismiss. It can seem unserious or childish. But cute design is everywhere: keychains, mugs, stickers, plush toys, phone cases, mascots, packaging, and social media content. When a design language shows up this often, it is probably doing more than making people smile.</p>
+
+<p>Carolyn Wells Keller and Chethana Achar’s research shows that “cuteness” works differently depending on the audience and the product. Their studies find that political conservatives are more likely than liberals to prefer baby-like cute design: round shapes, large eyes, soft features, and other cues associated with infants. The reason is that baby-like cuteness signals innocence, purity, and wholesomeness, values that tend to matter more to conservative consumers.</p>
+
+<p>The broader lesson is that design choices carry values. Aesthetic decisions are not neutral wrappers placed around a product after the real strategy is done. They are part of the strategy. Marketers should ask not only whether a design gets attention, but what it signals, who it resonates with, and whether it fits the product category.</p>
+
+<p>Cute can work. But only when it means the right thing to the right audience.</p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
