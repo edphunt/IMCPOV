@@ -236,6 +236,28 @@ const POSTS = [
 `,
   },
   {
+    id: "technology-expands-marketers-create-meaning",
+    title: "Technology Expands What’s Possible. Marketers Determine What’s Meaningful.",
+    deck:
+      "Technology can create new capabilities, but marketers turn those possibilities into meaningful experiences, behaviors, and markets.",
+    topic: "Marketing Innovation",
+    format: "Essay",
+    author: "IMC POV Editorial Team",
+    date: "2026-07-08",
+    readMins: 5,
+    content: `
+<p>Every successful product or service begins with understanding people and what they need. While technology continually expands what organizations are capable of creating, it doesn’t determine what should be built. That distinction is the realm of marketers, who understand market and customer needs, anticipate shifts in behavior, and identify opportunities to create value. The future of marketing isn’t about incorporating every new technology, it’s about understanding how to connect technological possibilities with meaningful human experiences.</p>
+
+<p>We’ve lived through past examples where new technology alone isn’t enough to create a market. In 1993, Apple introduced the Newton, a handheld digital assistant featuring handwriting recognition, calendar and contact management, capabilities that were groundbreaking in an analog world. Yet the product continually struggled throughout its five-year lifespan because technological possibility and customer need were not yet aligned. Technology made the Newton possible, but it couldn’t, by itself, create a market.</p>
+
+<p>More than a decade later, Netflix demonstrated how aligning technology with customer insight could transform human experience. High-speed internet, cloud infrastructure, and digital delivery already existed, but they were disparate technologies until Netflix saw how they could make entertainment instantly accessible and personalized. Pairing that experience with the right technology and an innovative pricing strategy, Netflix fundamentally changed how people consumed media. Technology expanded what was possible. Customer insight transformed those possibilities into a new market.</p>
+
+<p>Marketers are more than campaign managers. They identify unmet needs, connect disciplines, and grow markets. But they can’t do it alone. The most transformative innovations emerge when marketers collaborate across disciplines, with engineering, with design, with finance, and other fields, bringing diverse perspectives together around a shared understanding of customer need. That belief inspired me to develop a collaboration among Medill IMC, Northwestern’s Office of Innovation and Emerging Technologies, Sony, and the Block Museum of Art. We introduced students to three-dimensional photogrammetry, which is the process of creating highly detailed digital models by combining hundreds of photos into an interactive 3D representation. While the technology itself is spectacular, our objective extended beyond teaching students how to create digital assets. We wanted them to go beyond the status quo and ask bigger questions, like “How can immersive experiences deepen customer engagement?”</p>
+
+<p>Technology is always evolving. AI will certainly become more pervasive. The barrier between reality and augmented reality will soften, and new tools we can’t even fathom will certainly emerge. But the role of the marketer will hold constant. It will always be to understand people, anticipate their needs, and collaborate across disciplines to transform technological possibility into meaningful human experiences. At Medill, our goal is to develop marketers who shape the future not just by adopting new technologies, but also by recognizing how those technologies can create new experiences, new behaviors, and ultimately, new markets.</p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
