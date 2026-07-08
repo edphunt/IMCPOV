@@ -35,6 +35,32 @@ const POSTS = [
 `,
   },
   {
+    id: "jacqueline-babb-world-cup-brands",
+    title: "Jacqueline Babb on What Brands Should Learn from the World Cup",
+    deck:
+      "Babb explains why the World Cup gives brands a rare chance to connect with national pride, shared belonging, and the human emotions that make sports powerful.",
+    topic: "Sports Marketing",
+    format: "Q&A",
+    author: "Jacqueline Babb",
+    date: "2026-07-08",
+    readMins: 5,
+    content: `
+<p><strong>You were quoted in the PR Daily article, “Three PR Trends from the Upcoming World Cup” saying, “Sports fans tend to have affinity for their home teams, allowing brands to align with national pride.” Tell us more about that.</strong></p>
+<p>Collective pride is a powerful force. The 2026 World Cup coincides with the semiquincentennial (250th anniversary) of the United States, offering brands a once in a generation opportunity to be a part of history. Today, the U.S. is playing Australia. Fans are wearing Nike jerseys at the game and at home to be a part of a shared community, creating a sense of belonging.</p>
+
+<p><strong>You recently attended Jordan’s historic first World Cup game. What can brands learn from the culture of the World Cup?</strong></p>
+<p>The world comes together for the World Cup in a way that we rarely see outside of sports. Humanity at its best is on display, as people come out to support athletes. In an era where data is paramount, it’s easy to become transactional with customers. The World Cup reminds us that humanity is at our core.</p>
+
+<p><strong>Did any brands stand out to you at the game you attended?</strong></p>
+<p>The Austria-Jordan game was held at Levi’s Stadium just outside of San Francisco. FIFA has a policy prohibiting non-sponsor stadium names. FIFA required Levi’s to cover their iconic logo on the stadium building. Levi’s took this as an opportunity to create buzz. They covered the logo with a white canvas cut to the exact proportions of the signs and then leaned into the redacted message across social media.</p>
+
+<p><strong>What mistakes do brands make when they try to attach themselves to major sports or cultural events?</strong></p>
+<p>Brands forget that fans watch sports to connect to the very human emotions of pride and belonging. While the World Cup sponsors garner a lot of impressions, equity is won by leveraging the emotion of the game.</p>
+
+<p><a class="inline-link" href="https://www.nytimes.com/video/the-athletic/100000010977435/why-is-fifa-covering-up-logos-in-stadiums.html?smid=url-share" target="_blank" rel="noopener">Watch: Why Is FIFA Covering Up Logos in Stadiums?</a></p>
+`,
+  },
+  {
     id: "genai-transforming-modern-marketing",
     title: "How Generative AI Is Transforming Modern Marketing",
     deck:
