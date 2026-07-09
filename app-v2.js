@@ -14,6 +14,29 @@ const POSTS = [
   //   content: `<p>Optional full post HTML for detail view.</p>`,
   // },
   {
+    id: "tiktok-messenger-shapes-science-engagement",
+    title: "On TikTok, Who Delivers the Message Shapes How It Lands",
+    deck:
+      "Chao Yu’s research shows that visible identity and communication style shape how audiences engage with science content on TikTok.",
+    topic: "Social Media",
+    format: "Research Insight",
+    author: "Chao Yu",
+    date: "2026-07-08",
+    readMins: 4,
+    content: `
+<p>On TikTok, who is on screen and how they speak shape how audiences respond to science. In a recent study, my co-authors Yuhan Li and Hang Lu (University of Michigan) and I analyzed 10,800 science videos posted in the United States and their 448,002 comments, testing how a creator’s visible identity and communication style influence public engagement.</p>
+
+<p>Videos hosted by women, and by Black and Asian creators, generally drew fewer views, likes, and comments than those hosted by men and White creators, even after we accounted for audience size and posting history. Among women of color, Latina creators faced the most consistent disadvantage, receiving lower engagement on every metric and more toxic comments. We think fast, low-effort scrolling pushes audiences toward identity-based shortcuts, a tendency that recommendation systems can then amplify.</p>
+
+<p>Style mattered too, often in ways that fit audience expectations. Audiences favored an affective, warm tone from women and an aggressive, authoritative tone from men. Aggressive language raised engagement overall, yet it was also the only style that drew more toxic comments, a tradeoff worth weighing. One style helped broadly: an informal, conversational tone lifted engagement across the racial groups we examined.</p>
+
+<p>For marketers and communicators, the lesson is practical. The messenger and the manner are not neutral. Consider who fronts your content, weigh how tone will read coming from that person, and treat plain, accessible language as a dependable way to widen reach. Recognizing these hidden biases is a first step toward reaching audiences more fairly and effectively.</p>
+
+<h2>About the Research</h2>
+<p>Chao Yu (Ph.D., Cornell University) is an Assistant Professor in the Department of Integrated Marketing Communications at the Medill School at Northwestern University. His research examines the social impacts of new media, using large-scale data to uncover hidden patterns on digital platforms that can create inequality or bias. The study described here, “Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok” appeared in <em>Information, Communication and Society</em> (2026).</p>
+`,
+  },
+  {
     id: "ed-malthouse-book-of-why",
     title: "Ed Malthouse on The Book of Why",
     deck:
