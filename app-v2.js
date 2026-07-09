@@ -743,8 +743,8 @@ const PODCASTS = [
     author: "Medill Executive Education Team",
     date: "2026-02-01",
     readMins: 2,
-    thumbnail: "./assets/images/imcpovpod2.png",
-    detailThumbnail: "./assets/images/imcpovpod2.png",
+    thumbnail: "https://img.youtube.com/vi/3_xlj4xF9gs/maxresdefault.jpg",
+    detailThumbnail: "https://img.youtube.com/vi/3_xlj4xF9gs/maxresdefault.jpg",
     content: `
 <div style="position:relative;padding-top:56.25%;border-radius:12px;overflow:hidden;">
   <iframe
