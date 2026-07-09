@@ -871,14 +871,129 @@ function setActiveChip(topic) {
   $$(".chip").forEach((c) => c.classList.toggle("active", c.dataset.topic === topic));
 }
 
+function stringHash(str) {
+  return String(str).split("").reduce((hash, char) => {
+    return ((hash << 5) - hash + char.charCodeAt(0)) | 0;
+  }, 0);
+}
+
+function getArticlePalette(post) {
+  const palettes = [
+    ["#4E2A84", "#836EAA", "#D8CFE8", "#111113"],
+    ["#4E2A84", "#006A71", "#C9E7E5", "#111113"],
+    ["#4E2A84", "#708238", "#E3E8CF", "#111113"],
+    ["#4E2A84", "#B6ACD1", "#EDE8F5", "#111113"],
+    ["#4E2A84", "#5B6F95", "#DDE5F1", "#111113"],
+  ];
+  const idx = Math.abs(stringHash(`${post.topic}-${post.title}`)) % palettes.length;
+  return palettes[idx];
+}
+
+function getArticleMotif(post) {
+  const text = `${post.topic} ${post.title}`.toLowerCase();
+  if (text.includes("ai") || text.includes("search") || text.includes("technology")) return "signals";
+  if (text.includes("analytics") || text.includes("measurement") || text.includes("data")) return "chart";
+  if (text.includes("consumer") || text.includes("culture") || text.includes("brand")) return "layers";
+  if (text.includes("career") || text.includes("learning")) return "path";
+  return "field";
+}
+
+function brandedArticleArtDataUri(post) {
+  const [purple, accent, pale, ink] = getArticlePalette(post);
+  const motif = getArticleMotif(post);
+  const initials = String(post.topic || "IMC")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((word) => word[0])
+    .join("")
+    .toUpperCase();
+  const seed = Math.abs(stringHash(post.id || post.title));
+  const offset = seed % 90;
+
+  const motifs = {
+    signals: `
+      <g fill="none" stroke="${accent}" stroke-width="2" opacity=".72">
+        <path d="M116 220 C218 112, 366 112, 468 220" />
+        <path d="M516 220 C618 112, 766 112, 868 220" />
+        <path d="M242 190 L354 118 L466 190 L354 262 Z" fill="${pale}" opacity=".58" />
+        <path d="M508 188 L620 116 L732 188 L620 260 Z" fill="${pale}" opacity=".46" />
+      </g>
+      <g fill="${accent}" opacity=".66">
+        <circle cx="168" cy="132" r="18" />
+        <circle cx="802" cy="136" r="14" />
+        <circle cx="306" cy="304" r="9" />
+        <circle cx="680" cy="300" r="11" />
+      </g>
+    `,
+    chart: `
+      <g opacity=".72">
+        <rect x="142" y="214" width="72" height="126" fill="${pale}" />
+        <rect x="250" y="164" width="72" height="176" fill="${accent}" opacity=".72" />
+        <rect x="358" y="104" width="72" height="236" fill="${pale}" />
+        <path d="M128 292 C258 214, 370 242, 500 138 S718 112, 872 206" fill="none" stroke="${accent}" stroke-width="5" />
+        <circle cx="500" cy="138" r="14" fill="${accent}" />
+        <circle cx="872" cy="206" r="14" fill="${accent}" />
+      </g>
+    `,
+    layers: `
+      <g opacity=".78">
+        <rect x="154" y="110" width="238" height="160" rx="4" fill="${pale}" transform="rotate(-7 273 190)" />
+        <rect x="330" y="150" width="238" height="160" rx="4" fill="${accent}" opacity=".68" transform="rotate(7 449 230)" />
+        <rect x="506" y="96" width="238" height="160" rx="4" fill="${pale}" opacity=".76" transform="rotate(-4 625 176)" />
+        <path d="M172 328 H812" stroke="${accent}" stroke-width="3" stroke-dasharray="8 13" />
+      </g>
+    `,
+    path: `
+      <g fill="none" stroke="${accent}" stroke-width="4" opacity=".76">
+        <path d="M138 300 C250 120, 388 388, 510 204 S732 126, 850 284" />
+        <path d="M176 154 H342 M642 334 H826" stroke-dasharray="11 12" />
+      </g>
+      <g fill="${pale}">
+        <circle cx="138" cy="300" r="28" />
+        <circle cx="510" cy="204" r="34" />
+        <circle cx="850" cy="284" r="28" />
+      </g>
+    `,
+    field: `
+      <g opacity=".78">
+        <path d="M112 272 C218 202, 286 202, 392 272 S566 342, 672 272 S780 202, 888 272" fill="none" stroke="${accent}" stroke-width="4" />
+        <path d="M172 146 H812 M172 194 H812 M172 242 H812 M172 290 H812" stroke="${pale}" stroke-width="2" />
+        <circle cx="286" cy="204" r="42" fill="${pale}" />
+        <circle cx="690" cy="242" r="56" fill="${accent}" opacity=".48" />
+      </g>
+    `,
+  };
+
+  const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420">
+  <rect width="1000" height="420" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1000" height="420" fill="${purple}" opacity=".06"/>
+  <g opacity=".22" stroke="${purple}" stroke-width="1">
+    ${Array.from({ length: 18 }, (_, i) => `<path d="M${i * 62 - offset} 0 V420"/>`).join("")}
+    ${Array.from({ length: 8 }, (_, i) => `<path d="M0 ${i * 62 + 24} H1000"/>`).join("")}
+  </g>
+  <circle cx="880" cy="78" r="104" fill="${pale}" opacity=".62"/>
+  <circle cx="112" cy="350" r="132" fill="${accent}" opacity=".12"/>
+  ${motifs[motif]}
+  <g transform="translate(56 54)">
+    <rect width="74" height="74" rx="5" fill="${purple}"/>
+    <text x="37" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700" fill="#FFFFFF">N</text>
+  </g>
+  <g transform="translate(792 306)">
+    <text x="0" y="0" font-family="Libre Franklin, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="${purple}">IMC POV</text>
+    <text x="0" y="32" font-family="Libre Franklin, Arial, sans-serif" font-size="42" font-weight="700" fill="${ink}" opacity=".82">${escapeHtml(initials)}</text>
+  </g>
+</svg>`;
+
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
 function getCardCoverImage(post) {
-  return post.thumbnail || (post.format === "Framework"
-    ? "./assets/images/imcpovframework.png"
-    : post.format === "Research Article"
-      ? "./assets/images/imcpovarticle2.png"
-      : post.format === "Podcast"
-        ? "./assets/images/imcpovpod2.png"
-        : "./assets/images/trust-abstract-nu.svg");
+  if (post.heroImage) return post.heroImage;
+  if (post.format === "Podcast") return post.thumbnail || "./assets/images/imcpovpod2.png";
+  if (post.format === "Webinar") return post.thumbnail || brandedArticleArtDataUri(post);
+  return brandedArticleArtDataUri(post);
 }
 
 function postCard(post) {
@@ -1226,12 +1341,11 @@ function renderPostDetail(id) {
       : "insights";
 
   const detailCoverClass = post.format === "Podcast" ? "detail-cover detail-cover-half" : "detail-cover";
-  const hideDetailCover = post.id === "newsroom-signals";
-  const detailCoverSrc = hideDetailCover
-    ? ""
-    : post.format === "Podcast"
+  const detailCoverSrc = post.format === "Podcast"
     ? (post.detailThumbnail || "./assets/images/imcpovpod2.png")
-    : post.thumbnail;
+    : post.format === "Webinar"
+      ? getCardCoverImage(post)
+      : getCardCoverImage(post);
   const detailCover = detailCoverSrc
     ? `<p><img class="${detailCoverClass}" src="${escapeHtml(detailCoverSrc)}" alt="${escapeHtml(post.title)} thumbnail" /></p>`
     : "";
