@@ -933,9 +933,7 @@ select{ min-width: 190px; }
 
 .detail-cover{
   width:100%;
-  aspect-ratio:16 / 6.7;
-  object-fit:cover;
-  object-position:center;
+  height:auto;
   border-radius:12px;
   border:1px solid rgba(78,42,132,.16);
   display:block;
@@ -944,7 +942,6 @@ select{ min-width: 190px; }
 .detail-cover-half{
   width:100%;
   height:auto;
-  aspect-ratio:auto;
   object-fit:contain;
   object-position:center;
 }
