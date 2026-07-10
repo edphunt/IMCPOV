@@ -23,6 +23,7 @@ const POSTS = [
     author: "Chao Yu",
     date: "2026-07-08",
     readMins: 4,
+    thumbnail: "./assets/images/article-tiktok-messenger.svg",
     content: `
 <p>On TikTok, who is on screen and how they speak shape how audiences respond to science. In a recent study, my co-authors Yuhan Li and Hang Lu (University of Michigan) and I analyzed 10,800 science videos posted in the United States and their 448,002 comments, testing how a creator’s visible identity and communication style influence public engagement.</p>
 
