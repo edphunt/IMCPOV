@@ -162,6 +162,7 @@ const POSTS = [
     author: "Katherine Lelek, Director of Career Management, Medill School",
     date: "2026-07-08",
     readMins: 6,
+    thumbnail: "./assets/images/article-experiential-learning.svg?v=20260713-1",
     content: `
 <p>Experiential learning is where career development moves from theory to practice. Students can learn about networking, leadership, strategic communication, or teamwork in the classroom, but there is no substitute for actually doing the work. Experiential learning gives students the opportunity to apply concepts in authentic settings, reflect on those experiences, and adapt in real time. <a class="inline-link" href="https://learningfromexperience.com/videos/8-things-to-know-about-the-experiential-learning-cycle/" target="_blank" rel="noopener">The Kolb Experiential Learning Cycle</a> is a widely recognized and used concept in Experiential Learning Theory (ELT). The simplicity and usefulness of the four-stage cycle of experiencing, reflecting, thinking and acting.</p>
 
