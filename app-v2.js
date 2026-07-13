@@ -114,6 +114,7 @@ const POSTS = [
     author: "IMC POV Editorial Team",
     date: "2026-07-08",
     readMins: 4,
+    thumbnail: "./assets/images/article-ai-roi-reality-check.svg?v=20260713-1",
     content: `
 <p>For the past year, many organizations have treated AI like a race: Who is using it? Who has adopted it fastest? Who has the most pilots underway? But the more useful question is no longer whether companies are experimenting with AI. They are. The question is whether those experiments are changing anything that matters.</p>
 
