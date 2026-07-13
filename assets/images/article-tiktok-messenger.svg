@@ -1,73 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Editorial illustration for TikTok messenger and science engagement</title>
-  <desc id="desc">A Northwestern-branded abstract composition with a phone frame, comment signals, and audience response paths.</desc>
-  <defs>
-    <linearGradient id="purpleField" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#4E2A84"/>
-      <stop offset="1" stop-color="#2C1452"/>
-    </linearGradient>
-    <linearGradient id="softLavender" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#E7E0F3"/>
-      <stop offset="1" stop-color="#B6ACD1"/>
-    </linearGradient>
-    <pattern id="dotGrid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <circle cx="4" cy="4" r="2.1" fill="#4E2A84" opacity=".16"/>
-    </pattern>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#111113" flood-opacity=".14"/>
-    </filter>
-  </defs>
-
-  <rect width="1600" height="900" fill="#FFFFFF"/>
-  <rect width="1600" height="900" fill="url(#dotGrid)"/>
-  <path d="M0 0H462L216 900H0Z" fill="url(#purpleField)"/>
-  <path d="M1340 0H1600V900H1148Z" fill="#8F7CB5" opacity=".92"/>
-  <path d="M0 76L548 900H472L0 188Z" fill="#EDE8F5"/>
-  <path d="M1600 88L1130 900H1054L1600 0Z" fill="#EDE8F5"/>
-
-  <g transform="translate(520 104)" filter="url(#softShadow)">
-    <rect x="0" y="0" width="508" height="690" rx="42" fill="#111113"/>
-    <rect x="28" y="64" width="452" height="566" rx="24" fill="#F8F7FB"/>
-    <rect x="204" y="26" width="100" height="12" rx="6" fill="#FFFFFF" opacity=".42"/>
-    <circle cx="254" cy="348" r="118" fill="#4E2A84" opacity=".12"/>
-    <circle cx="254" cy="316" r="70" fill="#4E2A84"/>
-    <path d="M128 518c18-98 77-148 126-148s108 50 126 148" fill="#4E2A84"/>
-    <path d="M156 544h196" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" opacity=".88"/>
-    <path d="M178 578h152" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" opacity=".72"/>
-  </g>
-
-  <g fill="none" stroke="#4E2A84" stroke-width="5" opacity=".62">
-    <path d="M328 242C436 148 530 144 650 226"/>
-    <path d="M958 212c162-78 304-46 412 90"/>
-    <path d="M384 664c118 76 250 78 392 6"/>
-    <path d="M926 650c150 54 288 32 414-70"/>
-  </g>
-
-  <g>
-    <circle cx="366" cy="228" r="26" fill="#B6ACD1"/>
-    <circle cx="448" cy="170" r="18" fill="#4E2A84"/>
-    <circle cx="1248" cy="244" r="28" fill="#D8CFE8"/>
-    <circle cx="1338" cy="320" r="17" fill="#4E2A84"/>
-    <circle cx="402" cy="682" r="20" fill="#4E2A84"/>
-    <circle cx="1204" cy="656" r="23" fill="#B6ACD1"/>
-  </g>
-
-  <g transform="translate(108 610)">
-    <rect x="0" y="0" width="304" height="186" rx="4" fill="#4E2A84"/>
-    <text x="38" y="74" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">Visible Identity</text>
-    <text x="38" y="126" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25" fill="#FFFFFF" opacity=".9">shapes engagement</text>
-  </g>
-
-  <g transform="translate(1120 272)">
-    <text x="0" y="0" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF">WHO</text>
-    <text x="0" y="78" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF">DELIVERS</text>
-    <text x="0" y="156" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF">THE MESSAGE</text>
-  </g>
-
-  <g transform="translate(108 86)">
-    <rect width="72" height="72" rx="5" fill="#4E2A84"/>
-    <text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
-    <text x="96" y="29" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5" fill="#4E2A84">IMC POV</text>
-    <text x="96" y="60" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18" fill="#111113" opacity=".72">Research Insight</text>
-  </g>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="900" fill="#F5F5F5"/>
+<g clip-path="url(#clip0_1_2)">
+<path d="M1600 0H0V900H1600V0Z" fill="white"/>
+<path d="M0 0H462L216 900H0V0Z" fill="url(#paint0_linear_1_2)"/>
+<path opacity="0.92" d="M1340 0H1600V900H1148L1340 0Z" fill="#8F7CB5"/>
+<path d="M0 76L548 900H472L0 188V76Z" fill="#EDE8F5"/>
+<path d="M1600 88L1130 900H1054L1600 0V88Z" fill="#EDE8F5"/>
+<path d="M986 104H562C538.804 104 520 122.804 520 146V752C520 775.196 538.804 794 562 794H986C1009.2 794 1028 775.196 1028 752V146C1028 122.804 1009.2 104 986 104Z" fill="#111113"/>
+<path d="M976 168H572C558.745 168 548 178.745 548 192V710C548 723.255 558.745 734 572 734H976C989.255 734 1000 723.255 1000 710V192C1000 178.745 989.255 168 976 168Z" fill="#F8F7FB"/>
+<path opacity="0.42" d="M818 130H730C726.686 130 724 132.686 724 136C724 139.314 726.686 142 730 142H818C821.314 142 824 139.314 824 136C824 132.686 821.314 130 818 130Z" fill="white"/>
+<path opacity="0.12" d="M774 570C839.17 570 892 517.17 892 452C892 386.83 839.17 334 774 334C708.83 334 656 386.83 656 452C656 517.17 708.83 570 774 570Z" fill="#4E2A84"/>
+<path d="M774 490C812.66 490 844 458.66 844 420C844 381.34 812.66 350 774 350C735.34 350 704 381.34 704 420C704 458.66 735.34 490 774 490Z" fill="#4E2A84"/>
+<path d="M648 622C666 524 725 474 774 474C823 474 882 524 900 622" fill="#4E2A84"/>
+<g opacity="0.88">
+<path d="M676 648H872H676Z" fill="black"/>
+<path d="M676 648H872" stroke="white" stroke-width="14" stroke-linecap="round"/>
+</g>
+<g opacity="0.72">
+<path d="M698 682H850H698Z" fill="black"/>
+<path d="M698 682H850" stroke="white" stroke-width="14" stroke-linecap="round"/>
+</g>
+<path d="M402.28 122C417.898 122 430.56 110.359 430.56 96C430.56 81.6406 417.898 70 402.28 70C386.661 70 374 81.6406 374 96C374 110.359 386.661 122 402.28 122Z" fill="#B6ACD1"/>
+<path d="M491.47 56C502.283 56 511.048 47.9411 511.048 38C511.048 28.0589 502.283 20 491.47 20C480.657 20 471.892 28.0589 471.892 38C471.892 47.9411 480.657 56 491.47 56Z" fill="#4E2A84"/>
+<path d="M1361.62 140C1378.44 140 1392.07 127.464 1392.07 112C1392.07 96.536 1378.44 84 1361.62 84C1344.8 84 1331.16 96.536 1331.16 112C1331.16 127.464 1344.8 140 1361.62 140Z" fill="#D8CFE8"/>
+<path d="M1459.51 205C1469.72 205 1478 197.389 1478 188C1478 178.611 1469.72 171 1459.51 171C1449.3 171 1441.02 178.611 1441.02 188C1441.02 197.389 1449.3 205 1459.51 205Z" fill="#4E2A84"/>
+<path d="M441.436 570C453.451 570 463.19 561.046 463.19 550C463.19 538.954 453.451 530 441.436 530C429.422 530 419.683 538.954 419.683 550C419.683 561.046 429.422 570 441.436 570Z" fill="#4E2A84"/>
+<path d="M1313.76 547C1327.58 547 1338.78 536.703 1338.78 524C1338.78 511.297 1327.58 501 1313.76 501C1299.94 501 1288.74 511.297 1288.74 524C1288.74 536.703 1299.94 547 1313.76 547Z" fill="#B6ACD1"/>
+<path d="M175 86H113C110.239 86 108 88.2386 108 91V153C108 155.761 110.239 158 113 158H175C177.761 158 180 155.761 180 153V91C180 88.2386 177.761 86 175 86Z" fill="#4E2A84"/>
+<path d="M156.761 105.455V136H151.183L137.894 116.775H137.671V136H131.212V105.455H136.88L150.065 124.665H150.333V105.455H156.761Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="731.296" y2="375.398" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4E2A84"/>
+<stop offset="1" stop-color="#2C1452"/>
+</linearGradient>
+<clipPath id="clip0_1_2">
+<rect width="1600" height="900" fill="white"/>
+</clipPath>
+</defs>
 </svg>
