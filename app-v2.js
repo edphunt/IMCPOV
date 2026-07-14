@@ -516,7 +516,7 @@ const POSTS = [
   },
   {
     id: "newsroom-signals",
-    title: "Welcome to IMC POV, Northwestern Medill School's thought leadership hub",
+    title: "Welcome to IMC POV, Northwestern Medill School's Thought Leadership Hub",
     deck:
       "Jeffrey Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026.",
     topic: "Integrated Marketing Communications",
@@ -528,7 +528,7 @@ const POSTS = [
   },
   {
     id: "how-marketers-using-ai",
-    title: "How marketers are using AI",
+    title: "How Marketers Are Using AI",
     deck:
       "There's a lot of hype around artificial intelligence (AI). Medill has developed a framework for marketers to focus on three applications.",
     topic: "AI",
