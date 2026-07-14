@@ -515,18 +515,6 @@ const POSTS = [
 `,
   },
   {
-    id: "newsroom-signals",
-    title: "Welcome to IMC POV, Northwestern Medill School's Thought Leadership Hub",
-    deck:
-      "Jeffrey Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026.",
-    topic: "Integrated Marketing Communications",
-    format: "Note",
-    thumbnail: "./assets/images/imcpovfieldnote2.png",
-    author: "Jeffrey Treem",
-    date: "2026-01-07",
-    readMins: 5,
-  },
-  {
     id: "how-marketers-using-ai",
     title: "How Marketers Are Using AI",
     deck:
@@ -541,6 +529,18 @@ const POSTS = [
 
 <p><img src="./assets/images/ai-framework.jpg" alt="AI applications framework for marketers" style="width:100%;height:auto;border-radius:12px;" /></p>
 `,
+  },
+  {
+    id: "newsroom-signals",
+    title: "Welcome to IMC POV, Northwestern Medill School's Thought Leadership Hub",
+    deck:
+      "Jeffrey Treem, Professor of integrated marketing communications at Northwestern Medill School, introduces IMC POV and discusses Medill's thought leadership goals for 2026.",
+    topic: "Integrated Marketing Communications",
+    format: "Note",
+    thumbnail: "./assets/images/imcpovfieldnote2.png",
+    author: "Jeffrey Treem",
+    date: "2026-01-07",
+    readMins: 5,
   },
 ];
 
