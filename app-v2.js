@@ -93,7 +93,7 @@ const POSTS = [
       "Research from Carolyn Wells Keller and Chethana Achar shows that cute design can signal values, shape audience response, and become part of marketing strategy.",
     topic: "Consumer Psychology",
     format: "Research Insight",
-    author: "IMC POV Editorial Team",
+    author: "Carolyn Wells Keller and Chethana Achar",
     date: "2026-07-08",
     readMins: 3,
     thumbnail: "./assets/images/article-cuteness-marketers.svg?v=20260714-2",
