@@ -21,7 +21,7 @@ const POSTS = [
     topic: "Social Media",
     format: "Research Insight",
     author: "Chao Yu",
-    date: "2026-07-08",
+    date: "2026-07-14",
     readMins: 4,
     thumbnail: "./assets/images/article-tiktok-messenger.svg?v=20260713-1",
     content: `
@@ -45,7 +45,7 @@ const POSTS = [
     topic: "Marketing Analytics",
     format: "Book Reflection",
     author: "Ed Malthouse",
-    date: "2026-07-08",
+    date: "2026-07-01",
     readMins: 4,
     thumbnail: "./assets/images/article-book-of-why.svg?v=20260714-2",
     content: `
@@ -67,7 +67,7 @@ const POSTS = [
     topic: "Sports Marketing",
     format: "Q&A",
     author: "Jacqueline Babb",
-    date: "2026-07-08",
+    date: "2026-06-17",
     readMins: 5,
     thumbnail: "./assets/images/article-world-cup-brands.svg?v=20260714-2",
     content: `
@@ -94,7 +94,7 @@ const POSTS = [
     topic: "Consumer Psychology",
     format: "Research Insight",
     author: "Carolyn Wells Keller and Chethana Achar",
-    date: "2026-07-08",
+    date: "2026-06-03",
     readMins: 3,
     thumbnail: "./assets/images/article-cuteness-marketers.svg?v=20260714-2",
     content: `
@@ -115,7 +115,7 @@ const POSTS = [
     topic: "AI Strategy",
     format: "Essay",
     author: "Kelly Cutler",
-    date: "2026-07-08",
+    date: "2026-05-20",
     readMins: 4,
     thumbnail: "./assets/images/article-ai-roi-reality-check.svg?v=20260713-2",
     content: `
@@ -140,7 +140,7 @@ const POSTS = [
     topic: "Marketing Analytics",
     format: "Research Insight",
     author: "Julian Runge",
-    date: "2026-07-08",
+    date: "2026-05-06",
     readMins: 4,
     thumbnail: "./assets/images/article-marketing-measurement.svg?v=20260714-2",
     content: `
@@ -165,7 +165,7 @@ const POSTS = [
     topic: "Career Readiness",
     format: "Essay",
     author: "Katherine Lelek, Director of Career Management, Medill School",
-    date: "2026-07-08",
+    date: "2026-04-22",
     readMins: 6,
     thumbnail: "./assets/images/article-career-readiness.svg?v=20260714-3",
     content: `
@@ -193,7 +193,7 @@ const POSTS = [
     topic: "Creator Marketing",
     format: "Essay",
     author: "Frank Dudley",
-    date: "2026-07-08",
+    date: "2026-04-08",
     readMins: 6,
     thumbnail: "./assets/images/article-frank-dudley-influence-profits.svg?v=20260714-2",
     content: `
@@ -239,7 +239,7 @@ const POSTS = [
     topic: "Cultural Marketing",
     format: "Essay",
     author: "Danielle Bell",
-    date: "2026-07-08",
+    date: "2026-03-18",
     readMins: 3,
     thumbnail: "./assets/images/article-cultural-marketing-meaning.svg?v=20260714-4",
     content: `
@@ -275,7 +275,7 @@ const POSTS = [
     topic: "Marketing Innovation",
     format: "Essay",
     author: "Carolyn Tang Kmet",
-    date: "2026-07-08",
+    date: "2026-03-04",
     readMins: 5,
     thumbnail: "./assets/images/article-technology-meaning.svg?v=20260714-3",
     content: `
@@ -298,7 +298,7 @@ const POSTS = [
     topic: "Food Quality Dominates Restaurant Choice and Spending",
     format: "Research Article",
     author: "Dr. Martin Block, Professor Emeritus, Northwestern University, Retail Analytics Council",
-    date: "2026-03-03",
+    date: "2026-02-18",
     readMins: 10,
     content: `
 <h2>Executive Summary</h2>
@@ -502,7 +502,7 @@ const POSTS = [
     topic: "AI Search",
     format: "Report",
     author: "Medill Spiegel Research Center's Spiegel Scholars",
-    date: "2026-03-03",
+    date: "2026-02-04",
     readMins: 10,
     thumbnail: "./assets/images/article-ai-search-overviews.svg?v=20260714-2",
     content: `
@@ -523,7 +523,7 @@ const POSTS = [
     format: "Note",
     thumbnail: "./assets/images/imcpovfieldnote2.png",
     author: "Jeffrey Treem",
-    date: "2026-02-04",
+    date: "2026-01-21",
     readMins: 5,
   },
   {
@@ -533,8 +533,8 @@ const POSTS = [
       "There's a lot of hype around artificial intelligence (AI). Medill has developed a framework for marketers to focus on three applications.",
     topic: "AI",
     format: "Framework",
-    author: "Medill Executive Education Team",
-    date: "2026-02-04",
+    author: "Roy Wollen",
+    date: "2026-01-07",
     readMins: 5,
     content: `
 <p>Marketers can simplify AI strategy by grouping tools into three practical types: <strong>predictive AI</strong>, which helps forecast customer needs and behaviors; <strong>generative AI</strong>, which helps create content and experiences; and <strong>agentic AI</strong>, which helps automate decisions and actions that drive outcomes.</p>
