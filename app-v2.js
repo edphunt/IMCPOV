@@ -47,6 +47,7 @@ const POSTS = [
     author: "Ed Malthouse",
     date: "2026-07-08",
     readMins: 4,
+    thumbnail: "./assets/images/article-book-of-why.svg?v=20260714-1",
     content: `
 <p><strong>How did <em>The Book of Why</em> by Dana Mackenzie and Judea Pearl change the way you think or work?</strong></p>
 <p>It reinforced for me that it’s not enough to know what works in marketing. You have to understand why it works. When we see that a campaign increases conversion or retention, the real value comes from unpacking the mechanism behind that effect. Is it building trust? Increasing relevance? Reducing uncertainty? Once you understand the “why,” you can design entirely new strategies that target the same underlying driver, rather than just repeating past tactics.</p>
