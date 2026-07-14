@@ -272,7 +272,7 @@ const POSTS = [
       "Technology can create new capabilities, but marketers turn those possibilities into meaningful experiences, behaviors, and markets.",
     topic: "Marketing Innovation",
     format: "Essay",
-    author: "IMC POV Editorial Team",
+    author: "Carolyn Tang Kmet",
     date: "2026-07-08",
     readMins: 5,
     content: `
