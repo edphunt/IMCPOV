@@ -1,0 +1,115 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="900" fill="#F5F5F5"/>
+<g clip-path="url(#clip0_1_2)">
+<path d="M1600 0H0V900H1600V0Z" fill="#F5F5F5"/>
+<mask id="mask0_1_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="900">
+<path d="M1600 0H0V900H1600V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_2)">
+<path d="M1600 0H0V900H1600V0Z" fill="white"/>
+<path opacity="0.04" d="M1600 0H0V900H1600V0Z" fill="#4E2A84"/>
+<g opacity="0.16">
+<path d="M160 0V900" stroke="#4E2A84"/>
+<path d="M320 0V900" stroke="#4E2A84"/>
+<path d="M480 0V900" stroke="#4E2A84"/>
+<path d="M640 0V900" stroke="#4E2A84"/>
+<path d="M800 0V900" stroke="#4E2A84"/>
+<path d="M960 0V900" stroke="#4E2A84"/>
+<path d="M1120 0V900" stroke="#4E2A84"/>
+<path d="M1280 0V900" stroke="#4E2A84"/>
+<path d="M1440 0V900" stroke="#4E2A84"/>
+<path d="M0 150H1600" stroke="#4E2A84"/>
+<path d="M0 300H1600" stroke="#4E2A84"/>
+<path d="M0 450H1600" stroke="#4E2A84"/>
+<path d="M0 600H1600" stroke="#4E2A84"/>
+<path d="M0 750H1600" stroke="#4E2A84"/>
+</g>
+<path d="M0 0H420L208 900H0V0Z" fill="url(#paint0_linear_1_2)"/>
+<path opacity="0.92" d="M1338 0H1600V900H1138L1338 0Z" fill="#8F7CB5"/>
+<path d="M0 82L528 900H452L0 200V82Z" fill="#EDE8F5"/>
+<path d="M1600 84L1138 900H1062L1600 0V84Z" fill="#EDE8F5"/>
+
+<g filter="url(#filter0_d_1_2)">
+<path d="M500 150H1068C1084.57 150 1098 163.431 1098 180V698C1098 714.569 1084.57 728 1068 728H500C483.431 728 470 714.569 470 698V180C470 163.431 483.431 150 500 150Z" fill="#111113"/>
+<path d="M526 204H1042C1053.05 204 1062 212.954 1062 224V674C1062 685.046 1053.05 694 1042 694H526C514.954 694 506 685.046 506 674V224C506 212.954 514.954 204 526 204Z" fill="#F8F7FB"/>
+
+<path d="M584 604C636 520 704 480 784 480C864 480 932 520 984 604" stroke="#D8CFE8" stroke-width="10" stroke-linecap="round" fill="none"/>
+<path d="M602 344C646 290 704 262 784 262C864 262 922 290 966 344" stroke="#D8CFE8" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+<path d="M668 360C668 296 720 244 784 244C848 244 900 296 900 360V486C900 550 848 602 784 602C720 602 668 550 668 486V360Z" fill="#EDE8F5"/>
+<path d="M700 374C700 328 738 290 784 290C830 290 868 328 868 374V474C868 520 830 558 784 558C738 558 700 520 700 474V374Z" fill="#FFFFFF"/>
+
+<circle cx="744" cy="394" r="23" fill="#4E2A84"/>
+<circle cx="824" cy="394" r="23" fill="#4E2A84"/>
+<circle cx="752" cy="388" r="7" fill="#FFFFFF"/>
+<circle cx="832" cy="388" r="7" fill="#FFFFFF"/>
+<path d="M748 480C770 506 798 506 820 480" stroke="#8F7CB5" stroke-width="9" stroke-linecap="round" fill="none"/>
+<path d="M784 426L764 456H804L784 426Z" fill="#B6ACD1"/>
+
+<circle cx="680" cy="286" r="42" fill="#B6ACD1"/>
+<circle cx="888" cy="286" r="42" fill="#B6ACD1"/>
+<circle cx="680" cy="286" r="22" fill="#F8F7FB"/>
+<circle cx="888" cy="286" r="22" fill="#F8F7FB"/>
+
+<path d="M598 274H716" stroke="#4E2A84" stroke-width="12" stroke-linecap="round" opacity="0.86"/>
+<path d="M852 274H970" stroke="#4E2A84" stroke-width="12" stroke-linecap="round" opacity="0.86"/>
+<path d="M596 638H750" stroke="#8F7CB5" stroke-width="12" stroke-linecap="round"/>
+<path d="M818 638H972" stroke="#8F7CB5" stroke-width="12" stroke-linecap="round"/>
+
+<circle cx="614" cy="436" r="18" fill="#4E2A84"/>
+<circle cx="954" cy="436" r="18" fill="#4E2A84"/>
+<circle cx="626" cy="520" r="14" fill="#B6ACD1"/>
+<circle cx="942" cy="520" r="14" fill="#B6ACD1"/>
+</g>
+
+<g opacity="0.78">
+<path d="M318 246C432 154 574 154 704 246" stroke="#4E2A84" stroke-width="5" fill="none"/>
+<path d="M910 158C1066 86 1234 124 1362 262" stroke="#4E2A84" stroke-width="5" fill="none"/>
+<path d="M348 726C492 790 660 780 812 696" stroke="#4E2A84" stroke-width="5" fill="none"/>
+<circle cx="356" cy="196" r="28" fill="#B6ACD1"/>
+<circle cx="488" cy="144" r="16" fill="#4E2A84"/>
+<circle cx="1268" cy="222" r="30" fill="#D8CFE8"/>
+<circle cx="1368" cy="316" r="17" fill="#4E2A84"/>
+</g>
+
+<g transform="translate(92 604)">
+<rect width="346" height="214" rx="4" fill="#4E2A84"/>
+<text x="42" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">CUTE</text>
+<text x="42" y="122" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">HAS MEANING</text>
+<text x="42" y="170" fill="#FFFFFF" opacity="0.9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25">design signals values</text>
+</g>
+
+<g transform="translate(1160 292)">
+<text x="0" y="0" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">WHAT</text>
+<text x="0" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">CUTENESS</text>
+<text x="0" y="144" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">TEACHES</text>
+</g>
+
+<g transform="translate(84 78)">
+<rect width="72" height="72" rx="5" fill="#4E2A84"/>
+<text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
+<text x="96" y="30" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">IMC POV</text>
+<text x="96" y="61" fill="#111113" opacity="0.72" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18">Consumer Psychology</text>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_2" x="430" y="128" width="708" height="650" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="18"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.067 0 0 0 0 0.067 0 0 0 0 0.075 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="710" y2="384" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4E2A84"/>
+<stop offset="1" stop-color="#2C1452"/>
+</linearGradient>
+<clipPath id="clip0_1_2">
+<rect width="1600" height="900" fill="white"/>
+</clipPath>
+</defs>
+</svg>
