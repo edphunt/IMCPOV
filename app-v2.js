@@ -139,6 +139,7 @@ const POSTS = [
     author: "IMC POV Editorial Team",
     date: "2026-07-08",
     readMins: 4,
+    thumbnail: "./assets/images/article-marketing-measurement.svg?v=20260713-1",
     content: `
 <p>Marketing measurement has never been simple. For years, media and marketing mix modeling required specialized training, expensive tools, careful data preparation, and a lot of time. That difficulty created a practical barrier: many organizations wanted better measurement, but few had the people or systems to do it well.</p>
 
@@ -163,6 +164,7 @@ const POSTS = [
     author: "Katherine Lelek, Director of Career Management, Medill School",
     date: "2026-07-08",
     readMins: 6,
+    thumbnail: "./assets/images/article-career-readiness.svg?v=20260714-1",
     content: `
 <p>Experiential learning is where career development moves from theory to practice. Students can learn about networking, leadership, strategic communication, or teamwork in the classroom, but there is no substitute for actually doing the work. Experiential learning gives students the opportunity to apply concepts in authentic settings, reflect on those experiences, and adapt in real time. <a class="inline-link" href="https://learningfromexperience.com/videos/8-things-to-know-about-the-experiential-learning-cycle/" target="_blank" rel="noopener">The Kolb Experiential Learning Cycle</a> is a widely recognized and used concept in Experiential Learning Theory (ELT). The simplicity and usefulness of the four-stage cycle of experiencing, reflecting, thinking and acting.</p>
 
