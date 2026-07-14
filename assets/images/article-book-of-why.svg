@@ -1,101 +1,69 @@
 <svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="900" fill="#F5F5F5"/>
-  <g clip-path="url(#clip0)">
-    <path d="M1600 0H0V900H1600V0Z" fill="white"/>
-    <path opacity="0.04" d="M1600 0H0V900H1600V0Z" fill="#4E2A84"/>
-    <g opacity="0.16">
-      <path d="M140 0V900" stroke="#4E2A84"/>
-      <path d="M280 0V900" stroke="#4E2A84"/>
-      <path d="M420 0V900" stroke="#4E2A84"/>
-      <path d="M560 0V900" stroke="#4E2A84"/>
-      <path d="M700 0V900" stroke="#4E2A84"/>
-      <path d="M840 0V900" stroke="#4E2A84"/>
-      <path d="M980 0V900" stroke="#4E2A84"/>
-      <path d="M1120 0V900" stroke="#4E2A84"/>
-      <path d="M1260 0V900" stroke="#4E2A84"/>
-      <path d="M1400 0V900" stroke="#4E2A84"/>
-      <path d="M0 150H1600" stroke="#4E2A84"/>
-      <path d="M0 300H1600" stroke="#4E2A84"/>
-      <path d="M0 450H1600" stroke="#4E2A84"/>
-      <path d="M0 600H1600" stroke="#4E2A84"/>
-      <path d="M0 750H1600" stroke="#4E2A84"/>
-    </g>
-
-    <path d="M0 0H420L210 900H0V0Z" fill="url(#purpleA)"/>
-    <path opacity="0.92" d="M1338 0H1600V900H1138L1338 0Z" fill="#8F7CB5"/>
-    <path d="M0 82L530 900H454L0 198V82Z" fill="#EDE8F5"/>
-    <path d="M1600 84L1136 900H1060L1600 0V84Z" fill="#EDE8F5"/>
-
-    <g filter="url(#shadow)">
-      <path d="M500 152H1068C1084.57 152 1098 165.431 1098 182V696C1098 712.569 1084.57 726 1068 726H500C483.431 726 470 712.569 470 696V182C470 165.431 483.431 152 500 152Z" fill="#111113"/>
-      <path d="M526 206H1042C1053.05 206 1062 214.954 1062 226V672C1062 683.046 1053.05 692 1042 692H526C514.954 692 506 683.046 506 672V226C506 214.954 514.954 206 526 206Z" fill="#F8F7FB"/>
-
-      <path d="M622 442C622 402 654 370 694 370C734 370 766 402 766 442C766 482 734 514 694 514C654 514 622 482 622 442Z" fill="#4E2A84"/>
-      <path d="M826 300C826 264.654 854.654 236 890 236C925.346 236 954 264.654 954 300C954 335.346 925.346 364 890 364C854.654 364 826 335.346 826 300Z" fill="#8F7CB5"/>
-      <path d="M824 584C824 548.654 852.654 520 888 520C923.346 520 952 548.654 952 584C952 619.346 923.346 648 888 648C852.654 648 824 619.346 824 584Z" fill="#B6ACD1"/>
-
-      <path d="M766 420C806 384 832 350 860 326" stroke="#4E2A84" stroke-width="9" stroke-linecap="round"/>
-      <path d="M766 464C806 500 832 534 858 558" stroke="#8F7CB5" stroke-width="9" stroke-linecap="round"/>
-      <path d="M892 366C906 416 906 466 890 518" stroke="#D8CFE8" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 18"/>
-
-      <path d="M588 292H718" stroke="#D8CFE8" stroke-width="12" stroke-linecap="round"/>
-      <path d="M588 326H776" stroke="#B6ACD1" stroke-width="12" stroke-linecap="round"/>
-      <path d="M588 600H706" stroke="#D8CFE8" stroke-width="12" stroke-linecap="round"/>
-      <path d="M588 634H760" stroke="#B6ACD1" stroke-width="12" stroke-linecap="round"/>
-
-      <text x="694" y="466" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="700">?</text>
-      <text x="890" y="320" text-anchor="middle" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">CAUSE</text>
-      <text x="888" y="604" text-anchor="middle" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">EFFECT</text>
-    </g>
-
-    <g opacity="0.78">
-      <path d="M322 248C432 152 576 152 702 242" stroke="#4E2A84" stroke-width="5" fill="none"/>
-      <path d="M910 158C1066 86 1234 124 1362 262" stroke="#4E2A84" stroke-width="5" fill="none"/>
-      <path d="M348 726C492 790 660 780 812 696" stroke="#4E2A84" stroke-width="5" fill="none"/>
-      <circle cx="356" cy="196" r="28" fill="#B6ACD1"/>
-      <circle cx="488" cy="144" r="16" fill="#4E2A84"/>
-      <circle cx="1268" cy="222" r="30" fill="#D8CFE8"/>
-      <circle cx="1368" cy="316" r="17" fill="#4E2A84"/>
-    </g>
-
-    <g transform="translate(92 604)">
-      <rect width="346" height="214" rx="4" fill="#4E2A84"/>
-      <text x="42" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">ASK</text>
-      <text x="42" y="122" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">WHY</text>
-      <text x="42" y="170" fill="#FFFFFF" opacity="0.9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25">causal thinking for strategy</text>
-    </g>
-
-    <g transform="translate(1160 300)">
-      <text x="0" y="0" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">THE</text>
-      <text x="0" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">BOOK</text>
-      <text x="0" y="144" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">OF WHY</text>
-    </g>
-
-    <g transform="translate(84 78)">
-      <rect width="72" height="72" rx="5" fill="#4E2A84"/>
-      <text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
-      <text x="96" y="30" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">IMC POV</text>
-      <text x="96" y="61" fill="#111113" opacity="0.72" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18">Causal Thinking</text>
-    </g>
-  </g>
-
-  <defs>
-    <filter id="shadow" x="430" y="130" width="708" height="646" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="18"/>
-      <feGaussianBlur stdDeviation="20"/>
-      <feComposite in2="hardAlpha" operator="out"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.067 0 0 0 0 0.067 0 0 0 0 0.075 0 0 0 0.16 0"/>
-      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-    </filter>
-    <linearGradient id="purpleA" x1="0" y1="0" x2="710" y2="384" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4E2A84"/>
-      <stop offset="1" stop-color="#2C1452"/>
-    </linearGradient>
-    <clipPath id="clip0">
-      <rect width="1600" height="900" fill="white"/>
-    </clipPath>
-  </defs>
+<rect width="1600" height="900" fill="#F5F5F5"/>
+<g clip-path="url(#clip0_1_2)">
+<path d="M1600 0H0V900H1600V0Z" fill="#F5F5F5"/>
+<mask id="mask0_1_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="900">
+<path d="M1600 0H0V900H1600V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_2)">
+<path d="M1600 0H0V900H1600V0Z" fill="white"/>
+<path opacity="0.04" d="M1600 0H0V900H1600V0Z" fill="#4E2A84"/>
+<g opacity="0.16">
+<path d="M140 0V900" stroke="#4E2A84"/>
+<path d="M280 0V900" stroke="#4E2A84"/>
+<path d="M420 0V900" stroke="#4E2A84"/>
+<path d="M560 0V900" stroke="#4E2A84"/>
+<path d="M700 0V900" stroke="#4E2A84"/>
+<path d="M840 0V900" stroke="#4E2A84"/>
+<path d="M980 0V900" stroke="#4E2A84"/>
+<path d="M1120 0V900" stroke="#4E2A84"/>
+<path d="M1260 0V900" stroke="#4E2A84"/>
+<path d="M1400 0V900" stroke="#4E2A84"/>
+<path d="M0 150H1600" stroke="#4E2A84"/>
+<path d="M0 300H1600" stroke="#4E2A84"/>
+<path d="M0 450H1600" stroke="#4E2A84"/>
+<path d="M0 600H1600" stroke="#4E2A84"/>
+<path d="M0 750H1600" stroke="#4E2A84"/>
+</g>
+<path d="M0 0H420L210 900H0V0Z" fill="url(#paint0_linear_1_2)"/>
+<path opacity="0.92" d="M1338 0H1600V900H1138L1338 0Z" fill="#8F7CB5"/>
+<path d="M0 82L530 900H454L0 198V82Z" fill="#EDE8F5"/>
+<path d="M1600 84L1136 900H1060L1600 0V84Z" fill="#EDE8F5"/>
+<g filter="url(#filter0_d_1_2)">
+<path d="M500 152H1068C1084.57 152 1098 165.431 1098 182V696C1098 712.569 1084.57 726 1068 726H500C483.431 726 470 712.569 470 696V182C470 165.431 483.431 152 500 152Z" fill="#111113"/>
+<path d="M526 206H1042C1053.05 206 1062 214.954 1062 226V672C1062 683.046 1053.05 692 1042 692H526C514.954 692 506 683.046 506 672V226C506 214.954 514.954 206 526 206Z" fill="#F8F7FB"/>
+<path d="M622 442C622 402 654 370 694 370C734 370 766 402 766 442C766 482 734 514 694 514C654 514 622 482 622 442Z" fill="#4E2A84"/>
+<path d="M826 300C826 264.654 854.654 236 890 236C925.346 236 954 264.654 954 300C954 335.346 925.346 364 890 364C854.654 364 826 335.346 826 300Z" fill="#8F7CB5"/>
+<path d="M824 584C824 548.654 852.654 520 888 520C923.346 520 952 548.654 952 584C952 619.346 923.346 648 888 648C852.654 648 824 619.346 824 584Z" fill="#B6ACD1"/>
+<path d="M766 420C806 384 832 350 860 326" stroke="#4E2A84" stroke-width="9" stroke-linecap="round"/>
+<path d="M766 464C806 500 832 534 858 558" stroke="#8F7CB5" stroke-width="9" stroke-linecap="round"/>
+<path d="M892 366C906 416 906 466 890 518" stroke="#D8CFE8" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 18"/>
+<path d="M588 292H718" stroke="#D8CFE8" stroke-width="12" stroke-linecap="round"/>
+<path d="M588 326H776" stroke="#B6ACD1" stroke-width="12" stroke-linecap="round"/>
+<path d="M588 600H706" stroke="#D8CFE8" stroke-width="12" stroke-linecap="round"/>
+<path d="M588 634H760" stroke="#B6ACD1" stroke-width="12" stroke-linecap="round"/>
+</g>
+<path d="M151 78H89C86.2386 78 84 80.2386 84 83V145C84 147.761 86.2386 150 89 150H151C153.761 150 156 147.761 156 145V83C156 80.2386 153.761 78 151 78Z" fill="#4E2A84"/>
+<path d="M216.261 112.455V143H210.683L197.394 123.775H197.171V143H190.712V112.455H196.38L209.565 131.665H209.833V112.455H216.261Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_2" x="430" y="130" width="708" height="654" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="18"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.067 0 0 0 0 0.067 0 0 0 0 0.075 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="710" y2="384" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4E2A84"/>
+<stop offset="1" stop-color="#2C1452"/>
+</linearGradient>
+<clipPath id="clip0_1_2">
+<rect width="1600" height="900" fill="white"/>
+</clipPath>
+</defs>
 </svg>
