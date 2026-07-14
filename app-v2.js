@@ -96,7 +96,7 @@ const POSTS = [
     author: "IMC POV Editorial Team",
     date: "2026-07-08",
     readMins: 3,
-    thumbnail: "./assets/images/article-cuteness-marketers.svg?v=20260714-1",
+    thumbnail: "./assets/images/article-cuteness-marketers.svg?v=20260714-2",
     content: `
 <p>Cuteness is easy to dismiss. It can seem unserious or childish. But cute design is everywhere: keychains, mugs, stickers, plush toys, phone cases, mascots, packaging, and social media content. When a design language shows up this often, it is probably doing more than making people smile.</p>
 
