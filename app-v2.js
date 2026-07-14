@@ -69,6 +69,7 @@ const POSTS = [
     author: "Jacqueline Babb",
     date: "2026-07-08",
     readMins: 5,
+    thumbnail: "./assets/images/article-world-cup-brands.svg?v=20260714-1",
     content: `
 <p><strong>You were quoted in the PR Daily article, “Three PR Trends from the Upcoming World Cup” saying, “Sports fans tend to have affinity for their home teams, allowing brands to align with national pride.” Tell us more about that.</strong></p>
 <p>Collective pride is a powerful force. The 2026 World Cup coincides with the semiquincentennial (250th anniversary) of the United States, offering brands a once in a generation opportunity to be a part of history. Today, the U.S. is playing Australia. Fans are wearing Nike jerseys at the game and at home to be a part of a shared community, creating a sense of belonging.</p>
