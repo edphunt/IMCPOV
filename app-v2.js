@@ -241,6 +241,7 @@ const POSTS = [
     author: "Danielle Bell",
     date: "2026-07-08",
     readMins: 3,
+    thumbnail: "./assets/images/article-cultural-marketing-meaning.svg?v=20260714-1",
     content: `
 <p>Danielle Bell was an in-studio <a class="inline-link" href="https://www.wbez.org/in-the-loop-with-sasha-ann-simons/2026/02/25/watching-the-baftas-while-black-were-running-out-of-cheeks-to-turn" target="_blank" rel="noopener">guest on WBEZ’s <em>In The Loop with Sasha-Ann Simons</em></a> for “Watching the BAFTAs While Black: We’re Running Out of Cheeks to Turn.”</p>
 
