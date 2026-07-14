@@ -523,7 +523,7 @@ const POSTS = [
     format: "Note",
     thumbnail: "./assets/images/imcpovfieldnote2.png",
     author: "Jeffrey Treem",
-    date: "2026-01-21",
+    date: "2026-01-07",
     readMins: 5,
   },
   {
@@ -534,7 +534,7 @@ const POSTS = [
     topic: "AI",
     format: "Framework",
     author: "Roy Wollen",
-    date: "2026-01-07",
+    date: "2026-01-21",
     readMins: 5,
     content: `
 <p>Marketers can simplify AI strategy by grouping tools into three practical types: <strong>predictive AI</strong>, which helps forecast customer needs and behaviors; <strong>generative AI</strong>, which helps create content and experiences; and <strong>agentic AI</strong>, which helps automate decisions and actions that drive outcomes.</p>
