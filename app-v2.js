@@ -291,43 +291,6 @@ const POSTS = [
 `,
   },
   {
-    id: "genai-transforming-modern-marketing",
-    title: "How Generative AI Is Transforming Modern Marketing",
-    deck:
-      "A synthesis of key takeaways from the 2025 Tech Summit and Kelly Cutler’s research on how generative AI is reshaping search, SEO/SEM, and marketing strategy.",
-    topic: "Gen AI Search Marketing",
-    format: "Essay",
-    author: "Based on research by Kelly Cutler",
-    date: "2026-03-03",
-    readMins: 10,
-    content: `
-<h2>Insights from the 2025 Tech Summit</h2>
-<p><strong>Session Summary</strong> — Tech Summit Oct. 9, 2025 · New York City, NY</p>
-<p><strong>Transforming Marketing With Generative AI</strong></p>
-<p>Presented by Kelly Cutler, Professor and Associate Director of Research, Medill School of Journalism, Media, Integrated Marketing Communications, Northwestern University.</p>
-<p>This session examined the evolving digital marketing ecosystem, including the impact of large language models and how they are transforming search and information discovery. As platforms like Google Gemini and ChatGPT integrate generative AI into search experiences, consumers now encounter new options and conversational answers instead of traditional search results pages. The presentation examined the current landscape and explored the effects of AI on content visibility, SEO and paid search strategy, and performance measurement. Through case examples and research insights, participants gained a framework for adapting marketing strategy, analytics, and organizational capabilities to thrive in an AI-driven discovery environment.</p>
-<p><a class="inline-link" href="#">Read more about Transforming Marketing with Generative AI.</a></p>
-
-<h2>How Generative AI Is Transforming Modern Marketing</h2>
-<p>In a recent presentation titled <em>Transforming Marketing With Generative AI: A Research-Based Approach</em>, Kelly Cutler, Associate Professor of Marketing and Communication at Northwestern University, explored how generative AI is reshaping the marketing landscape and what organizations must do to adapt.</p>
-<p>She begins by noting that most marketers feel excited about AI, but many lack the training needed to use it well. Seventy percent say their employer has not offered any AI guidance, which is why AI literacy is quickly becoming one of the most important skills in the field. Contributors such as Informatica reinforce that high-quality, well-managed data is essential for any AI strategy to succeed.</p>
-<p><strong>Marketers’ feelings about AI:</strong> 69% excited, 17% mixed.</p>
-<p>Cutler explains that CMOs are facing a major challenge: integrating new technology into marketing while still preserving the human strengths that define effective communication. AI can improve efficiency and personalization, but it cannot replace relationship building, empathy, ethical judgment, or cultural understanding.</p>
-<p>The research shows that AI is already creating value in areas such as time savings, cost reductions, stronger customer insights, and more personalized engagement. Companies are using generative AI for content development, SEO and SEM improvements, email and audience targeting, analytics, video creation, and persona development.</p>
-<p>She points to four major trends shaping the future: more advanced personalization, faster content creation at scale, deeper analytics and testing, and significant changes to SEO and advertising strategies driven by AI tools.</p>
-<p>To help organizations respond, Cutler shares two guiding frameworks. The first is Bain’s Five Golden Rules, which focus on consumer-led thinking, holistic AI use, long-term planning, keeping core use cases in-house, and strong CMO leadership. The second is a four-step organizational process that includes forming a cross-functional task force, prioritizing use cases, creating a roadmap, and investing in AI training.</p>
-<p><strong>Five principles of responsible AI</strong></p>
-<p>Cutler closes with a clear conclusion: marketing has always combined art and science, and AI strengthens both. Organizations that stay adaptable and pair human insight with AI capabilities will be positioned for the greatest success moving forward.</p>
-
-<h2>Search Marketing: A Strategic Approach to SEO and SEM (1st Edition)</h2>
-<p><strong>By Kelly Cutler (Author)</strong></p>
-<p>Increase the power of your marketing budget and enhance customer reach with fundamental search marketing efforts, SEO and SEM.</p>
-<p>This comprehensive guide delves into the dynamic world of both paid and organic search marketing strategies, providing an in-depth understanding of the tactics and techniques that drive successful online visibility and business growth. As the digital marketing landscape continues to evolve, this work gets more technical, time-consuming and costly. Discover how to approach both paid and organic search marketing like a digital strategist by reading this book from digital marketing expert and educator, Kelly Cutler.</p>
-<p><em>Search Marketing</em> offers insights into high-level fundamentals and advanced applications. Designed to help marketers and business leaders get more from this essential digital marketing tactic, the book dives into what marketers can do today to help their companies take a more controlled, intentional, and strategic approach to SEO and SEM.</p>
-<p>The book delivers techniques for increasing visibility, driving qualified traffic, measuring the success and functionality of SEO, SEM campaigns and advanced methods for campaign optimization. Readers will walk away knowing how to take a more informed approach to the business they bring from sites like Google and Bing, while gaining the insight necessary to effectively oversee search marketing at a strategic level.</p>
-`,
-  },
-  {
     id: "food-quality-dominates-restaurant-choice",
     title: "Food Quality Dominates Restaurant Choice and Spending",
     deck:
@@ -551,59 +514,6 @@ const POSTS = [
 `,
   },
   {
-    id: "malthouse-misinformation-research",
-    title: "Medill professor using data to tackle misinformation",
-    deck:
-      "Edward Malthouse’s research uses AI to personalize news recommendations and develop stronger tools for identifying misinformation.",
-    topic: "AI and Fake News Research",
-    format: "Based on Research",
-    author: "By: Victoria Ryan",
-    date: "2026-01-26",
-    readMins: 8,
-    content: `
-<h2>Malthouse’s research looks at using AI to personalize news recommendations</h2>
-<p>A smiling Edward Malthouse is overlaid on a digital theme. In the background, a person interacts with a smartphone displaying cloud technology icons.</p>
-<p>Ed Malthouse's AI and fake news research.</p>
-<p><strong>EVANSTON, ILL.</strong> -- Professor Edward Malthouse enjoys looking at things from different angles. As the Erastus Otis Haven Professor at Medill and a research fellow at the Media Management Center, his research supports the larger news ecosystem and tackles misinformation.</p>
-
-<p>“I think one of the most pressing problems of the day is misinformation,” he said. “There’s a lot of misinformation out there, and it’s hard to stay ahead of it.”</p>
-
-<p>Malthouse began teaching at Northwestern in the Kellogg School of Management in 1995 after completing a PhD in statistics. He joined the IMC faculty in 1997, and became the Director of the Spiegel Center for Database and Digital Marketing in 2012, also known as the Spiegel Research Center.</p>
-
-<p>The Spiegel Research Center supports research in the fields of marketing and advertising, analyzing behaviors across platforms to provide insights to companies.</p>
-
-<p>“It’s about understanding how newer forms of customer engagement affect financial outcomes,” said Malthouse.</p>
-
-<p>In 2023, the National Science Foundation awarded a grant to Malthouse and a team of researchers from the University of Minnesota, Twin Cities. Their research, titled <em>A Research News Recommender Infrastructure with Live Users for Algorithm and Interface Experimentation</em>, uses artificial intelligence to personalize news recommendations.</p>
-
-<p>“We’re not rewriting any articles,” said Malthouse. “We’re helping you find stories of interest that match your topical interests using AI systems.”</p>
-
-<p>For Malthouse, the NSF grant gave him the chance to create opportunities for students as well.</p>
-
-<p>“It’s a huge honor, and it enabled me to fund a PhD student for a while,” he said.</p>
-
-<p>Using the grant, the student focused on using large-language models (LLMs) for news recommendations, as well as a fake news detection tool.</p>
-
-<p>“If you ask an LLM to evaluate a text using these traditional fact-checking questions, and then you bring back the responses to those questions, you can more accurately identify fake news articles than if you just did it from basic machine learning approaches,” Malthouse said.</p>
-
-<p>Malthouse’s position with Spiegel, as well as work with Medill’s Local News Initiative, provides him the opportunity to bring his research into the classroom. Malthouse makes a lot of the cases he uses in his curriculum with data from projects he has completed over the years.</p>
-
-<p>“It’s unusual for students to get access to these data sets from real companies,” said Malthouse. “I’m really grateful to the news organizations and other organizations that have provided this data to give to the students.”</p>
-
-<p>Malthouse acknowledges the concerns about artificial intelligence in journalism. He notes that conversations surrounding the implementation of AI today mirror past conversations about different technologies.</p>
-
-<p>“I remember the Medill faculty had a big debate over whether students should be allowed to use Wikipedia about 20 years ago,” he said.</p>
-
-<p>He encourages newsrooms to “embrace it responsibly,” using AI to supplement traditional newsgathering and fact-checking methods.</p>
-
-<p>“You need to be taught ways to corroborate what you find, and find independent sources that say the same thing,” he said.</p>
-
-<p>Overall, Malthouse looks for ways companies can embrace artificial intelligence as a supportive assistant.</p>
-
-<p>“I think it can be a very powerful tool to enhance your productivity, but you have to check everything first,” he said.</p>
-`,
-  },
-  {
     id: "newsroom-signals",
     title: "Welcome to IMC POV, Northwestern Medill School's thought leadership hub",
     deck:
@@ -630,66 +540,6 @@ const POSTS = [
 
 <p><img src="./assets/images/ai-framework.jpg" alt="AI applications framework for marketers" style="width:100%;height:auto;border-radius:12px;" /></p>
 `,
-  },
-  {
-    id: "trust-drivers",
-    title: "A practical model of trust for high-knowledge audiences",
-    deck:
-      "Three drivers show up consistently: channel credibility, workflow fit, and language that signals rigor—plus a simple way to audit your messaging.",
-    topic: "Strategic Communication",
-    format: "Framework",
-    author: "IMC POV Editorial Team",
-    date: "2026-01-21",
-    readMins: 6,
-  },
-  {
-    id: "article2",
-    title: "AI Disclosure",
-    deck:
-      "An AI disclosure framework for marketing and journalism teams.",
-    topic: "Integrated Marketing Communication",
-    format: "Research Article",
-    author: "IMC POV Editorial Team",
-    date: "2026-02-03",
-    readMins: 6,
-    content: `
-<h2>What this is</h2>
-<p>This is a starter post page. You can write in plain HTML here for now.</p>
-
-<h2>The framework</h2>
-<ol>
-  <li><strong>Declarative disclosure</strong>: the advertiser explicitly states GenAI involvement.</li>
-  <li><strong>Regulatory disclosure</strong>: platform/policy-driven disclosure labels and requirements.</li>
-  <li><strong>Infrastructural disclosure</strong>: metadata, watermarks, and provenance tooling.</li>
-</ol>
-
-<h2>Practical takeaway</h2>
-<p>Use the lightest disclosure that still builds trust—then add proof (process, constraints, auditability) when stakes are high.</p>
-`,
-  },
-  {
-    id: "ai-accountability",
-    title: "AI can enhance work—but it can’t be accountable for it",
-    deck:
-      "In journalism and marketing, accountability isn’t a feature you can automate. Here’s how teams design review loops that keep humans responsible.",
-    topic: "Media & Technology",
-    format: "Essay",
-    thumbnail: "./assets/images/imcpovarticle2.png",
-    author: "IMC Faculty + Students",
-    date: "2026-01-14",
-    readMins: 7,
-  },
-  {
-    id: "attention-economy",
-    title: "Measurement in the attention economy: what to stop pretending you know",
-    deck:
-      "A guide to cleaner inference: experiments, quasi-experiments, and the limits of dashboards when channels interact.",
-    topic: "Data Analytics & Measurement",
-    format: "Guide",
-    thumbnail: "./assets/images/imcpovguide.png",
-    author: "Medill Analytics Lab",
-    date: "2025-12-10",
-    readMins: 8,
   },
 ];
 
