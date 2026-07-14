@@ -504,7 +504,7 @@ const POSTS = [
     author: "Medill Spiegel Research Center's Spiegel Scholars",
     date: "2026-03-03",
     readMins: 10,
-    thumbnail: "./assets/images/article-ai-search-overviews.svg?v=20260714-1",
+    thumbnail: "./assets/images/article-ai-search-overviews.svg?v=20260714-2",
     content: `
 <p>Last summer, the Medill School of Journalism, Media Integrated Marketing Communications piloted a new program called The Spiegel Scholars Program. We invited three highly qualified master’s students—Ariel, Kristen, and Momo—to help us write a research report on how AI is changing the advertising industry. Over three months, our team interviewed 21 marketing executives, transcribed the interviews, and distilled the transcripts into meaningful themes in the final report. They worked hard and asked smart questions. They also didn’t give up despite receiving many “No’s” during outreach. They told me that “figuring out” how to reach out to people was both the most difficult and most rewarding part of the project. I hope they found the experience as rewarding as working alongside them was for me. I am incredibly proud of both their dedication and the quality of their work. I am pleased to share the final report.</p>
 <p>—Ed Hunt, Director of the Spiegel Scholars Program</p>

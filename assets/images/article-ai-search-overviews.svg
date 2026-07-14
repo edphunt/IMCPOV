@@ -27,72 +27,31 @@
 <path opacity="0.92" d="M1338 0H1600V900H1138L1338 0Z" fill="#8F7CB5"/>
 <path d="M0 82L528 900H452L0 200V82Z" fill="#EDE8F5"/>
 <path d="M1600 84L1138 900H1062L1600 0V84Z" fill="#EDE8F5"/>
-
+<path d="M246 97H184C181.239 97 179 99.2386 179 102V164C179 166.761 181.239 169 184 169H246C248.761 169 251 166.761 251 164V102C251 99.2386 248.761 97 246 97Z" fill="#4E2A84"/>
+<path d="M227.761 116.455V147H222.183L208.894 127.775H208.671V147H202.212V116.455H207.88L221.065 135.665H221.333V116.455H227.761Z" fill="white"/>
+</g>
 <g filter="url(#filter0_d_1_2)">
-<path d="M516 161H1084C1100.57 161 1114 174.431 1114 191V709C1114 725.569 1100.57 739 1084 739H516C499.431 739 486 725.569 486 709V191C486 174.431 499.431 161 516 161Z" fill="#111113"/>
-<path d="M542 215H1058C1069.05 215 1078 223.954 1078 235V685C1078 696.046 1069.05 705 1058 705H542C530.954 705 522 696.046 522 685V235C522 223.954 530.954 215 542 215Z" fill="#F8F7FB"/>
-
-<rect x="598" y="282" width="404" height="86" rx="43" fill="#EDE8F5"/>
-<circle cx="642" cy="325" r="18" fill="#4E2A84"/>
-<path d="M674 325H944" stroke="#8F7CB5" stroke-width="13" stroke-linecap="round"/>
-
-<rect x="612" y="416" width="376" height="154" rx="28" fill="white"/>
-<path d="M646 456H824" stroke="#4E2A84" stroke-width="12" stroke-linecap="round"/>
-<path d="M646 496H934" stroke="#B6ACD1" stroke-width="12" stroke-linecap="round"/>
-<path d="M646 536H896" stroke="#8F7CB5" stroke-width="12" stroke-linecap="round"/>
-
-<path d="M566 624H1018" stroke="#111113" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
-<path d="M566 624C660 572 740 604 800 624C866 646 936 638 1018 586" stroke="#8F7CB5" stroke-width="7" stroke-linecap="round" fill="none"/>
-
-<circle cx="620" cy="640" r="13" fill="#4E2A84"/>
-<circle cx="688" cy="604" r="13" fill="#B6ACD1"/>
-<circle cx="758" cy="614" r="13" fill="#8F7CB5"/>
-<circle cx="830" cy="638" r="13" fill="#4E2A84"/>
-<circle cx="904" cy="626" r="13" fill="#B6ACD1"/>
-<circle cx="978" cy="598" r="13" fill="#8F7CB5"/>
-
-<g transform="translate(884 248)">
-<circle cx="86" cy="86" r="66" fill="#4E2A84"/>
-<text x="86" y="106" text-anchor="middle" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="56" font-weight="700">21</text>
-<path d="M38 154H134" stroke="#D8CFE8" stroke-width="10" stroke-linecap="round"/>
-</g>
-
-<path d="M734 386L762 416" stroke="#111113" stroke-width="6" stroke-linecap="round" opacity="0.66"/>
-<path d="M858 386L830 416" stroke="#111113" stroke-width="6" stroke-linecap="round" opacity="0.66"/>
-</g>
-
-<g opacity="0.78">
-<path d="M318 246C432 154 574 154 704 246" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M910 158C1066 86 1234 124 1362 262" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M348 726C492 790 660 780 812 696" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<circle cx="356" cy="196" r="28" fill="#B6ACD1"/>
-<circle cx="488" cy="144" r="16" fill="#4E2A84"/>
-<circle cx="1268" cy="222" r="30" fill="#D8CFE8"/>
-<circle cx="1368" cy="316" r="17" fill="#4E2A84"/>
-</g>
-
-<g transform="translate(92 604)">
-<rect width="346" height="214" rx="4" fill="#4E2A84"/>
-<text x="42" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">SEARCH</text>
-<text x="42" y="122" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">IS SHIFTING</text>
-<text x="42" y="170" fill="#FFFFFF" opacity="0.9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25">visibility, traffic, attribution</text>
-</g>
-
-<g transform="translate(1160 292)">
-<text x="0" y="0" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">AI</text>
-<text x="0" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">SEARCH</text>
-<text x="0" y="144" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">OVERVIEWS</text>
-</g>
-
-<g transform="translate(84 78)">
-<rect width="72" height="72" rx="5" fill="#4E2A84"/>
-<text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
-<text x="96" y="30" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">IMC POV</text>
-<text x="96" y="61" fill="#111113" opacity="0.72" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18">AI Search Report</text>
-</g>
+<path d="M516 128H1084C1100.57 128 1114 141.431 1114 158V676C1114 692.569 1100.57 706 1084 706H516C499.431 706 486 692.569 486 676V158C486 141.431 499.431 128 516 128Z" fill="#111113"/>
+<path d="M542 182H1058C1069.05 182 1078 190.954 1078 202V652C1078 663.046 1069.05 672 1058 672H542C530.954 672 522 663.046 522 652V202C522 190.954 530.954 182 542 182Z" fill="#F8F7FB"/>
+<path d="M872.619 249H581.381C559.632 249 542 267.356 542 290C542 312.644 559.632 331 581.381 331H872.619C894.368 331 912 312.644 912 290C912 267.356 894.368 249 872.619 249Z" fill="#EDE8F5"/>
+<path d="M586 310C595.941 310 604 301.941 604 292C604 282.059 595.941 274 586 274C576.059 274 568 282.059 568 292C568 301.941 576.059 310 586 310Z" fill="#4E2A84"/>
+<path d="M618 292H888" stroke="#8F7CB5" stroke-width="13" stroke-linecap="round"/>
+<path d="M960 383H640C624.536 383 612 395.536 612 411V509C612 524.464 624.536 537 640 537H960C975.464 537 988 524.464 988 509V411C988 395.536 975.464 383 960 383Z" fill="white"/>
+<path d="M646 423H824" stroke="#4E2A84" stroke-width="12" stroke-linecap="round"/>
+<path d="M646 463H934" stroke="#B6ACD1" stroke-width="12" stroke-linecap="round"/>
+<path d="M646 503H896" stroke="#8F7CB5" stroke-width="12" stroke-linecap="round"/>
+<path d="M566 591C660 539 740 571 800 591C866 613 936 605 1018 553" stroke="#8F7CB5" stroke-width="7" stroke-linecap="round"/>
+<path d="M611 594C618.18 594 624 588.18 624 581C624 573.82 618.18 568 611 568C603.82 568 598 573.82 598 581C598 588.18 603.82 594 611 594Z" fill="#4E2A84"/>
+<path d="M688 584C695.18 584 701 578.18 701 571C701 563.82 695.18 558 688 558C680.82 558 675 563.82 675 571C675 578.18 680.82 584 688 584Z" fill="#B6ACD1"/>
+<path d="M758 594C765.18 594 771 588.18 771 581C771 573.82 765.18 568 758 568C750.82 568 745 573.82 745 581C745 588.18 750.82 594 758 594Z" fill="#8F7CB5"/>
+<path d="M830 618C837.18 618 843 612.18 843 605C843 597.82 837.18 592 830 592C822.82 592 817 597.82 817 605C817 612.18 822.82 618 830 618Z" fill="#4E2A84"/>
+<path d="M904 606C911.18 606 917 600.18 917 593C917 585.82 911.18 580 904 580C896.82 580 891 585.82 891 593C891 600.18 896.82 606 904 606Z" fill="#B6ACD1"/>
+<path d="M978 578C985.18 578 991 572.18 991 565C991 557.82 985.18 552 978 552C970.82 552 965 557.82 965 565C965 572.18 970.82 578 978 578Z" fill="#8F7CB5"/>
+<path d="M998 356C1034.45 356 1064 326.451 1064 290C1064 253.549 1034.45 224 998 224C961.549 224 932 253.549 932 290C932 326.451 961.549 356 998 356Z" fill="#4E2A84"/>
+<path d="M974.661 303.328C975.93 302.32 976.509 301.853 976.397 301.928C980.055 298.904 982.93 296.421 985.021 294.48C987.149 292.539 988.941 290.504 990.397 288.376C991.853 286.248 992.581 284.176 992.581 282.16C992.581 280.629 992.226 279.435 991.517 278.576C990.807 277.717 989.743 277.288 988.325 277.288C986.906 277.288 985.786 277.829 984.965 278.912C984.181 279.957 983.789 281.451 983.789 283.392H974.549C974.623 280.219 975.295 277.568 976.565 275.44C977.871 273.312 979.57 271.744 981.661 270.736C983.789 269.728 986.141 269.224 988.717 269.224C993.159 269.224 996.501 270.363 998.741 272.64C1001.02 274.917 1002.16 277.885 1002.16 281.544C1002.16 285.539 1000.79 289.253 998.069 292.688C995.343 296.085 991.871 299.408 987.653 302.656H1002.77V310.44H974.661V303.328ZM1005.98 279.024V270.12H1021.49V311H1011.52V279.024H1005.98Z" fill="white"/>
 </g>
 <defs>
-<filter id="filter0_d_1_2" x="446" y="139" width="708" height="658" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_1_2" x="446" y="106" width="708" height="658" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="18"/>
