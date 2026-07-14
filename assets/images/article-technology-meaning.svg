@@ -27,66 +27,30 @@
 <path opacity="0.92" d="M1338 0H1600V900H1138L1338 0Z" fill="#8F7CB5"/>
 <path d="M0 82L528 900H452L0 200V82Z" fill="#EDE8F5"/>
 <path d="M1600 84L1138 900H1062L1600 0V84Z" fill="#EDE8F5"/>
-
+<path d="M246 97H184C181.239 97 179 99.2386 179 102V164C179 166.761 181.239 169 184 169H246C248.761 169 251 166.761 251 164V102C251 99.2386 248.761 97 246 97Z" fill="#4E2A84"/>
+<path d="M227.761 116.455V147H222.183L208.894 127.775H208.671V147H202.212V116.455H207.88L221.065 135.665H221.333V116.455H227.761Z" fill="white"/>
+</g>
 <g filter="url(#filter0_d_1_2)">
-<path d="M500 150H1068C1084.57 150 1098 163.431 1098 180V698C1098 714.569 1084.57 728 1068 728H500C483.431 728 470 714.569 470 698V180C470 163.431 483.431 150 500 150Z" fill="#111113"/>
-<path d="M526 204H1042C1053.05 204 1062 212.954 1062 224V674C1062 685.046 1053.05 694 1042 694H526C514.954 694 506 685.046 506 674V224C506 212.954 514.954 204 526 204Z" fill="#F8F7FB"/>
-
-<rect x="598" y="300" width="178" height="248" rx="28" fill="#EDE8F5"/>
-<rect x="622" y="340" width="130" height="154" rx="16" fill="#FFFFFF"/>
-<circle cx="687" cy="520" r="12" fill="#8F7CB5"/>
-<path d="M648 378H726" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
-<path d="M648 414H714" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
-<path d="M648 450H736" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
-
-<path d="M908 286C976 286 1012 338 1012 390C1012 482 908 514 908 610" stroke="#4E2A84" stroke-width="20" stroke-linecap="round" fill="none"/>
-<path d="M908 286C840 286 804 338 804 390C804 482 908 514 908 610" stroke="#B6ACD1" stroke-width="20" stroke-linecap="round" fill="none"/>
-<circle cx="908" cy="610" r="24" fill="#4E2A84"/>
-<circle cx="908" cy="286" r="24" fill="#8F7CB5"/>
-
-<path d="M776 424H834" stroke="#111113" stroke-width="6" stroke-linecap="round" opacity="0.66"/>
-<path d="M824 398L856 424L824 450" stroke="#111113" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.66"/>
-
-<path d="M620 650H982" stroke="#111113" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
-<path d="M620 650C706 612 784 630 838 650C892 670 936 662 982 622" stroke="#8F7CB5" stroke-width="7" stroke-linecap="round" fill="none"/>
-
-<circle cx="596" cy="272" r="18" fill="#4E2A84"/>
-<circle cx="1010" cy="266" r="18" fill="#B6ACD1"/>
-<circle cx="1030" cy="570" r="14" fill="#8F7CB5"/>
-</g>
-
-<g opacity="0.78">
-<path d="M318 246C432 154 574 154 704 246" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M910 158C1066 86 1234 124 1362 262" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M348 726C492 790 660 780 812 696" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<circle cx="356" cy="196" r="28" fill="#B6ACD1"/>
-<circle cx="488" cy="144" r="16" fill="#4E2A84"/>
-<circle cx="1268" cy="222" r="30" fill="#D8CFE8"/>
-<circle cx="1368" cy="316" r="17" fill="#4E2A84"/>
-</g>
-
-<g transform="translate(92 604)">
-<rect width="346" height="214" rx="4" fill="#4E2A84"/>
-<text x="42" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">POSSIBLE</text>
-<text x="42" y="122" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">TO MEANING</text>
-<text x="42" y="170" fill="#FFFFFF" opacity="0.9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25">technology shaped by people</text>
-</g>
-
-<g transform="translate(1160 292)">
-<text x="0" y="0" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">WHAT</text>
-<text x="0" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">SHOULD</text>
-<text x="0" y="144" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">WE BUILD?</text>
-</g>
-
-<g transform="translate(84 78)">
-<rect width="72" height="72" rx="5" fill="#4E2A84"/>
-<text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
-<text x="96" y="30" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">IMC POV</text>
-<text x="96" y="61" fill="#111113" opacity="0.72" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18">Marketing Innovation</text>
-</g>
+<path d="M516 161H1084C1100.57 161 1114 174.431 1114 191V709C1114 725.569 1100.57 739 1084 739H516C499.431 739 486 725.569 486 709V191C486 174.431 499.431 161 516 161Z" fill="#111113"/>
+<path d="M542 215H1058C1069.05 215 1078 223.954 1078 235V685C1078 696.046 1069.05 705 1058 705H542C530.954 705 522 696.046 522 685V235C522 223.954 530.954 215 542 215Z" fill="#F8F7FB"/>
+<path d="M712 311H590C574.536 311 562 323.536 562 339V531C562 546.464 574.536 559 590 559H712C727.464 559 740 546.464 740 531V339C740 323.536 727.464 311 712 311Z" fill="#EDE8F5"/>
+<path d="M700 351H602C593.163 351 586 358.163 586 367V489C586 497.837 593.163 505 602 505H700C708.837 505 716 497.837 716 489V367C716 358.163 708.837 351 700 351Z" fill="white"/>
+<path d="M651 543C657.627 543 663 537.627 663 531C663 524.373 657.627 519 651 519C644.373 519 639 524.373 639 531C639 537.627 644.373 543 651 543Z" fill="#8F7CB5"/>
+<path d="M610 389H688" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
+<path d="M610 425H676" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
+<path d="M610 461H698" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
+<path d="M950 297C1018 297 1054 349 1054 401C1054 493 950 525 950 621" stroke="#4E2A84" stroke-width="20" stroke-linecap="round"/>
+<path d="M950 297C882 297 846 349 846 401C846 493 950 525 950 621" stroke="#B6ACD1" stroke-width="20" stroke-linecap="round"/>
+<path d="M949 645C962.255 645 973 634.255 973 621C973 607.745 962.255 597 949 597C935.745 597 925 607.745 925 621C925 634.255 935.745 645 949 645Z" fill="#4E2A84"/>
+<path d="M948 321C961.255 321 972 310.255 972 297C972 283.745 961.255 273 948 273C934.745 273 924 283.745 924 297C924 310.255 934.745 321 948 321Z" fill="#8F7CB5"/>
+<path opacity="0.66" d="M750 435H808" stroke="#111113" stroke-width="6" stroke-linecap="round"/>
+<path opacity="0.66" d="M798 409L830 435L798 461" stroke="#111113" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.65" d="M636 661H998" stroke="#111113" stroke-width="5" stroke-linecap="round"/>
+<path d="M1026 283C1035.94 283 1044 274.941 1044 265C1044 255.059 1035.94 247 1026 247C1016.06 247 1008 255.059 1008 265C1008 274.941 1016.06 283 1026 283Z" fill="#B6ACD1"/>
+<path d="M1046 595C1053.73 595 1060 588.732 1060 581C1060 573.268 1053.73 567 1046 567C1038.27 567 1032 573.268 1032 581C1032 588.732 1038.27 595 1046 595Z" fill="#8F7CB5"/>
 </g>
 <defs>
-<filter id="filter0_d_1_2" x="430" y="128" width="708" height="650" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_1_2" x="446" y="139" width="708" height="658" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="18"/>
