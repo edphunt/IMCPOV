@@ -1,6 +1,11 @@
 <svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1600" height="900" fill="#F5F5F5"/>
 <g clip-path="url(#clip0_1_2)">
+<path d="M1600 0H0V900H1600V0Z" fill="#F5F5F5"/>
+<mask id="mask0_1_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="900">
+<path d="M1600 0H0V900H1600V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_2)">
 <path d="M1600 0H0V900H1600V0Z" fill="white"/>
 <path opacity="0.04" d="M1600 0H0V900H1600V0Z" fill="#4E2A84"/>
 <g opacity="0.18">
@@ -20,72 +25,37 @@
 <path d="M0 600H1600" stroke="#4E2A84"/>
 <path d="M0 750H1600" stroke="#4E2A84"/>
 </g>
-
 <path d="M0 0H444L218 900H0V0Z" fill="url(#paint0_linear_1_2)"/>
 <path opacity="0.92" d="M1348 0H1600V900H1138L1348 0Z" fill="#8F7CB5"/>
 <path d="M0 82L530 900H454L0 198V82Z" fill="#EDE8F5"/>
 <path d="M1600 84L1136 900H1060L1600 0V84Z" fill="#EDE8F5"/>
-
 <g filter="url(#filter0_d_1_2)">
 <path d="M1038 132H506C490.536 132 478 144.536 478 160V676C478 691.464 490.536 704 506 704H1038C1053.46 704 1066 691.464 1066 676V160C1066 144.536 1053.46 132 1038 132Z" fill="#111113"/>
 <path d="M1014 188H530C520.059 188 512 196.059 512 206V654C512 663.941 520.059 672 530 672H1014C1023.94 672 1032 663.941 1032 654V206C1032 196.059 1023.94 188 1014 188Z" fill="#F8F7FB"/>
-
 <path d="M568 604H984" stroke="#D8CFE8" stroke-width="3"/>
 <path d="M568 528H984" stroke="#D8CFE8" stroke-width="3"/>
 <path d="M568 452H984" stroke="#D8CFE8" stroke-width="3"/>
 <path d="M568 376H984" stroke="#D8CFE8" stroke-width="3"/>
 <path d="M568 300H984" stroke="#D8CFE8" stroke-width="3"/>
-
-<path d="M602 572C654 520 710 542 758 488C810 430 850 388 924 356" stroke="#4E2A84" stroke-width="9" stroke-linecap="round" fill="none"/>
-<path d="M602 478C670 446 724 446 788 478C852 510 912 500 974 452" stroke="#8F7CB5" stroke-width="7" stroke-linecap="round" fill="none"/>
-<path d="M602 390C672 356 730 360 784 392C854 434 914 420 974 338" stroke="#B6ACD1" stroke-width="7" stroke-linecap="round" fill="none"/>
-
+<path d="M602 572C654 520 710 542 758 488C810 430 850 388 924 356" stroke="#4E2A84" stroke-width="9" stroke-linecap="round"/>
+<path d="M602 478C670 446 724 446 788 478C852 510 912 500 974 452" stroke="#8F7CB5" stroke-width="7" stroke-linecap="round"/>
+<path d="M602 390C672 356 730 360 784 392C854 434 914 420 974 338" stroke="#B6ACD1" stroke-width="7" stroke-linecap="round"/>
 <path d="M758 506C767.941 506 776 497.941 776 488C776 478.059 767.941 470 758 470C748.059 470 740 478.059 740 488C740 497.941 748.059 506 758 506Z" fill="#4E2A84"/>
 <path d="M924 374C933.941 374 942 365.941 942 356C942 346.059 933.941 338 924 338C914.059 338 906 346.059 906 356C906 365.941 914.059 374 924 374Z" fill="#4E2A84"/>
 <path d="M788 496C797.941 496 806 487.941 806 478C806 468.059 797.941 460 788 460C778.059 460 770 468.059 770 478C770 487.941 778.059 496 788 496Z" fill="#8F7CB5"/>
-
 <path d="M568 246H638" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
 <path d="M568 270H696" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
 <path d="M760 246H830" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
 <path d="M760 270H906" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
-
-<path d="M580 622H954" stroke="#111113" stroke-width="5" stroke-linecap="round" opacity=".72"/>
-<path d="M580 622V300" stroke="#111113" stroke-width="5" stroke-linecap="round" opacity=".72"/>
+<path opacity="0.72" d="M580 622H954" stroke="#111113" stroke-width="5" stroke-linecap="round"/>
+<path opacity="0.72" d="M580 622V300" stroke="#111113" stroke-width="5" stroke-linecap="round"/>
 </g>
-
-<g opacity=".76">
-<path d="M328 238C432 146 560 144 684 222" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M920 156C1076 84 1234 126 1362 262" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M350 730C488 788 632 782 784 702" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M354 222C369.464 222 382 209.464 382 194C382 178.536 369.464 166 354 166C338.536 166 326 178.536 326 194C326 209.464 338.536 222 354 222Z" fill="#B6ACD1"/>
-<path d="M482 158C490.837 158 498 150.837 498 142C498 133.163 490.837 126 482 126C473.163 126 466 133.163 466 142C466 150.837 473.163 158 482 158Z" fill="#4E2A84"/>
-<path d="M1264 250C1280.57 250 1294 236.569 1294 220C1294 203.431 1280.57 190 1264 190C1247.43 190 1234 203.431 1234 220C1234 236.569 1247.43 250 1264 250Z" fill="#D8CFE8"/>
-<path d="M1364 330C1373.39 330 1381 322.389 1381 313C1381 303.611 1373.39 296 1364 296C1354.61 296 1347 303.611 1347 313C1347 322.389 1354.61 330 1364 330Z" fill="#4E2A84"/>
-</g>
-
-<g transform="translate(94 604)">
-<rect width="336" height="214" rx="4" fill="#4E2A84"/>
-<text x="42" y="74" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="40" font-weight="700">MODEL</text>
-<text x="42" y="124" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="40" font-weight="700">THE WORK</text>
-<text x="42" y="170" fill="#FFFFFF" opacity=".9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25">faster tools, better questions</text>
-</g>
-
-<g transform="translate(1150 300)">
-<text x="0" y="0" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">TOO</text>
-<text x="0" y="76" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">EASY?</text>
-<text x="0" y="132" fill="#FFFFFF" opacity=".9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="26">marketing measurement</text>
-</g>
-
-<g transform="translate(84 78)">
-<rect width="72" height="72" rx="5" fill="#4E2A84"/>
-<text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
-<text x="96" y="30" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">IMC POV</text>
-<text x="96" y="61" fill="#111113" opacity=".72" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18">Marketing Analytics</text>
+<path d="M257 105H195C192.239 105 190 107.239 190 110V172C190 174.761 192.239 177 195 177H257C259.761 177 262 174.761 262 172V110C262 107.239 259.761 105 257 105Z" fill="#4E2A84"/>
+<path d="M245.761 124.455V155H240.183L226.894 135.775H226.671V155H220.212V124.455H225.88L239.065 143.665H239.333V124.455H245.761Z" fill="white"/>
 </g>
 </g>
-
 <defs>
-<filter id="filter0_d_1_2" x="438" y="110" width="668" height="644" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_1_2" x="438" y="110" width="668" height="652" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="18"/>

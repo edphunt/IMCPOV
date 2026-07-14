@@ -139,7 +139,7 @@ const POSTS = [
     author: "IMC POV Editorial Team",
     date: "2026-07-08",
     readMins: 4,
-    thumbnail: "./assets/images/article-marketing-measurement.svg?v=20260713-1",
+    thumbnail: "./assets/images/article-marketing-measurement.svg?v=20260714-2",
     content: `
 <p>Marketing measurement has never been simple. For years, media and marketing mix modeling required specialized training, expensive tools, careful data preparation, and a lot of time. That difficulty created a practical barrier: many organizations wanted better measurement, but few had the people or systems to do it well.</p>
 
