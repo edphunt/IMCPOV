@@ -114,7 +114,7 @@ const POSTS = [
       "AI adoption is widespread, but marketing leaders need to move beyond pilots and productivity gains toward measurement, governance, and business outcomes.",
     topic: "AI Strategy",
     format: "Essay",
-    author: "IMC POV Editorial Team",
+    author: "Kelly Cutler",
     date: "2026-07-08",
     readMins: 4,
     thumbnail: "./assets/images/article-ai-roi-reality-check.svg?v=20260713-2",
