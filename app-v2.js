@@ -139,7 +139,7 @@ const POSTS = [
       "Julian Runge’s experiment suggests generative AI and open-source modeling tools are lowering the barrier to sophisticated marketing measurement.",
     topic: "Marketing Analytics",
     format: "Research Insight",
-    author: "IMC POV Editorial Team",
+    author: "Julian Runge",
     date: "2026-07-08",
     readMins: 4,
     thumbnail: "./assets/images/article-marketing-measurement.svg?v=20260714-2",
