@@ -61,7 +61,7 @@ const POSTS = [
   },
   {
     id: "jacqueline-babb-world-cup-brands",
-    title: "Jacqueline Babb on What Brands Should Learn from the World Cup",
+    title: "What Brands Should Learn from the World Cup",
     deck:
       "Babb explains why the World Cup gives brands a rare chance to connect with national pride, shared belonging, and the human emotions that make sports powerful.",
     topic: "Sports Marketing",
