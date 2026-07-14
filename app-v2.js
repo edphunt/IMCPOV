@@ -277,6 +277,7 @@ const POSTS = [
     author: "Carolyn Tang Kmet",
     date: "2026-07-08",
     readMins: 5,
+    thumbnail: "./assets/images/article-technology-meaning.svg?v=20260714-1",
     content: `
 <p>Every successful product or service begins with understanding people and what they need. While technology continually expands what organizations are capable of creating, it doesn’t determine what should be built. That distinction is the realm of marketers, who understand market and customer needs, anticipate shifts in behavior, and identify opportunities to create value. The future of marketing isn’t about incorporating every new technology, it’s about understanding how to connect technological possibilities with meaningful human experiences.</p>
 
