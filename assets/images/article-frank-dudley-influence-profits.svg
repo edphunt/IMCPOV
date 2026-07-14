@@ -27,78 +27,36 @@
 <path opacity="0.92" d="M1338 0H1600V900H1138L1338 0Z" fill="#8F7CB5"/>
 <path d="M0 82L528 900H452L0 200V82Z" fill="#EDE8F5"/>
 <path d="M1600 84L1138 900H1062L1600 0V84Z" fill="#EDE8F5"/>
-
+<path d="M246 97H184C181.239 97 179 99.2386 179 102V164C179 166.761 181.239 169 184 169H246C248.761 169 251 166.761 251 164V102C251 99.2386 248.761 97 246 97Z" fill="#4E2A84"/>
+<path d="M227.761 116.455V147H222.183L208.894 127.775H208.671V147H202.212V116.455H207.88L221.065 135.665H221.333V116.455H227.761Z" fill="white"/>
+</g>
 <g filter="url(#filter0_d_1_2)">
-<path d="M500 150H1068C1084.57 150 1098 163.431 1098 180V698C1098 714.569 1084.57 728 1068 728H500C483.431 728 470 714.569 470 698V180C470 163.431 483.431 150 500 150Z" fill="#111113"/>
-<path d="M526 204H1042C1053.05 204 1062 212.954 1062 224V674C1062 685.046 1053.05 694 1042 694H526C514.954 694 506 685.046 506 674V224C506 212.954 514.954 204 526 204Z" fill="#F8F7FB"/>
-
-<circle cx="784" cy="448" r="92" fill="#4E2A84"/>
-<circle cx="784" cy="448" r="56" fill="#F8F7FB"/>
-<path d="M762 448L804 422V474L762 448Z" fill="#4E2A84"/>
-
-<rect x="586" y="274" width="154" height="96" rx="28" fill="#EDE8F5"/>
-<rect x="828" y="274" width="154" height="96" rx="28" fill="#EDE8F5"/>
-<rect x="586" y="526" width="154" height="96" rx="28" fill="#EDE8F5"/>
-<rect x="828" y="526" width="154" height="96" rx="28" fill="#EDE8F5"/>
-
-<circle cx="634" cy="322" r="22" fill="#4E2A84"/>
-<path d="M668 308H718" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
-<path d="M668 338H704" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
-
-<circle cx="876" cy="322" r="22" fill="#8F7CB5"/>
-<path d="M910 308H960" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
-<path d="M910 338H946" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
-
-<circle cx="634" cy="574" r="22" fill="#B6ACD1"/>
-<path d="M668 560H718" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
-<path d="M668 590H704" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
-
-<circle cx="876" cy="574" r="22" fill="#4E2A84"/>
-<path d="M910 560H960" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
-<path d="M910 590H946" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
-
-<path d="M740 342C766 372 778 392 784 448" stroke="#4E2A84" stroke-width="8" stroke-linecap="round" fill="none"/>
-<path d="M828 342C802 372 790 392 784 448" stroke="#8F7CB5" stroke-width="8" stroke-linecap="round" fill="none"/>
-<path d="M740 554C766 524 778 504 784 448" stroke="#B6ACD1" stroke-width="8" stroke-linecap="round" fill="none"/>
-<path d="M828 554C802 524 790 504 784 448" stroke="#4E2A84" stroke-width="8" stroke-linecap="round" fill="none"/>
-
-<path d="M602 654H972" stroke="#111113" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
-<path d="M602 654C678 626 742 642 784 654C842 670 908 666 972 624" stroke="#8F7CB5" stroke-width="7" stroke-linecap="round" fill="none"/>
-<circle cx="972" cy="624" r="16" fill="#4E2A84"/>
-</g>
-
-<g opacity="0.78">
-<path d="M318 246C432 154 574 154 704 246" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M910 158C1066 86 1234 124 1362 262" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M348 726C492 790 660 780 812 696" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<circle cx="356" cy="196" r="28" fill="#B6ACD1"/>
-<circle cx="488" cy="144" r="16" fill="#4E2A84"/>
-<circle cx="1268" cy="222" r="30" fill="#D8CFE8"/>
-<circle cx="1368" cy="316" r="17" fill="#4E2A84"/>
-</g>
-
-<g transform="translate(92 604)">
-<rect width="346" height="214" rx="4" fill="#4E2A84"/>
-<text x="42" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">INFLUENCE</text>
-<text x="42" y="122" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">TO ACTION</text>
-<text x="42" y="170" fill="#FFFFFF" opacity="0.9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25">creators, commerce, outcomes</text>
-</g>
-
-<g transform="translate(1160 292)">
-<text x="0" y="0" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">TURNING</text>
-<text x="0" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">INFLUENCE</text>
-<text x="0" y="144" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">INTO PROFIT</text>
-</g>
-
-<g transform="translate(84 78)">
-<rect width="72" height="72" rx="5" fill="#4E2A84"/>
-<text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
-<text x="96" y="30" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">IMC POV</text>
-<text x="96" y="61" fill="#111113" opacity="0.72" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18">Creator Marketing</text>
-</g>
+<path d="M516 161H1084C1100.57 161 1114 174.431 1114 191V709C1114 725.569 1100.57 739 1084 739H516C499.431 739 486 725.569 486 709V191C486 174.431 499.431 161 516 161Z" fill="#111113"/>
+<path d="M542 215H1058C1069.05 215 1078 223.954 1078 235V685C1078 696.046 1069.05 705 1058 705H542C530.954 705 522 696.046 522 685V235C522 223.954 530.954 215 542 215Z" fill="#F8F7FB"/>
+<path d="M800 551C850.81 551 892 509.81 892 459C892 408.19 850.81 367 800 367C749.19 367 708 408.19 708 459C708 509.81 749.19 551 800 551Z" fill="#4E2A84"/>
+<path d="M800 515C830.928 515 856 489.928 856 459C856 428.072 830.928 403 800 403C769.072 403 744 428.072 744 459C744 489.928 769.072 515 800 515Z" fill="#F8F7FB"/>
+<path d="M778 459L820 433V485L778 459Z" fill="#4E2A84"/>
+<path d="M728 285H630C614.536 285 602 297.536 602 313V353C602 368.464 614.536 381 630 381H728C743.464 381 756 368.464 756 353V313C756 297.536 743.464 285 728 285Z" fill="#EDE8F5"/>
+<path d="M970 285H872C856.536 285 844 297.536 844 313V353C844 368.464 856.536 381 872 381H970C985.464 381 998 368.464 998 353V313C998 297.536 985.464 285 970 285Z" fill="#EDE8F5"/>
+<path d="M728 537H630C614.536 537 602 549.536 602 565V605C602 620.464 614.536 633 630 633H728C743.464 633 756 620.464 756 605V565C756 549.536 743.464 537 728 537Z" fill="#EDE8F5"/>
+<path d="M970 537H872C856.536 537 844 549.536 844 565V605C844 620.464 856.536 633 872 633H970C985.464 633 998 620.464 998 605V565C998 549.536 985.464 537 970 537Z" fill="#EDE8F5"/>
+<path d="M650 355C662.15 355 672 345.15 672 333C672 320.85 662.15 311 650 311C637.85 311 628 320.85 628 333C628 345.15 637.85 355 650 355Z" fill="#4E2A84"/>
+<path d="M684 319H734" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
+<path d="M684 349H720" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
+<path d="M892 355C904.15 355 914 345.15 914 333C914 320.85 904.15 311 892 311C879.85 311 870 320.85 870 333C870 345.15 879.85 355 892 355Z" fill="#8F7CB5"/>
+<path d="M926 319H976" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
+<path d="M926 349H962" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
+<path d="M650 607C662.15 607 672 597.15 672 585C672 572.85 662.15 563 650 563C637.85 563 628 572.85 628 585C628 597.15 637.85 607 650 607Z" fill="#B6ACD1"/>
+<path d="M684 571H734" stroke="#4E2A84" stroke-width="10" stroke-linecap="round"/>
+<path d="M684 601H720" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
+<path d="M892 607C904.15 607 914 597.15 914 585C914 572.85 904.15 563 892 563C879.85 563 870 572.85 870 585C870 597.15 879.85 607 892 607Z" fill="#4E2A84"/>
+<path d="M926 571H976" stroke="#8F7CB5" stroke-width="10" stroke-linecap="round"/>
+<path d="M926 601H962" stroke="#B6ACD1" stroke-width="10" stroke-linecap="round"/>
+<path d="M756 353C782 383 794 403 800 459" stroke="#4E2A84" stroke-width="8" stroke-linecap="round"/>
+<path opacity="0.65" d="M618 665H988" stroke="#111113" stroke-width="5" stroke-linecap="round"/>
 </g>
 <defs>
-<filter id="filter0_d_1_2" x="430" y="128" width="708" height="650" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_1_2" x="446" y="139" width="708" height="658" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="18"/>

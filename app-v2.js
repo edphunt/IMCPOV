@@ -195,7 +195,7 @@ const POSTS = [
     author: "Frank Dudley",
     date: "2026-07-08",
     readMins: 6,
-    thumbnail: "./assets/images/article-frank-dudley-influence-profits.svg?v=20260714-1",
+    thumbnail: "./assets/images/article-frank-dudley-influence-profits.svg?v=20260714-2",
     content: `
 <p>I recently spoke at Mastercard’s Global Marketing Innovation and Optimization Summit on a topic reshaping the industry: creator marketing and commerce media. The central idea is straightforward. Marketing is shifting from campaigns to continuous systems that influence behavior and drive measurable outcomes.</p>
 
