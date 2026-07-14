@@ -27,71 +27,31 @@
 <path opacity="0.92" d="M1338 0H1600V900H1138L1338 0Z" fill="#8F7CB5"/>
 <path d="M0 82L528 900H452L0 200V82Z" fill="#EDE8F5"/>
 <path d="M1600 84L1138 900H1062L1600 0V84Z" fill="#EDE8F5"/>
-
+<path d="M246 97H184C181.239 97 179 99.2386 179 102V164C179 166.761 181.239 169 184 169H246C248.761 169 251 166.761 251 164V102C251 99.2386 248.761 97 246 97Z" fill="#4E2A84"/>
+<path d="M227.761 116.455V147H222.183L208.894 127.775H208.671V147H202.212V116.455H207.88L221.065 135.665H221.333V116.455H227.761Z" fill="white"/>
+</g>
 <g filter="url(#filter0_d_1_2)">
-<path d="M500 150H1068C1084.57 150 1098 163.431 1098 180V698C1098 714.569 1084.57 728 1068 728H500C483.431 728 470 714.569 470 698V180C470 163.431 483.431 150 500 150Z" fill="#111113"/>
-<path d="M526 204H1042C1053.05 204 1062 212.954 1062 224V674C1062 685.046 1053.05 694 1042 694H526C514.954 694 506 685.046 506 674V224C506 212.954 514.954 204 526 204Z" fill="#F8F7FB"/>
-
-<circle cx="784" cy="448" r="88" fill="#4E2A84"/>
-<circle cx="784" cy="448" r="48" fill="#F8F7FB"/>
-<path d="M784 406L797 432L826 436L805 456L810 486L784 472L758 486L763 456L742 436L771 432L784 406Z" fill="#4E2A84"/>
-
-<circle cx="650" cy="324" r="78" fill="#EDE8F5"/>
-<circle cx="918" cy="324" r="78" fill="#EDE8F5"/>
-<circle cx="650" cy="572" r="78" fill="#EDE8F5"/>
-<circle cx="918" cy="572" r="78" fill="#EDE8F5"/>
-
-<path d="M612 324C630 288 670 288 688 324C670 360 630 360 612 324Z" fill="#4E2A84"/>
-<circle cx="650" cy="324" r="12" fill="#F8F7FB"/>
-<path d="M884 324H952" stroke="#8F7CB5" stroke-width="13" stroke-linecap="round"/>
-<path d="M918 290V358" stroke="#8F7CB5" stroke-width="13" stroke-linecap="round"/>
-<path d="M614 586C642 548 682 548 710 586" stroke="#B6ACD1" stroke-width="13" stroke-linecap="round" fill="none"/>
-<path d="M596 558H704" stroke="#4E2A84" stroke-width="13" stroke-linecap="round"/>
-<rect x="876" y="536" width="84" height="72" rx="12" fill="#B6ACD1"/>
-<path d="M894 560H942" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
-<path d="M894 584H928" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
-
-<path d="M706 364C742 386 764 414 784 448" stroke="#4E2A84" stroke-width="8" stroke-linecap="round" fill="none"/>
-<path d="M862 364C826 386 804 414 784 448" stroke="#8F7CB5" stroke-width="8" stroke-linecap="round" fill="none"/>
-<path d="M706 532C742 510 764 482 784 448" stroke="#B6ACD1" stroke-width="8" stroke-linecap="round" fill="none"/>
-<path d="M862 532C826 510 804 482 784 448" stroke="#4E2A84" stroke-width="8" stroke-linecap="round" fill="none"/>
-
-<path d="M584 654H984" stroke="#111113" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
-<path d="M584 654C658 622 728 632 784 654C850 680 920 668 984 620" stroke="#8F7CB5" stroke-width="7" stroke-linecap="round" fill="none"/>
-</g>
-
-<g opacity="0.78">
-<path d="M318 246C432 154 574 154 704 246" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M910 158C1066 86 1234 124 1362 262" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<path d="M348 726C492 790 660 780 812 696" stroke="#4E2A84" stroke-width="5" fill="none"/>
-<circle cx="356" cy="196" r="28" fill="#B6ACD1"/>
-<circle cx="488" cy="144" r="16" fill="#4E2A84"/>
-<circle cx="1268" cy="222" r="30" fill="#D8CFE8"/>
-<circle cx="1368" cy="316" r="17" fill="#4E2A84"/>
-</g>
-
-<g transform="translate(92 604)">
-<rect width="346" height="214" rx="4" fill="#4E2A84"/>
-<text x="42" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">CULTURE</text>
-<text x="42" y="122" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="39" font-weight="700">NEEDS FIT</text>
-<text x="42" y="170" fill="#FFFFFF" opacity="0.9" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="25">values, identity, meaning</text>
-</g>
-
-<g transform="translate(1160 292)">
-<text x="0" y="0" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">MISSED</text>
-<text x="0" y="72" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">MEANING</text>
-<text x="0" y="144" fill="#FFFFFF" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="58" font-weight="700">MATTERS</text>
-</g>
-
-<g transform="translate(84 78)">
-<rect width="72" height="72" rx="5" fill="#4E2A84"/>
-<text x="36" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF">N</text>
-<text x="96" y="30" fill="#4E2A84" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2.5">IMC POV</text>
-<text x="96" y="61" fill="#111113" opacity="0.72" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="18">Cultural Marketing</text>
-</g>
+<path d="M516 161H1084C1100.57 161 1114 174.431 1114 191V709C1114 725.569 1100.57 739 1084 739H516C499.431 739 486 725.569 486 709V191C486 174.431 499.431 161 516 161Z" fill="#111113"/>
+<path d="M542 215H1058C1069.05 215 1078 223.954 1078 235V685C1078 696.046 1069.05 705 1058 705H542C530.954 705 522 696.046 522 685V235C522 223.954 530.954 215 542 215Z" fill="#F8F7FB"/>
+<path d="M800 547C848.601 547 888 507.601 888 459C888 410.399 848.601 371 800 371C751.399 371 712 410.399 712 459C712 507.601 751.399 547 800 547Z" fill="#4E2A84"/>
+<path d="M800 507C826.51 507 848 485.51 848 459C848 432.49 826.51 411 800 411C773.49 411 752 432.49 752 459C752 485.51 773.49 507 800 507Z" fill="#F8F7FB"/>
+<path d="M800 417L813 443L842 447L821 467L826 497L800 483L774 497L779 467L758 447L787 443L800 417Z" fill="#4E2A84"/>
+<path d="M666 413C709.078 413 744 378.078 744 335C744 291.922 709.078 257 666 257C622.922 257 588 291.922 588 335C588 378.078 622.922 413 666 413Z" fill="#EDE8F5"/>
+<path d="M934 413C977.078 413 1012 378.078 1012 335C1012 291.922 977.078 257 934 257C890.922 257 856 291.922 856 335C856 378.078 890.922 413 934 413Z" fill="#EDE8F5"/>
+<path d="M666 661C709.078 661 744 626.078 744 583C744 539.922 709.078 505 666 505C622.922 505 588 539.922 588 583C588 626.078 622.922 661 666 661Z" fill="#EDE8F5"/>
+<path d="M934 661C977.078 661 1012 626.078 1012 583C1012 539.922 977.078 505 934 505C890.922 505 856 539.922 856 583C856 626.078 890.922 661 934 661Z" fill="#EDE8F5"/>
+<path d="M628 335C646 299 686 299 704 335C686 371 646 371 628 335Z" fill="#4E2A84"/>
+<path d="M666 347C672.627 347 678 341.627 678 335C678 328.373 672.627 323 666 323C659.373 323 654 328.373 654 335C654 341.627 659.373 347 666 347Z" fill="#F8F7FB"/>
+<path d="M900 335H968" stroke="#8F7CB5" stroke-width="13" stroke-linecap="round"/>
+<path d="M934 301V369" stroke="#8F7CB5" stroke-width="13" stroke-linecap="round"/>
+<path d="M614 581H722" stroke="#4E2A84" stroke-width="13" stroke-linecap="round"/>
+<path d="M964 547H904C897.373 547 892 552.373 892 559V607C892 613.627 897.373 619 904 619H964C970.627 619 976 613.627 976 607V559C976 552.373 970.627 547 964 547Z" fill="#B6ACD1"/>
+<path d="M910 571H958" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<path d="M910 595H944" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<path opacity="0.65" d="M608 676H1008" stroke="#111113" stroke-width="5" stroke-linecap="round"/>
 </g>
 <defs>
-<filter id="filter0_d_1_2" x="430" y="128" width="708" height="650" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_1_2" x="446" y="139" width="708" height="658" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="18"/>
