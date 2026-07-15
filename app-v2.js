@@ -35,6 +35,8 @@ const POSTS = [
 
 <h2>About the Research</h2>
 <p>Chao Yu (Ph.D., Cornell University) is an Assistant Professor in the Department of Integrated Marketing Communications at the Medill School at Northwestern University. His research examines the social impacts of new media, using large-scale data to uncover hidden patterns on digital platforms that can create inequality or bias. The study described here, “Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok” appeared in <em>Information, Communication and Society</em> (2026).</p>
+<p><strong>Read the article here:</strong> <a class="inline-link" href="https://www.tandfonline.com/doi/full/10.1080/1369118X.2026.2659280" target="_blank" rel="noopener">Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok</a></p>
+
 `,
   },
   {
@@ -57,6 +59,8 @@ const POSTS = [
 
 <p><strong>Why does this book matter for other researchers or practitioners today?</strong></p>
 <p>We’re surrounded by data and increasingly sophisticated analytics, but more data doesn’t automatically lead to better decisions. This book provides a way to think clearly about cause and effect, which is essential for evaluating marketing performance and making strategic choices. For practitioners, it’s a reminder that the goal isn’t just prediction; it’s understanding. And that understanding is what allows you to innovate, adapt, and build more effective marketing programs over time.</p>
+<p><strong>Read the article here:</strong> <a class="inline-link" href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/1541698967/ref=sr_1_1?adgrpid=191608387873&dib=eyJ2IjoiMSJ9.cKhIgR6DTIwo8O6gXb6-EQeW0JbJq7XdEUIX1Lg8t79vdXdTkxVOt-PFVGpfxyRLeZWSHa50g1qw8rNo5VjLibx9I-Gqtqko3F8_Hu3ZdhlnNXbzVxuEnaLwLAKr5objz-to3JKKR5AgMA7yiKqT4H4XU2S7Me6LHXNYKg8Vfl2cG5M44KyALBsG1YIzFAQSK9E1dFhBWGbPHFp4UGK8ZGzIqnc4RG9m8W1znA9empY.WfjiOpytXyXZb0EAqWfAwx6RdbRhuFQog4KJ6feaQ-Q&dib_tag=se&hvadid=792856245596&hvdev=c&hvexpln=0&hvlocphy=9017481&hvnetw=g&hvocijid=412185181492083934--&hvqmt=e&hvrand=412185181492083934&hvtargid=kwd-300942500351&hydadcr=7357_13573890_2478933&keywords=the+book+of+why&mcid=4b135547baa838028edf5820be28bb14&qid=1784076813&sr=8-1" target="_blank" rel="noopener">The Book of Why</a></p>
+
 `,
   },
   {
@@ -105,6 +109,8 @@ const POSTS = [
 <p>The broader lesson is that design choices carry values. Aesthetic decisions are not neutral wrappers placed around a product after the real strategy is done. They are part of the strategy. Marketers should ask not only whether a design gets attention, but what it signals, who it resonates with, and whether it fits the product category.</p>
 
 <p>Cute can work. But only when it means the right thing to the right audience.</p>
+<p><strong>Read the article here:</strong> <a class="inline-link" href="https://link.springer.com/article/10.1007/s11747-025-01125-1" target="_blank" rel="noopener">Value congruence in evaluations of product aesthetics: Political conservatives’ preference for kinderschema cute products</a></p>
+
 `,
   },
   {
